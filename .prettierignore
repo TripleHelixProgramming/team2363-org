@@ -2,5 +2,6 @@ node_modules/
 dist/
 .astro/
 content/
-# Alpine.js attributes (:class, @click) are not parseable by Prettier
+# Alpine.js attributes (:class, @event) are not parseable by Prettier
 src/pages/publications/index.astro
+src/pages/index.astro
