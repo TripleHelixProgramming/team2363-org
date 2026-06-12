@@ -1,0 +1,243 @@
+---
+import { getCollection } from 'astro:content';
+import { Image } from 'astro:assets';
+import Base from '../../layouts/Base.astro';
+import Nav from '../../components/Nav.astro';
+import Footer from '../../components/Footer.astro';
+import { excerpt } from '../../utils/excerpt';
+import { sortPublications } from '../../utils/publications';
+
+const allPublications = await getCollection('publications');
+const publications = sortPublications(allPublications).reverse();
+
+// All unique categories across all publications, sorted alphabetically
+const allCategories = [...new Set(publications.flatMap((p) => p.data.categories))].sort();
+
+const minYear = publications[publications.length - 1].data.date.getFullYear();
+const maxYear = publications[0].data.date.getFullYear();
+// Timestamps for continuous date-range slider
+const minTs = new Date(minYear, 0, 1).getTime();
+const maxTs = new Date(maxYear, 11, 31, 23, 59, 59).getTime();
+const tsRange = maxTs - minTs;
+// Year tick marks at Jan 1 of each year
+const yearMarks = Array.from({ length: maxYear - minYear + 1 }, (_, i) => minYear + i);
+// Lightweight pub data for reactive count (categories + timestamp)
+const pubData = JSON.stringify(
+  publications.map((p) => ({ c: p.data.categories, t: p.data.date.getTime() }))
+);
+---
+
+<Base
+  title="Publications"
+  description="Technical writeups, newsletters, CAD releases, and more from Triple Helix Robotics."
+>
+  <Nav />
+
+  <main class="max-w-5xl mx-auto px-4 py-16">
+    <h1 class="text-4xl font-bold text-navy-dark mb-4">Publications</h1>
+    <p class="text-gray-600 mb-10">
+      Technical writeups, newsletters, CAD releases, robot reveals, and more.
+    </p>
+
+    <!-- Filters (Alpine.js) -->
+    <div
+      x-data={`{ active: 'All', tsFrom: ${minTs}, tsTo: ${maxTs}, pubs: ${pubData}, get count() { return this.pubs.filter(p => (this.active === 'All' || p.c.includes(this.active)) && p.t >= this.tsFrom && p.t <= this.tsTo).length; } }`}
+      class="mb-10"
+    >
+      <div class="flex flex-wrap gap-2 mb-4">
+        {['All', ...allCategories].map((cat) => (
+          <button
+            class="px-3 py-1 rounded-full text-sm border transition-colors"
+            :class={`active === '${cat}' ? 'bg-navy-dark text-white border-navy-dark' : 'border-gray-300 text-gray-600 hover:border-navy'`}
+            @click={`active = '${cat}'`}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+      <p class="text-sm text-gray-500 mb-6">
+        Showing <span class="font-medium text-navy" x-text="count"></span> of {publications.length}
+      </p>
+
+      <!-- Date range slider -->
+      <div class="mb-8">
+        <div class="flex items-center justify-between mb-3">
+          <span class="text-sm text-gray-600">
+            <strong class="text-navy" x-text="new Date(tsFrom).toLocaleDateString('en-US', {month: 'short', year: 'numeric'})"></strong>
+            <span class="text-gray-400 mx-1">—</span>
+            <strong class="text-navy" x-text="new Date(tsTo).toLocaleDateString('en-US', {month: 'short', year: 'numeric'})"></strong>
+          </span>
+          <button
+            x-show={`tsFrom !== ${minTs} || tsTo !== ${maxTs}`}
+            @click={`tsFrom = ${minTs}; tsTo = ${maxTs}`}
+            class="text-xs text-gray-400 hover:text-navy transition-colors"
+          >
+            Reset
+          </button>
+        </div>
+        <div class="relative h-8 flex items-center select-none">
+          <!-- Track background -->
+          <div class="absolute inset-x-0 h-1 bg-gray-200 rounded-full"></div>
+          <!-- Active fill between handles -->
+          <div
+            class="absolute h-1 bg-navy rounded-full pointer-events-none"
+            :style={`{ left: ((tsFrom - ${minTs}) / ${tsRange} * 100) + '%', right: ((${maxTs} - tsTo) / ${tsRange} * 100) + '%' }`}
+          ></div>
+          <!-- Lower handle -->
+          <input
+            type="range"
+            min={minTs}
+            max={maxTs}
+            step={86400000}
+            x-model.number="tsFrom"
+            @input="if (tsFrom > tsTo) tsTo = tsFrom"
+            :style="tsFrom >= tsTo ? 'z-index: 2' : 'z-index: 1'"
+            class="yr-range"
+          />
+          <!-- Upper handle -->
+          <input
+            type="range"
+            min={minTs}
+            max={maxTs}
+            step={86400000}
+            x-model.number="tsTo"
+            @input="if (tsTo < tsFrom) tsFrom = tsTo"
+            style="z-index: 1"
+            class="yr-range"
+          />
+        </div>
+        <!-- Year tick marks at Jan 1 of each year -->
+        <div class="relative mt-1" style="height: 28px; overflow: visible">
+          {yearMarks.map((year) => {
+            const ts = new Date(year, 0, 1).getTime();
+            const pct = ((ts - minTs) / tsRange * 100).toFixed(2);
+            return (
+              <div
+                class="absolute top-0 flex flex-col items-center"
+                style={`left: ${pct}%; transform: translateX(-50%)`}
+              >
+                <div class="w-px h-1.5 bg-gray-300"></div>
+                <span class="text-gray-400 select-none" style="font-size: 10px; white-space: nowrap; line-height: 1.4">{year}</span>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+
+      <!-- Publication list -->
+      <ul class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+        {
+          publications.map((pub) => (
+            <li
+              x-show={`(active === 'All' || ${JSON.stringify(pub.data.categories)}.includes(active)) && ${pub.data.date.getTime()} >= tsFrom && ${pub.data.date.getTime()} <= tsTo`}
+              class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow"
+            >
+              {pub.data.thumbnail && (
+                <Image
+                  src={pub.data.thumbnail}
+                  alt=""
+                  class="w-full h-40 object-cover"
+                  loading="lazy"
+                />
+              )}
+              <div class="p-5">
+                <div class="flex flex-wrap gap-1 mb-2">
+                  {pub.data.categories.map((cat) => (
+                    <span class="text-xs bg-gray-100 text-gray-600 px-2 py-0.5 rounded-full">
+                      {cat}
+                    </span>
+                  ))}
+                </div>
+                <p class="text-xs text-gray-400 mb-1">
+                  {pub.data.date.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                  })}
+                </p>
+                <h2 class="font-bold text-navy mb-2 leading-snug">
+                  <a
+                    href={`/publications/${pub.id.replace(/\/index\.md$/, '')}/`}
+                    class="hover:text-gold transition-colors"
+                  >
+                    {pub.data.title}
+                  </a>
+                </h2>
+                {pub.body && (
+                  <p class="text-sm text-gray-600 mb-3">{excerpt(pub.body)}</p>
+                )}
+                {pub.data.links && pub.data.links.length > 0 && (
+                  <ul class="flex flex-wrap gap-2 mt-auto">
+                    {pub.data.links.map(({ label, url }) => (
+                      <li>
+                        <a
+                          href={url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="text-xs font-medium text-gold hover:underline"
+                        >
+                          {label} →
+                        </a>
+                      </li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </main>
+
+  <Footer />
+</Base>
+
+<style>
+  .yr-range {
+    -webkit-appearance: none;
+    appearance: none;
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    pointer-events: none;
+    cursor: pointer;
+    margin: 0;
+  }
+  .yr-range::-webkit-slider-runnable-track {
+    background: transparent;
+  }
+  .yr-range::-moz-range-track {
+    background: transparent;
+  }
+  .yr-range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 9999px;
+    background: #233452;
+    border: 2px solid white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    pointer-events: all;
+  }
+  .yr-range::-moz-range-thumb {
+    width: 1.125rem;
+    height: 1.125rem;
+    border-radius: 9999px;
+    background: #233452;
+    border: 2px solid white;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    pointer-events: all;
+  }
+  .yr-range:focus-visible::-webkit-slider-thumb {
+    outline: 2px solid #fdb813;
+    outline-offset: 2px;
+  }
+  .yr-range:focus-visible::-moz-range-thumb {
+    outline: 2px solid #fdb813;
+    outline-offset: 2px;
+  }
+</style>

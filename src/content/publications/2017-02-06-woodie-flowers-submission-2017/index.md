@@ -1,0 +1,16 @@
+---
+slug: 2017-02-06-woodie-flowers-submission-2017
+title: Woodie Flowers submission 2017
+date: 2017-02-06
+categories:
+  - Awards
+---
+
+Triple Helix students are proud to publish this Woodie Flowers Award nominating essay for our mentor Bill Bretton.
+William Bretton has been the electrical mentor on FRC Team 2363, Triple Helix, for the past three years, and during this time he has affected the team in a significant and wonderful way. He has been an inspiration to his students by teaching them the fundamentals of engineering and design. He has also implemented many electrical and team systems that have saved time and provided greater efficiency. Not only is he a great asset and well-loved mentor of our team, but he is also highly respected on other teams, due to his unwavering support given to teams in need.
+
+Mr. Bretton is very proficient at the electrical and programming systems that he works with, and is able to explain unfamiliar concepts to students with ease. He teaches his students the critical thinking skills and creative processes of engineering, and is always willing to correct students with a kind word. In addition to teaching students, he also has put into practice the use of a living document on Google Keep, which not only tracks robot development, but also enables greater connectivity between subteams and better team communication overall. He has also helped the student leadership create end-of-meeting checklists that allow for quicker a clean-up time, which expands the amount of time spent working on the robot. Additionally, he took the initiative to create modular electrical systems that can be plugged into separate prototypes, which allows the mechanical subteam more freedom to test prototypes without a complete robot. This system has saved a significant amount of time spent during build season, and highlights one of the many ways in which he has impacted the team due to his creativity of engineering design and concepts.
+
+As well as being a spectacular mentor to the team, Mr. Bretton has also shown true leadership at competitions. Oftentimes, younger teams will struggle with building a functional drivetrain. During the 2016 season, Mr. Bretton saw one such team and didn’t hesitate to ask if he could help. The team was soon able to cross most of the defenses, and Mr. Bretton was thrilled to see their progress throughout the remainder of the competition. This unfaltering support of other teams, regardless of who they were, set an excellent example of gracious professionalism to the students on our team.
+
+When Mr. Bretton joined the team, he was eager to learn how the team worked and what he could to to help it work better. His dedication to teaching students, his initiative towards improving the team, and his knowledge of electrical and programming systems has made him an integral member of the team. He has become a true role model who inspires students and mentors alike, and his expertise and experiences have provided for greater success for both the team competitively and for students academically. He is a friend and an inspiration to all, and we are incredibly grateful to have a mentor as influential and inspiring to work with as Mr. Bretton.

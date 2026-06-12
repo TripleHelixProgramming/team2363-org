@@ -1,0 +1,283 @@
+---
+import { getCollection } from 'astro:content';
+import { Image, getImage } from 'astro:assets';
+import Base from '../layouts/Base.astro';
+import Nav from '../components/Nav.astro';
+import Footer from '../components/Footer.astro';
+import { Icon } from 'astro-icon/components';
+import heroSrc from './hero.jpg';
+import { excerpt } from '../utils/excerpt';
+import { sortPublications } from '../utils/publications';
+
+const hero = await getImage({ src: heroSrc, format: 'webp' });
+const allPublications = await getCollection('publications');
+const latestPublications = sortPublications(allPublications).reverse().slice(0, 3);
+---
+
+<Base>
+  <Nav />
+
+  <main>
+    <!-- Hero -->
+    <section
+      class="relative bg-navy-dark text-white py-32 px-4 text-center"
+      style={`background-image: url('${hero.src}'); background-size: cover; background-position: center;`}
+    >
+      <div class="absolute inset-0 bg-navy-dark/70"></div>
+      <div class="relative z-10 max-w-3xl mx-auto">
+        <h1 class="text-4xl md:text-6xl font-bold mb-4">Triple Helix Robotics</h1>
+        <p class="text-xl md:text-2xl text-gray-200 mb-8">
+          The award-winning Newport News competitive robotics team
+        </p>
+        <a
+          href="#about"
+          class="inline-block bg-gold text-navy-dark font-bold px-8 py-3 rounded hover:bg-yellow-400 transition-colors"
+        >
+          Learn more
+        </a>
+      </div>
+    </section>
+
+    <!-- CTAs -->
+    <section class="bg-navy text-white py-12 px-4">
+      <div class="max-w-5xl mx-auto grid gap-6 sm:grid-cols-3 text-center">
+        <a href="/contact/" class="p-6 rounded border border-white/20 hover:border-gold hover:text-gold transition-colors">
+          <p class="font-semibold">Become a part of our team</p>
+        </a>
+        <a href="/partners/" class="p-6 rounded border border-white/20 hover:border-gold hover:text-gold transition-colors">
+          <p class="font-semibold">Support us as a sponsor or community partner</p>
+        </a>
+        <a href="/contact/" class="p-6 rounded border border-white/20 hover:border-gold hover:text-gold transition-colors">
+          <p class="font-semibold">Get in touch with the team</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- Mission -->
+    <section id="about" class="py-16 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-navy-dark mb-8">Our mission</h2>
+        <p class="text-gray-600 mb-6">
+          A consistent leader in advocating for science, technology, engineering, and math (STEM)
+          in the region of Hampton Roads Virginia, Triple Helix seeks to spread understanding and
+          appreciation for STEM disciplines within our community by:
+        </p>
+        <div class="grid gap-8 md:grid-cols-3">
+          <div>
+            <Icon name="lucide:settings" class="w-8 h-8 text-gold mb-3" aria-hidden="true" />
+            <h3 class="font-bold text-navy mb-2">Building both life skills and world-class competition robots</h3>
+            <p class="text-gray-600 text-sm">
+              In the course of their work, our students become proficient team members and grow
+              their responsibility, time management skills, and accountability. Triple Helix is at
+              the forefront of a cultural movement which produces students well prepared for
+              leadership roles in their future careers.
+            </p>
+          </div>
+          <div>
+            <Icon name="lucide:users" class="w-8 h-8 text-gold mb-3" aria-hidden="true" />
+            <h3 class="font-bold text-navy mb-2">Engaging in iterative and collaborative learning</h3>
+            <p class="text-gray-600 text-sm">
+              A close simulation of a small engineering firm, Triple Helix grows working
+              relationships between students and mentors as we together co-investigate real, tough
+              problems in STEM. Mentors facilitate high-level student decision-making and develop
+              students as independent thinkers and leaders.
+            </p>
+          </div>
+          <div>
+            <Icon name="lucide:award" class="w-8 h-8 text-gold mb-3" aria-hidden="true" />
+            <h3 class="font-bold text-navy mb-2">Exemplifying gracious professionalism</h3>
+            <p class="text-gray-600 text-sm">
+              We foster a winning spirit and encourage team members to reach for their maximum
+              potential. Triple Helix team members exemplify good citizenship by taking an active
+              role in our community. We build great robots and we also grow great people who will
+              lead the future knowledge economy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accomplishments -->
+    <section class="bg-gray-50 py-16 px-4">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-navy-dark mb-8">More information about the team</h2>
+        <p class="text-gray-600 mb-4">
+          Triple Helix Robotics competes in the FIRST Robotics Competition as Team 2363. Founded
+          in 2007 at Menchville High School in Newport News, Virginia with the assistance of a
+          grant from our founding partner the U.S. Army Research Laboratory (ARL), Triple Helix
+          is now a community-based team involving students from across Hampton Roads. The team's
+          wide-reaching membership allows us to expand student access to scientific and technical
+          education throughout the region. Triple Helix is proud to represent NASA Langley
+          Research Center as one of its two house teams.
+        </p>
+        <p class="text-gray-600 mb-10">
+          Triple Helix Robotics is an all-volunteer organization made up of hardworking students
+          and mentors. Our team's high level of technical competence has enabled us to regularly
+          compete on the world stage. Triple Helix shares our expertise by providing in-person
+          mentor support, sharing and donating resources, publishing whitepapers, and making
+          conference presentations. A commitment to excellence is &ldquo;in our genes!&rdquo;
+        </p>
+        <p class="text-lg font-semibold text-navy-dark mb-6">Our major accomplishments include:</p>
+        <div class="grid gap-8 md:grid-cols-2">
+          <div class="bg-white rounded p-6 shadow-sm">
+            <div class="flex items-center gap-2 mb-3">
+              <Icon name="lucide:graduation-cap" class="w-5 h-5 text-gold shrink-0" aria-hidden="true" />
+              <h3 class="font-bold text-navy text-sm">Student outcomes</h3>
+            </div>
+            <p class="text-gray-600 text-sm">
+              At least 93% of our students pursue college educations, with 80% entering a STEM
+              career path. Graduating seniors report that their Triple Helix experiences award
+              them &ldquo;a glimpse into the type of job I want to have professionally, a more
+              complete understanding of project management, friendships that I will never forget,
+              and leadership skills to take into college and the workplace.&rdquo; Another stated
+              &ldquo;I learned what I wanted to do in life.&rdquo;
+            </p>
+          </div>
+          <div class="bg-white rounded p-6 shadow-sm">
+            <div class="flex items-center gap-2 mb-3">
+              <Icon name="lucide:trophy" class="w-5 h-5 text-gold shrink-0" aria-hidden="true" />
+              <h3 class="font-bold text-navy text-sm">Competition excellence</h3>
+            </div>
+            <p class="text-gray-600 text-sm">
+              Triple Helix competed in the 2023 FIRST Championship and won the Innovation in
+              Control award. The team also won every in-season event in the 2022 and 2023
+              sessions. Triple Helix also did not let the disruption of moving shops into the
+              2024 session affect them significantly, with the lowest in-season result being
+              eliminated in the semifinals and the best result being a win in the 2nd competition.
+            </p>
+          </div>
+          <div class="bg-white rounded p-6 shadow-sm">
+            <div class="flex items-center gap-2 mb-3">
+              <Icon name="lucide:flag" class="w-5 h-5 text-gold shrink-0" aria-hidden="true" />
+              <h3 class="font-bold text-navy text-sm">Rumble in the Roads</h3>
+            </div>
+            <p class="text-gray-600 text-sm">
+              Triple Helix established the Rumble in the Roads as the premier offseason FIRST
+              Robotics Competition tournament in southeast Virginia. A collaboration between
+              Triple Helix, Blackwater Robotics, and the Cat 5 Cybercanes, the Rumble engages
+              over 30 teams in a one-day competition each fall. The Rumble is open to the public
+              and free to attend.
+            </p>
+          </div>
+          <div class="bg-white rounded p-6 shadow-sm">
+            <div class="flex items-center gap-2 mb-3">
+              <Icon name="lucide:star" class="w-5 h-5 text-gold shrink-0" aria-hidden="true" />
+              <h3 class="font-bold text-navy text-sm">Community recognition</h3>
+            </div>
+            <p class="text-gray-600 text-sm">
+              We&rsquo;ve been officially recognized as a cultural asset in our community. The
+              intent of the City of Newport News Cultural Attractions Fund is to &ldquo;add to
+              the quality of life in the community and enhance the City&rsquo;s ability to
+              attract and retain businesses and residents.&rdquo; Triple Helix is a cultural
+              force that enables students to experience STEM as a thrilling, challenging
+              competition&mdash;a proven method for producing STEM culture leaders.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners preview -->
+    <section class="py-16 px-4 text-center">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold text-navy-dark mb-4">Who makes it possible?</h2>
+        <p class="text-gray-600 mb-8">
+          We are grateful to our sponsors and partners for making Triple Helix possible.
+        </p>
+        <a
+          href="/partners/"
+          class="inline-block bg-navy-dark text-white font-bold px-6 py-3 rounded hover:bg-navy transition-colors"
+        >
+          See all our partners
+        </a>
+      </div>
+    </section>
+
+    <!-- Publications preview -->
+    <section class="bg-gray-50 py-16 px-4">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-navy-dark mb-8">Our latest publications</h2>
+        {
+          latestPublications.length > 0 ? (
+            <ul class="grid gap-6 md:grid-cols-3">
+              {latestPublications.map((pub) => (
+                <li class="bg-white rounded shadow-sm p-5">
+                  {pub.data.thumbnail && (
+                    <Image
+                      src={pub.data.thumbnail}
+                      alt=""
+                      class="w-full h-40 object-cover rounded mb-4"
+                    />
+                  )}
+                  <p class="text-xs text-gray-400 mb-1">
+                    {pub.data.date.toLocaleDateString('en-US', {
+                      year: 'numeric',
+                      month: 'long',
+                      day: 'numeric',
+                    })}
+                  </p>
+                  <h3 class="font-bold text-navy mb-2">
+                    <a
+                      href={`/publications/${pub.id.replace(/\/index\.md$/, '')}/`}
+                      class="hover:text-gold transition-colors"
+                    >
+                      {pub.data.title}
+                    </a>
+                  </h3>
+                  {pub.body && (
+                    <p class="text-sm text-gray-600 mb-3">{excerpt(pub.body)}</p>
+                  )}
+                  {pub.data.links && pub.data.links.length > 0 && (
+                    <ul class="flex flex-wrap gap-2">
+                      {pub.data.links.map(({ label, url }) => (
+                        <li>
+                          <a
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="text-xs font-medium text-gold hover:underline"
+                          >
+                            {label} →
+                          </a>
+                        </li>
+                      ))}
+                    </ul>
+                  )}
+                </li>
+              ))}
+            </ul>
+          ) : (
+            <p class="text-gray-500">No publications yet.</p>
+          )
+        }
+        <div class="mt-8 text-center">
+          <a
+            href="/publications/"
+            class="inline-block border-2 border-navy-dark text-navy-dark font-bold px-6 py-3 rounded hover:bg-navy-dark hover:text-white transition-colors"
+          >
+            See all publications
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Join / Recruitment -->
+    <section id="join" class="py-16 px-4 bg-navy-dark text-white">
+      <div class="max-w-4xl mx-auto">
+        <h2 class="text-3xl font-bold mb-4">Interested in joining?</h2>
+        <p class="text-gray-300 mb-4">
+          Great! We need your contribution to the team, even if you don&rsquo;t want to build
+          robots, or even if you don&rsquo;t have any prior experience.
+        </p>
+        <a
+          href="/contact/"
+          class="inline-block bg-gold text-navy-dark font-bold px-6 py-3 rounded hover:bg-yellow-400 transition-colors"
+        >
+          Get in touch →
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+</Base>

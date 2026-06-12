@@ -1,0 +1,9 @@
+# Astro output
+dist/
+.astro/
+
+# Node.js dependencies
+node_modules/
+
+# System files
+.DS_Store
