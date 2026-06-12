@@ -1,0 +1,39 @@
+---
+// The "Our mission" section on the home page.
+// Edit the `pillars` array below to change the three mission statements.
+
+import IconCard from "../../components/IconCard.astro";
+
+const pillars = [
+  {
+    icon: "lucide:settings",
+    heading: "Building both life skills and world-class competition robots",
+    body: "In the course of their work, our students become proficient team members and grow their responsibility, time management skills, and accountability. Triple Helix is at the forefront of a cultural movement which produces students well prepared for leadership roles in their future careers.",
+  },
+  {
+    icon: "lucide:users",
+    heading: "Engaging in iterative and collaborative learning",
+    body: "A close simulation of a small engineering firm, Triple Helix grows working relationships between students and mentors as we together co-investigate real, tough problems in STEM. Mentors facilitate high-level student decision-making and develop students as independent thinkers and leaders.",
+  },
+  {
+    icon: "lucide:award",
+    heading: "Exemplifying gracious professionalism",
+    body: "We foster a winning spirit and encourage team members to reach for their maximum potential. Triple Helix team members exemplify good citizenship by taking an active role in our community. We build great robots and we also grow great people who will lead the future knowledge economy.",
+  },
+];
+---
+
+<section id="about" class="py-16 px-4">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold text-navy-dark mb-8">Our mission</h2>
+    <p class="text-gray-600 mb-6">
+      A consistent leader in advocating for science, technology, engineering,
+      and math (STEM) in the region of Hampton Roads Virginia, Triple Helix
+      seeks to spread understanding and appreciation for STEM disciplines within
+      our community by:
+    </p>
+    <div class="grid gap-8 md:grid-cols-3">
+      {pillars.map((p) => <IconCard {...p} />)}
+    </div>
+  </div>
+</section>

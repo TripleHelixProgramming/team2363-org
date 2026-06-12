@@ -1,0 +1,62 @@
+---
+// The "More information about the team" section on the home page.
+// Edit the `items` array below to change the four accomplishment cards,
+// or edit the prose paragraphs directly in the template below.
+
+import IconCard from "../../components/IconCard.astro";
+
+const items = [
+  {
+    icon: "lucide:graduation-cap",
+    heading: "Student outcomes",
+    body: "At least 93% of our students pursue college educations, with 80% entering a STEM career path. Graduating seniors report that their Triple Helix experiences award them \u201ca glimpse into the type of job I want to have professionally, a more complete understanding of project management, friendships that I will never forget, and leadership skills to take into college and the workplace.\u201d Another stated \u201cI learned what I wanted to do in life.\u201d",
+  },
+  {
+    icon: "lucide:trophy",
+    heading: "Competition excellence",
+    body: "Triple Helix competed in the 2023 FIRST Championship and won the Innovation in Control award. The team also won every in-season event in the 2022 and 2023 sessions. Triple Helix also did not let the disruption of moving shops into the 2024 session affect them significantly, with the lowest in-season result being eliminated in the semifinals and the best result being a win in the 2nd competition.",
+  },
+  {
+    icon: "lucide:flag",
+    heading: "Rumble in the Roads",
+    body: "Triple Helix established the Rumble in the Roads as the premier offseason FIRST Robotics Competition tournament in southeast Virginia. A collaboration between Triple Helix, Blackwater Robotics, and the Cat 5 Cybercanes, the Rumble engages over 30 teams in a one-day competition each fall. The Rumble is open to the public and free to attend.",
+  },
+  {
+    icon: "lucide:star",
+    heading: "Community recognition",
+    body: "We\u2019ve been officially recognized as a cultural asset in our community. The intent of the City of Newport News Cultural Attractions Fund is to \u201cadd to the quality of life in the community and enhance the City\u2019s ability to attract and retain businesses and residents.\u201d Triple Helix is a cultural force that enables students to experience STEM as a thrilling, challenging competition\u2014a proven method for producing STEM culture leaders.",
+  },
+];
+---
+
+<section class="bg-gray-50 py-16 px-4">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold text-navy-dark mb-8">
+      More information about the team
+    </h2>
+    <p class="text-gray-600 mb-4">
+      Triple Helix Robotics competes in the FIRST Robotics Competition as Team
+      2363. Founded in 2007 at Menchville High School in Newport News, Virginia
+      with the assistance of a grant from our founding partner the U.S. Army
+      Research Laboratory (ARL), Triple Helix is now a community-based team
+      involving students from across Hampton Roads. The team&rsquo;s
+      wide-reaching membership allows us to expand student access to scientific
+      and technical education throughout the region. Triple Helix is proud to
+      represent NASA Langley Research Center as one of its two house teams.
+    </p>
+    <p class="text-gray-600 mb-10">
+      Triple Helix Robotics is an all-volunteer organization made up of
+      hardworking students and mentors. Our team&rsquo;s high level of technical
+      competence has enabled us to regularly compete on the world stage. Triple
+      Helix shares our expertise by providing in-person mentor support, sharing
+      and donating resources, publishing whitepapers, and making conference
+      presentations. A commitment to excellence is &ldquo;in our genes!&rdquo;
+    </p>
+    <p class="text-lg font-semibold text-navy-dark mb-6">
+      Our major accomplishments include:
+    </p>
+    <div class="grid gap-8 md:grid-cols-2">
+      {items.map((a) => <IconCard variant="card" {...a} />)}
+    </div>
+  </div>
+</section>

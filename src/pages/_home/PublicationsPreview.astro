@@ -1,0 +1,41 @@
+---
+import { getCollection } from "astro:content";
+import Carousel from "../../components/Carousel.astro";
+import PublicationCard from "../../components/PublicationCard.astro";
+import { sortPublications } from "../../utils/publications";
+
+const allPublications = await getCollection("publications");
+const latestPublications = sortPublications(allPublications)
+  .reverse()
+  .slice(0, 6);
+---
+
+<section class="bg-gray-50 py-16 px-4">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold text-navy-dark mb-8">
+      Our latest publications
+    </h2>
+    {
+      latestPublications.length > 0 ? (
+        <Carousel
+          prevLabel="Previous publications"
+          nextLabel="Next publications"
+        >
+          {latestPublications.map((pub) => (
+            <PublicationCard pub={pub} />
+          ))}
+        </Carousel>
+      ) : (
+        <p class="text-gray-500">No publications yet.</p>
+      )
+    }
+    <div class="mt-8 text-center">
+      <a
+        href="/publications/"
+        class="inline-block border-2 border-navy-dark text-navy-dark font-bold px-6 py-3 rounded hover:bg-navy-dark hover:text-white transition-colors"
+      >
+        See all publications
+      </a>
+    </div>
+  </div>
+</section>

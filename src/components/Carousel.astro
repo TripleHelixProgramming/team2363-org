@@ -1,0 +1,87 @@
+---
+// A drag-to-scroll horizontal carousel with previous/next arrow buttons.
+//
+// Props
+//   scrollAmount  — pixels to scroll per arrow click; omit to scroll by the
+//                   full visible track width (good for page-at-a-time carousels)
+//   prevLabel     — aria-label for the previous button
+//   nextLabel     — aria-label for the next button
+//
+// Usage
+//   <Carousel scrollAmount={376} prevLabel="Previous sponsors" nextLabel="Next sponsors">
+//     <div class="shrink-0 snap-start ...">card</div>
+//     <div class="shrink-0 snap-start ...">card</div>
+//   </Carousel>
+
+interface Props {
+  scrollAmount?: number;
+  prevLabel?: string;
+  nextLabel?: string;
+}
+
+const { scrollAmount, prevLabel = "Previous", nextLabel = "Next" } = Astro.props;
+
+const prevExpr = scrollAmount
+  ? `$refs.track.scrollBy({ left: -${scrollAmount}, behavior: 'smooth' })`
+  : `$refs.track.scrollBy({ left: -$refs.track.offsetWidth, behavior: 'smooth' })`;
+const nextExpr = scrollAmount
+  ? `$refs.track.scrollBy({ left: ${scrollAmount}, behavior: 'smooth' })`
+  : `$refs.track.scrollBy({ left: $refs.track.offsetWidth, behavior: 'smooth' })`;
+
+const xData = `{ drag: false, startX: 0, sl: 0, prev() { ${prevExpr} }, next() { ${nextExpr} }, startDrag(e) { this.drag = true; this.startX = e.pageX; this.sl = this.$refs.track.scrollLeft; }, onDrag(e) { if (!this.drag) return; e.preventDefault(); this.$refs.track.scrollLeft = this.sl - (e.pageX - this.startX); }, stopDrag() { this.drag = false; } }`;
+---
+
+<div x-data={xData} class="relative">
+  <button
+    @click="prev()"
+    class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-5 z-10 bg-white border border-gray-200 shadow rounded-full p-2 hover:bg-gray-50 transition-colors"
+    aria-label={prevLabel}
+  >
+    <svg
+      class="w-4 h-4 text-navy"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M15 19l-7-7 7-7"></path>
+    </svg>
+  </button>
+
+  <div
+    x-ref="track"
+    class="flex gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory"
+    :class="drag ? 'cursor-grabbing select-none' : 'cursor-grab'"
+    style="scrollbar-width: none; -ms-overflow-style: none;"
+    @mousedown="startDrag($event)"
+    @mousemove="onDrag($event)"
+    @mouseup.window="stopDrag()"
+    @dragstart.prevent
+  >
+    <slot />
+  </div>
+
+  <button
+    @click="next()"
+    class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-5 z-10 bg-white border border-gray-200 shadow rounded-full p-2 hover:bg-gray-50 transition-colors"
+    aria-label={nextLabel}
+  >
+    <svg
+      class="w-4 h-4 text-navy"
+      fill="none"
+      stroke="currentColor"
+      viewBox="0 0 24 24"
+      aria-hidden="true"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M9 5l7 7-7 7"></path>
+    </svg>
+  </button>
+</div>

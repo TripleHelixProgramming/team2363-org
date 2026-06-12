@@ -1,0 +1,45 @@
+---
+// A card with an icon, heading, and body text.
+//
+// Variants
+//   "stacked" (default) — icon sits above the heading; used in the Mission section.
+//   "card"              — wrapped in a white card box, icon is inline with the
+//                         heading; used in the Accomplishments section.
+//
+// Usage
+//   <IconCard icon="lucide:settings" heading="Heading text" body="Body text." />
+//   <IconCard variant="card" icon="lucide:trophy" heading="Heading" body="Body." />
+
+import { Icon } from "astro-icon/components";
+
+interface Props {
+  icon: string;
+  heading: string;
+  body: string;
+  variant?: "stacked" | "card";
+}
+
+const { icon, heading, body, variant = "stacked" } = Astro.props;
+---
+
+{
+  variant === "card" ? (
+    <div class="bg-white rounded p-6 shadow-sm">
+      <div class="flex items-center gap-2 mb-3">
+        <Icon
+          name={icon}
+          class="w-5 h-5 text-gold shrink-0"
+          aria-hidden="true"
+        />
+        <h3 class="font-bold text-navy text-sm">{heading}</h3>
+      </div>
+      <p class="text-gray-600 text-sm">{body}</p>
+    </div>
+  ) : (
+    <div>
+      <Icon name={icon} class="w-8 h-8 text-gold mb-3" aria-hidden="true" />
+      <h3 class="font-bold text-navy mb-2">{heading}</h3>
+      <p class="text-gray-600 text-sm">{body}</p>
+    </div>
+  )
+}

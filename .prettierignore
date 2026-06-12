@@ -3,5 +3,5 @@ dist/
 .astro/
 content/
 # Alpine.js attributes (:class, @event) are not parseable by Prettier
+src/components/Carousel.astro
 src/pages/publications/index.astro
-src/pages/index.astro

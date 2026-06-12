@@ -1,0 +1,60 @@
+---
+import { Image } from "astro:assets";
+import type { ImageMetadata } from "astro";
+import Carousel from "../../components/Carousel.astro";
+import sponsorsData from "../partners/sponsors.json";
+
+const logoModules = import.meta.glob<{ default: ImageMetadata }>(
+  "../partners/sponsor-logos/*.{png,jpg,jpeg,webp,svg}",
+  { eager: true },
+);
+function getLogo(filename: string): ImageMetadata | undefined {
+  return logoModules[`../partners/sponsor-logos/${filename}`]?.default;
+}
+const sponsors = sponsorsData.tiers
+  .flatMap((t) => t.sponsors)
+  .filter((s) => getLogo(s.logo));
+---
+
+<section class="py-16 px-4">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold text-navy-dark mb-2 text-center">
+      Who makes it possible?
+    </h2>
+    <p class="text-gray-600 mb-8 text-center">
+      We are grateful to our sponsors and partners for making Triple Helix
+      possible.
+    </p>
+    <Carousel
+      scrollAmount={376}
+      prevLabel="Previous sponsors"
+      nextLabel="Next sponsors"
+    >
+      {
+        sponsors.map((s) => {
+          const logo = getLogo(s.logo)!;
+          return (
+            <div
+              title={s.name}
+              class="shrink-0 snap-start flex items-center justify-center w-[22rem] h-48 bg-white rounded border border-gray-100 p-4"
+            >
+              <Image
+                src={logo}
+                alt={s.name}
+                class="max-w-full max-h-full object-contain"
+              />
+            </div>
+          );
+        })
+      }
+    </Carousel>
+    <div class="mt-8 text-center">
+      <a
+        href="/partners/"
+        class="inline-block bg-navy-dark text-white font-bold px-6 py-3 rounded hover:bg-navy transition-colors"
+      >
+        See all our partners
+      </a>
+    </div>
+  </div>
+</section>
