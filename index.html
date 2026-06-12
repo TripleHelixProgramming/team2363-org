@@ -1,80 +1,117 @@
 <!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="The award-winning Newport News competitive robotics team"><title>Triple Helix Robotics</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"><!-- Alpine.js for nav toggle and other lightweight interactivity --><script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.1/dist/cdn.min.js"></script><link rel="stylesheet" href="/_astro/index.CErRBUq6.css"></head> <body class="font-sans text-gray-900 bg-white">  <header class="sticky top-0 z-50 bg-navy-dark text-white" x-data="{ open: false }"> <nav class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16" aria-label="Main navigation"> <a href="/" class="font-bold text-lg text-gold hover:text-white transition-colors">
 Triple Helix Robotics
-</a> <!-- Desktop links --> <ul class="hidden md:flex gap-6 text-sm font-medium"> <li> <a href="/" class="hover:text-gold transition-colors text-gold"> Home </a> </li><li> <a href="/#about" class="hover:text-gold transition-colors text-white"> About </a> </li><li> <a href="/partners/" class="hover:text-gold transition-colors text-white"> Partners </a> </li><li> <a href="/publications/" class="hover:text-gold transition-colors text-white"> Publications </a> </li><li> <a href="/contact/" class="hover:text-gold transition-colors text-white"> Contact </a> </li> </ul> <!-- Mobile menu button --> <button class="md:hidden p-2 rounded hover:bg-navy transition-colors" aria-label="Toggle menu" @click="open = !open" :aria-expanded="open"> <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path x-show="!open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> <path x-show="open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> </svg> </button> </nav> <!-- Mobile menu --> <div x-show="open" x-transition class="md:hidden bg-navy px-4 pb-4"> <ul class="flex flex-col gap-3 text-sm font-medium"> <li> <a href="/" class="block py-1 hover:text-gold transition-colors" @click="open = false"> Home </a> </li><li> <a href="/#about" class="block py-1 hover:text-gold transition-colors" @click="open = false"> About </a> </li><li> <a href="/partners/" class="block py-1 hover:text-gold transition-colors" @click="open = false"> Partners </a> </li><li> <a href="/publications/" class="block py-1 hover:text-gold transition-colors" @click="open = false"> Publications </a> </li><li> <a href="/contact/" class="block py-1 hover:text-gold transition-colors" @click="open = false"> Contact </a> </li> </ul> </div> </header> <main> <!-- Hero --> <section class="relative bg-navy-dark text-white py-32 px-4 text-center" style="background-image: url('/_astro/hero.C6fNi96C_1j77OT.webp'); background-size: cover; background-position: center;"> <div class="absolute inset-0 bg-navy-dark/70"></div> <div class="relative z-10 max-w-3xl mx-auto"> <h1 class="text-4xl md:text-6xl font-bold mb-4">Triple Helix Robotics</h1> <p class="text-xl md:text-2xl text-gray-200 mb-8">
+</a> <!-- Desktop links --> <ul class="hidden md:flex gap-6 text-sm font-medium"> <li> <a href="/" class="hover:text-gold transition-colors text-gold"> Home </a> </li><li> <a href="/#about" class="hover:text-gold transition-colors text-white"> About </a> </li><li> <a href="/partners/" class="hover:text-gold transition-colors text-white"> Partners </a> </li><li> <a href="/publications/" class="hover:text-gold transition-colors text-white"> Publications </a> </li><li> <a href="/contact/" class="hover:text-gold transition-colors text-white"> Contact </a> </li> </ul> <!-- Mobile menu button --> <button class="md:hidden p-2 rounded hover:bg-navy transition-colors" aria-label="Toggle menu" @click="open = !open" :aria-expanded="open"> <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"> <path x-show="!open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path> <path x-show="open" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path> </svg> </button> </nav> <!-- Mobile menu --> <div x-show="open" x-transition class="md:hidden bg-navy px-4 pb-4"> <ul class="flex flex-col gap-3 text-sm font-medium"> <li> <a href="/" class="block py-1 hover:text-gold transition-colors" @click="open = false"> Home </a> </li><li> <a href="/#about" class="block py-1 hover:text-gold transition-colors" @click="open = false"> About </a> </li><li> <a href="/partners/" class="block py-1 hover:text-gold transition-colors" @click="open = false"> Partners </a> </li><li> <a href="/publications/" class="block py-1 hover:text-gold transition-colors" @click="open = false"> Publications </a> </li><li> <a href="/contact/" class="block py-1 hover:text-gold transition-colors" @click="open = false"> Contact </a> </li> </ul> </div> </header> <main> <!-- Hero --> <section class="relative bg-navy-dark text-white py-32 px-4 text-center" style="background-image: url('/_astro/hero.C6fNi96C_1j77OT.webp'); background-size: cover; background-position: center;"> <div class="absolute inset-0 bg-navy-dark/70"></div> <div class="relative z-10 max-w-3xl mx-auto"> <h1 class="text-4xl md:text-6xl font-bold mb-4">
+Triple Helix Robotics
+</h1> <p class="text-xl md:text-2xl text-gray-200 mb-8">
 The award-winning Newport News competitive robotics team
 </p> <a href="#about" class="inline-block bg-gold text-navy-dark font-bold px-8 py-3 rounded hover:bg-yellow-400 transition-colors">
 Learn more
-</a> </div> </section> <!-- CTAs --> <section class="bg-navy text-white py-12 px-4"> <div class="max-w-5xl mx-auto grid gap-6 sm:grid-cols-3 text-center"> <a href="/contact/" class="p-6 rounded border border-white/20 hover:border-gold hover:text-gold transition-colors"> <p class="font-semibold">Become a part of our team</p> </a> <a href="/partners/" class="p-6 rounded border border-white/20 hover:border-gold hover:text-gold transition-colors"> <p class="font-semibold">Support us as a sponsor or community partner</p> </a> <a href="/contact/" class="p-6 rounded border border-white/20 hover:border-gold hover:text-gold transition-colors"> <p class="font-semibold">Get in touch with the team</p> </a> </div> </section> <!-- Mission --> <section id="about" class="py-16 px-4"> <div class="max-w-4xl mx-auto"> <h2 class="text-3xl font-bold text-navy-dark mb-8">Our mission</h2> <p class="text-gray-600 mb-6">
-A consistent leader in advocating for science, technology, engineering, and math (STEM)
-          in the region of Hampton Roads Virginia, Triple Helix seeks to spread understanding and
-          appreciation for STEM disciplines within our community by:
-</p> <div class="grid gap-8 md:grid-cols-3"> <div> <svg width="1em" height="1em" class="w-8 h-8 text-gold mb-3" aria-hidden="true" data-icon="lucide:settings">   <symbol id="ai:lucide:settings" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0a2.34 2.34 0 0 0 3.319 1.915a2.34 2.34 0 0 1 2.33 4.033a2.34 2.34 0 0 0 0 3.831a2.34 2.34 0 0 1-2.33 4.033a2.34 2.34 0 0 0-3.319 1.915a2.34 2.34 0 0 1-4.659 0a2.34 2.34 0 0 0-3.32-1.915a2.34 2.34 0 0 1-2.33-4.033a2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"/><circle cx="12" cy="12" r="3"/></g></symbol><use href="#ai:lucide:settings"></use>  </svg> <h3 class="font-bold text-navy mb-2">Building both life skills and world-class competition robots</h3> <p class="text-gray-600 text-sm">
-In the course of their work, our students become proficient team members and grow
-              their responsibility, time management skills, and accountability. Triple Helix is at
-              the forefront of a cultural movement which produces students well prepared for
-              leadership roles in their future careers.
-</p> </div> <div> <svg width="1em" height="1em" class="w-8 h-8 text-gold mb-3" aria-hidden="true" data-icon="lucide:users">   <symbol id="ai:lucide:users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></g></symbol><use href="#ai:lucide:users"></use>  </svg> <h3 class="font-bold text-navy mb-2">Engaging in iterative and collaborative learning</h3> <p class="text-gray-600 text-sm">
-A close simulation of a small engineering firm, Triple Helix grows working
-              relationships between students and mentors as we together co-investigate real, tough
-              problems in STEM. Mentors facilitate high-level student decision-making and develop
-              students as independent thinkers and leaders.
-</p> </div> <div> <svg width="1em" height="1em" class="w-8 h-8 text-gold mb-3" aria-hidden="true" data-icon="lucide:award">   <symbol id="ai:lucide:award" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="m15.477 12.89l1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></g></symbol><use href="#ai:lucide:award"></use>  </svg> <h3 class="font-bold text-navy mb-2">Exemplifying gracious professionalism</h3> <p class="text-gray-600 text-sm">
-We foster a winning spirit and encourage team members to reach for their maximum
-              potential. Triple Helix team members exemplify good citizenship by taking an active
-              role in our community. We build great robots and we also grow great people who will
-              lead the future knowledge economy.
-</p> </div> </div> </div> </section> <!-- Accomplishments --> <section class="bg-gray-50 py-16 px-4"> <div class="max-w-4xl mx-auto"> <h2 class="text-3xl font-bold text-navy-dark mb-8">More information about the team</h2> <p class="text-gray-600 mb-4">
-Triple Helix Robotics competes in the FIRST Robotics Competition as Team 2363. Founded
-          in 2007 at Menchville High School in Newport News, Virginia with the assistance of a
-          grant from our founding partner the U.S. Army Research Laboratory (ARL), Triple Helix
-          is now a community-based team involving students from across Hampton Roads. The team's
-          wide-reaching membership allows us to expand student access to scientific and technical
-          education throughout the region. Triple Helix is proud to represent NASA Langley
-          Research Center as one of its two house teams.
+</a> </div> </section> <!-- CTAs --> <section class="bg-navy text-white py-12 px-4"> <div class="max-w-5xl mx-auto grid gap-6 sm:grid-cols-3 text-center"> <a href="/contact/" class="p-6 rounded border border-white/20 hover:border-gold hover:text-gold transition-colors"> <p class="font-semibold">Become a part of our team</p> </a> <a href="/partners/" class="p-6 rounded border border-white/20 hover:border-gold hover:text-gold transition-colors"> <p class="font-semibold">
+Support us as a sponsor or community partner
+</p> </a> <a href="/contact/" class="p-6 rounded border border-white/20 hover:border-gold hover:text-gold transition-colors"> <p class="font-semibold">Get in touch with the team</p> </a> </div> </section> <!-- Mission --> <section id="about" class="py-16 px-4"> <div class="max-w-4xl mx-auto"> <h2 class="text-3xl font-bold text-navy-dark mb-8">Our mission</h2> <p class="text-gray-600 mb-6">
+A consistent leader in advocating for science, technology,
+          engineering, and math (STEM) in the region of Hampton Roads Virginia,
+          Triple Helix seeks to spread understanding and appreciation for STEM
+          disciplines within our community by:
+</p> <div class="grid gap-8 md:grid-cols-3"> <div> <svg width="1em" height="1em" class="w-8 h-8 text-gold mb-3" aria-hidden="true" data-icon="lucide:settings">   <symbol id="ai:lucide:settings" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0a2.34 2.34 0 0 0 3.319 1.915a2.34 2.34 0 0 1 2.33 4.033a2.34 2.34 0 0 0 0 3.831a2.34 2.34 0 0 1-2.33 4.033a2.34 2.34 0 0 0-3.319 1.915a2.34 2.34 0 0 1-4.659 0a2.34 2.34 0 0 0-3.32-1.915a2.34 2.34 0 0 1-2.33-4.033a2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915"/><circle cx="12" cy="12" r="3"/></g></symbol><use href="#ai:lucide:settings"></use>  </svg> <h3 class="font-bold text-navy mb-2">
+Building both life skills and world-class competition robots
+</h3> <p class="text-gray-600 text-sm">
+In the course of their work, our students become proficient team
+              members and grow their responsibility, time management skills, and
+              accountability. Triple Helix is at the forefront of a cultural
+              movement which produces students well prepared for leadership
+              roles in their future careers.
+</p> </div> <div> <svg width="1em" height="1em" class="w-8 h-8 text-gold mb-3" aria-hidden="true" data-icon="lucide:users">   <symbol id="ai:lucide:users" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2M16 3.128a4 4 0 0 1 0 7.744M22 21v-2a4 4 0 0 0-3-3.87"/><circle cx="9" cy="7" r="4"/></g></symbol><use href="#ai:lucide:users"></use>  </svg> <h3 class="font-bold text-navy mb-2">
+Engaging in iterative and collaborative learning
+</h3> <p class="text-gray-600 text-sm">
+A close simulation of a small engineering firm, Triple Helix grows
+              working relationships between students and mentors as we together
+              co-investigate real, tough problems in STEM. Mentors facilitate
+              high-level student decision-making and develop students as
+              independent thinkers and leaders.
+</p> </div> <div> <svg width="1em" height="1em" class="w-8 h-8 text-gold mb-3" aria-hidden="true" data-icon="lucide:award">   <symbol id="ai:lucide:award" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="m15.477 12.89l1.515 8.526a.5.5 0 0 1-.81.47l-3.58-2.687a1 1 0 0 0-1.197 0l-3.586 2.686a.5.5 0 0 1-.81-.469l1.514-8.526"/><circle cx="12" cy="8" r="6"/></g></symbol><use href="#ai:lucide:award"></use>  </svg> <h3 class="font-bold text-navy mb-2">
+Exemplifying gracious professionalism
+</h3> <p class="text-gray-600 text-sm">
+We foster a winning spirit and encourage team members to reach for
+              their maximum potential. Triple Helix team members exemplify good
+              citizenship by taking an active role in our community. We build
+              great robots and we also grow great people who will lead the
+              future knowledge economy.
+</p> </div> </div> </div> </section> <!-- Accomplishments --> <section class="bg-gray-50 py-16 px-4"> <div class="max-w-4xl mx-auto"> <h2 class="text-3xl font-bold text-navy-dark mb-8">
+More information about the team
+</h2> <p class="text-gray-600 mb-4">
+Triple Helix Robotics competes in the FIRST Robotics Competition as
+          Team 2363. Founded in 2007 at Menchville High School in Newport News,
+          Virginia with the assistance of a grant from our founding partner the
+          U.S. Army Research Laboratory (ARL), Triple Helix is now a
+          community-based team involving students from across Hampton Roads. The
+          team's wide-reaching membership allows us to expand student access to
+          scientific and technical education throughout the region. Triple Helix
+          is proud to represent NASA Langley Research Center as one of its two
+          house teams.
 </p> <p class="text-gray-600 mb-10">
-Triple Helix Robotics is an all-volunteer organization made up of hardworking students
-          and mentors. Our team's high level of technical competence has enabled us to regularly
-          compete on the world stage. Triple Helix shares our expertise by providing in-person
-          mentor support, sharing and donating resources, publishing whitepapers, and making
-          conference presentations. A commitment to excellence is &ldquo;in our genes!&rdquo;
-</p> <p class="text-lg font-semibold text-navy-dark mb-6">Our major accomplishments include:</p> <div class="grid gap-8 md:grid-cols-2"> <div class="bg-white rounded p-6 shadow-sm"> <div class="flex items-center gap-2 mb-3"> <svg width="1em" height="1em" class="w-5 h-5 text-gold shrink-0" aria-hidden="true" data-icon="lucide:graduation-cap">   <symbol id="ai:lucide:graduation-cap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0zM22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></g></symbol><use href="#ai:lucide:graduation-cap"></use>  </svg> <h3 class="font-bold text-navy text-sm">Student outcomes</h3> </div> <p class="text-gray-600 text-sm">
-At least 93% of our students pursue college educations, with 80% entering a STEM
-              career path. Graduating seniors report that their Triple Helix experiences award
-              them &ldquo;a glimpse into the type of job I want to have professionally, a more
-              complete understanding of project management, friendships that I will never forget,
-              and leadership skills to take into college and the workplace.&rdquo; Another stated
-              &ldquo;I learned what I wanted to do in life.&rdquo;
-</p> </div> <div class="bg-white rounded p-6 shadow-sm"> <div class="flex items-center gap-2 mb-3"> <svg width="1em" height="1em" class="w-5 h-5 text-gold shrink-0" aria-hidden="true" data-icon="lucide:trophy">   <symbol id="ai:lucide:trophy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978m7-7.318v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978M18 9h1.5a1 1 0 0 0 0-5H18M4 22h16"/><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm0 0H4.5a1 1 0 0 1 0-5H6"/></g></symbol><use href="#ai:lucide:trophy"></use>  </svg> <h3 class="font-bold text-navy text-sm">Competition excellence</h3> </div> <p class="text-gray-600 text-sm">
-Triple Helix competed in the 2023 FIRST Championship and won the Innovation in
-              Control award. The team also won every in-season event in the 2022 and 2023
-              sessions. Triple Helix also did not let the disruption of moving shops into the
-              2024 session affect them significantly, with the lowest in-season result being
-              eliminated in the semifinals and the best result being a win in the 2nd competition.
+Triple Helix Robotics is an all-volunteer organization made up of
+          hardworking students and mentors. Our team's high level of technical
+          competence has enabled us to regularly compete on the world stage.
+          Triple Helix shares our expertise by providing in-person mentor
+          support, sharing and donating resources, publishing whitepapers, and
+          making conference presentations. A commitment to excellence is
+          &ldquo;in our genes!&rdquo;
+</p> <p class="text-lg font-semibold text-navy-dark mb-6">
+Our major accomplishments include:
+</p> <div class="grid gap-8 md:grid-cols-2"> <div class="bg-white rounded p-6 shadow-sm"> <div class="flex items-center gap-2 mb-3"> <svg width="1em" height="1em" class="w-5 h-5 text-gold shrink-0" aria-hidden="true" data-icon="lucide:graduation-cap">   <symbol id="ai:lucide:graduation-cap" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0zM22 10v6"/><path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"/></g></symbol><use href="#ai:lucide:graduation-cap"></use>  </svg> <h3 class="font-bold text-navy text-sm">Student outcomes</h3> </div> <p class="text-gray-600 text-sm">
+At least 93% of our students pursue college educations, with 80%
+              entering a STEM career path. Graduating seniors report that their
+              Triple Helix experiences award them &ldquo;a glimpse into the type
+              of job I want to have professionally, a more complete
+              understanding of project management, friendships that I will never
+              forget, and leadership skills to take into college and the
+              workplace.&rdquo; Another stated &ldquo;I learned what I wanted to
+              do in life.&rdquo;
+</p> </div> <div class="bg-white rounded p-6 shadow-sm"> <div class="flex items-center gap-2 mb-3"> <svg width="1em" height="1em" class="w-5 h-5 text-gold shrink-0" aria-hidden="true" data-icon="lucide:trophy">   <symbol id="ai:lucide:trophy" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M10 14.66v1.626a2 2 0 0 1-.976 1.696A5 5 0 0 0 7 21.978m7-7.318v1.626a2 2 0 0 0 .976 1.696A5 5 0 0 1 17 21.978M18 9h1.5a1 1 0 0 0 0-5H18M4 22h16"/><path d="M6 9a6 6 0 0 0 12 0V3a1 1 0 0 0-1-1H7a1 1 0 0 0-1 1zm0 0H4.5a1 1 0 0 1 0-5H6"/></g></symbol><use href="#ai:lucide:trophy"></use>  </svg> <h3 class="font-bold text-navy text-sm">
+Competition excellence
+</h3> </div> <p class="text-gray-600 text-sm">
+Triple Helix competed in the 2023 FIRST Championship and won the
+              Innovation in Control award. The team also won every in-season
+              event in the 2022 and 2023 sessions. Triple Helix also did not let
+              the disruption of moving shops into the 2024 session affect them
+              significantly, with the lowest in-season result being eliminated
+              in the semifinals and the best result being a win in the 2nd
+              competition.
 </p> </div> <div class="bg-white rounded p-6 shadow-sm"> <div class="flex items-center gap-2 mb-3"> <svg width="1em" height="1em" class="w-5 h-5 text-gold shrink-0" aria-hidden="true" data-icon="lucide:flag">   <symbol id="ai:lucide:flag" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 22V4a1 1 0 0 1 .4-.8A6 6 0 0 1 8 2c3 0 5 2 7.333 2q2 0 3.067-.8A1 1 0 0 1 20 4v10a1 1 0 0 1-.4.8A6 6 0 0 1 16 16c-3 0-5-2-8-2a6 6 0 0 0-4 1.528"/></symbol><use href="#ai:lucide:flag"></use>  </svg> <h3 class="font-bold text-navy text-sm">Rumble in the Roads</h3> </div> <p class="text-gray-600 text-sm">
-Triple Helix established the Rumble in the Roads as the premier offseason FIRST
-              Robotics Competition tournament in southeast Virginia. A collaboration between
-              Triple Helix, Blackwater Robotics, and the Cat 5 Cybercanes, the Rumble engages
-              over 30 teams in a one-day competition each fall. The Rumble is open to the public
-              and free to attend.
+Triple Helix established the Rumble in the Roads as the premier
+              offseason FIRST Robotics Competition tournament in southeast
+              Virginia. A collaboration between Triple Helix, Blackwater
+              Robotics, and the Cat 5 Cybercanes, the Rumble engages over 30
+              teams in a one-day competition each fall. The Rumble is open to
+              the public and free to attend.
 </p> </div> <div class="bg-white rounded p-6 shadow-sm"> <div class="flex items-center gap-2 mb-3"> <svg width="1em" height="1em" class="w-5 h-5 text-gold shrink-0" aria-hidden="true" data-icon="lucide:star">   <symbol id="ai:lucide:star" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.12 2.12 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.12 2.12 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.12 2.12 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.12 2.12 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.12 2.12 0 0 0 1.597-1.16z"/></symbol><use href="#ai:lucide:star"></use>  </svg> <h3 class="font-bold text-navy text-sm">Community recognition</h3> </div> <p class="text-gray-600 text-sm">
-We&rsquo;ve been officially recognized as a cultural asset in our community. The
-              intent of the City of Newport News Cultural Attractions Fund is to &ldquo;add to
-              the quality of life in the community and enhance the City&rsquo;s ability to
-              attract and retain businesses and residents.&rdquo; Triple Helix is a cultural
-              force that enables students to experience STEM as a thrilling, challenging
-              competition&mdash;a proven method for producing STEM culture leaders.
-</p> </div> </div> </div> </section> <!-- Partners preview --> <section class="py-16 px-4 text-center"> <div class="max-w-4xl mx-auto"> <h2 class="text-3xl font-bold text-navy-dark mb-4">Who makes it possible?</h2> <p class="text-gray-600 mb-8">
-We are grateful to our sponsors and partners for making Triple Helix possible.
+We&rsquo;ve been officially recognized as a cultural asset in our
+              community. The intent of the City of Newport News Cultural
+              Attractions Fund is to &ldquo;add to the quality of life in the
+              community and enhance the City&rsquo;s ability to attract and
+              retain businesses and residents.&rdquo; Triple Helix is a cultural
+              force that enables students to experience STEM as a thrilling,
+              challenging competition&mdash;a proven method for producing STEM
+              culture leaders.
+</p> </div> </div> </div> </section> <!-- Partners preview --> <section class="py-16 px-4 text-center"> <div class="max-w-4xl mx-auto"> <h2 class="text-3xl font-bold text-navy-dark mb-4">
+Who makes it possible?
+</h2> <p class="text-gray-600 mb-8">
+We are grateful to our sponsors and partners for making Triple Helix
+          possible.
 </p> <a href="/partners/" class="inline-block bg-navy-dark text-white font-bold px-6 py-3 rounded hover:bg-navy transition-colors">
 See all our partners
-</a> </div> </section> <!-- Publications preview --> <section class="bg-gray-50 py-16 px-4"> <div class="max-w-5xl mx-auto"> <h2 class="text-3xl font-bold text-navy-dark mb-8">Our latest publications</h2> <ul class="grid gap-6 md:grid-cols-3"> <li class="bg-white rounded shadow-sm p-5">  <p class="text-xs text-gray-400 mb-1"> November 21, 2025 </p> <h3 class="font-bold text-navy mb-2"> <a href="/publications/2025-11-21-2026-preseason-cad-release/" class="hover:text-gold transition-colors"> 2026 preseason CAD release </a> </h3> <p class="text-sm text-gray-600 mb-3">Triple Helix developed new models for a swerve robot frame and bumpers. The team plans to use these designs in the upcoming 2026 FIRST Robotics Competition season.</p> <ul class="flex flex-wrap gap-2"> <li> <a href="https://grabcad.com/library/team-2363-preseason-bumpers-and-frame-1" target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-gold hover:underline"> GrabCAD library →
-</a> </li> </ul> </li><li class="bg-white rounded shadow-sm p-5"> <img src="/_astro/GenomePiCAD.DZfNVFes_Zdybfa.webp" alt loading="lazy" decoding="async" fetchpriority="auto" width="1307" height="952" class="w-full h-40 object-cover rounded mb-4"> <p class="text-xs text-gray-400 mb-1"> November 18, 2025 </p> <h3 class="font-bold text-navy mb-2"> <a href="/publications/2025-11-18-genome-pi-2025-cad-release/" class="hover:text-gold transition-colors"> Genome Pi (2025) CAD release </a> </h3> <p class="text-sm text-gray-600 mb-3">Latest complete CAD model of Genome Pi, the Triple Helix robot for the 2025 FIRST Robotics Competition game, Reefscape.</p> <ul class="flex flex-wrap gap-2"> <li> <a href="https://grabcad.com/library/2363-frc-2025-1" target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-gold hover:underline"> GrabCAD library →
-</a> </li> </ul> </li><li class="bg-white rounded shadow-sm p-5"> <img src="/_astro/Screenshot-2024-01-06-090926.32X3m-jM_2rx0bY.webp" alt loading="lazy" decoding="async" fetchpriority="auto" width="733" height="739" class="w-full h-40 object-cover rounded mb-4"> <p class="text-xs text-gray-400 mb-1"> January 6, 2024 </p> <h3 class="font-bold text-navy mb-2"> <a href="/publications/2024-01-06-genome-xi-2023-cad-release/" class="hover:text-gold transition-colors"> Genome Xi (2023) CAD release </a> </h3> <p class="text-sm text-gray-600 mb-3">Latest complete CAD model of Genome Xi, the Triple Helix robot for the 2023 FIRST Robotics Competition game, Charged Up.</p> <ul class="flex flex-wrap gap-2"> <li> <a href="https://grabcad.com/library/2363-triple-helix-genome-xi-2023-1" target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-gold hover:underline"> GrabCAD library →
+</a> </div> </section> <!-- Publications preview --> <section class="bg-gray-50 py-16 px-4"> <div class="max-w-5xl mx-auto"> <h2 class="text-3xl font-bold text-navy-dark mb-8">
+Our latest publications
+</h2> <ul class="grid gap-6 md:grid-cols-3"> <li class="bg-white rounded shadow-sm p-5">  <p class="text-xs text-gray-400 mb-1"> November 21, 2025 </p> <h3 class="font-bold text-navy mb-2"> <a href="/publications/2025-11-21-2026-preseason-cad-release/" class="hover:text-gold transition-colors"> 2026 preseason CAD release </a> </h3> <p class="text-sm text-gray-600 mb-3"> Triple Helix developed new models for a swerve robot frame and bumpers. The team plans to use these designs in the upcoming 2026 FIRST Robotics Competition season. </p> <ul class="flex flex-wrap gap-2"> <li> <a href="https://grabcad.com/library/team-2363-preseason-bumpers-and-frame-1" target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-gold hover:underline"> GrabCAD library →
+</a> </li> </ul> </li><li class="bg-white rounded shadow-sm p-5"> <img src="/_astro/GenomePiCAD.DZfNVFes_Zdybfa.webp" alt loading="lazy" decoding="async" fetchpriority="auto" width="1307" height="952" class="w-full h-40 object-cover rounded mb-4"> <p class="text-xs text-gray-400 mb-1"> November 18, 2025 </p> <h3 class="font-bold text-navy mb-2"> <a href="/publications/2025-11-18-genome-pi-2025-cad-release/" class="hover:text-gold transition-colors"> Genome Pi (2025) CAD release </a> </h3> <p class="text-sm text-gray-600 mb-3"> Latest complete CAD model of Genome Pi, the Triple Helix robot for the 2025 FIRST Robotics Competition game, Reefscape. </p> <ul class="flex flex-wrap gap-2"> <li> <a href="https://grabcad.com/library/2363-frc-2025-1" target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-gold hover:underline"> GrabCAD library →
+</a> </li> </ul> </li><li class="bg-white rounded shadow-sm p-5"> <img src="/_astro/Screenshot-2024-01-06-090926.32X3m-jM_2rx0bY.webp" alt loading="lazy" decoding="async" fetchpriority="auto" width="733" height="739" class="w-full h-40 object-cover rounded mb-4"> <p class="text-xs text-gray-400 mb-1"> January 6, 2024 </p> <h3 class="font-bold text-navy mb-2"> <a href="/publications/2024-01-06-genome-xi-2023-cad-release/" class="hover:text-gold transition-colors"> Genome Xi (2023) CAD release </a> </h3> <p class="text-sm text-gray-600 mb-3"> Latest complete CAD model of Genome Xi, the Triple Helix robot for the 2023 FIRST Robotics Competition game, Charged Up. </p> <ul class="flex flex-wrap gap-2"> <li> <a href="https://grabcad.com/library/2363-triple-helix-genome-xi-2023-1" target="_blank" rel="noopener noreferrer" class="text-xs font-medium text-gold hover:underline"> GrabCAD library →
 </a> </li> </ul> </li> </ul> <div class="mt-8 text-center"> <a href="/publications/" class="inline-block border-2 border-navy-dark text-navy-dark font-bold px-6 py-3 rounded hover:bg-navy-dark hover:text-white transition-colors">
 See all publications
 </a> </div> </div> </section> <!-- Join / Recruitment --> <section id="join" class="py-16 px-4 bg-navy-dark text-white"> <div class="max-w-4xl mx-auto"> <h2 class="text-3xl font-bold mb-4">Interested in joining?</h2> <p class="text-gray-300 mb-4">
-Great! We need your contribution to the team, even if you don&rsquo;t want to build
-          robots, or even if you don&rsquo;t have any prior experience.
+Great! We need your contribution to the team, even if you don&rsquo;t
+          want to build robots, or even if you don&rsquo;t have any prior
+          experience.
 </p> <a href="/contact/" class="inline-block bg-gold text-navy-dark font-bold px-6 py-3 rounded hover:bg-yellow-400 transition-colors">
 Get in touch →
 </a> </div> </section> </main> <footer class="bg-navy-dark text-white"> <div class="max-w-6xl mx-auto px-4 pt-12 pb-8"> <!-- Brand row --> <div class="mb-8"> <p class="text-gold font-bold text-lg">Triple Helix Robotics</p> </div> <!-- 3-column grid --> <div class="grid gap-10 md:grid-cols-3"> <!-- Get in touch --> <div> <h2 class="font-bold mb-4">Get in touch</h2> <ul class="space-y-2"> <li> <a href="https://maps.app.goo.gl/Y2VosW3wmbiVZwp48" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"> <svg width="1em" height="1em" class="w-4 h-4 shrink-0" aria-hidden="true" data-icon="lucide:map-pin">   <symbol id="ai:lucide:map-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></g></symbol><use href="#ai:lucide:map-pin"></use>  </svg>
