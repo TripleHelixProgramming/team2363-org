@@ -21,9 +21,19 @@ const maxTs = new Date(maxYear, 11, 31, 23, 59, 59).getTime();
 const tsRange = maxTs - minTs;
 // Year tick marks at Jan 1 of each year
 const yearMarks = Array.from({ length: maxYear - minYear + 1 }, (_, i) => minYear + i);
-// Lightweight pub data for reactive count (categories + timestamp)
+// Lightweight pub data for reactive count (categories, timestamp, search string)
 const pubData = JSON.stringify(
-  publications.map((p) => ({ c: p.data.categories, t: p.data.date.getTime() }))
+  publications.map((p) => ({
+    c: p.data.categories,
+    t: p.data.date.getTime(),
+    s: [
+      p.data.title,
+      p.body ?? '',
+      ...(p.data.links ?? []).flatMap((l) => [l.label, l.url]),
+    ]
+      .join(' ')
+      .toLowerCase(),
+  }))
 );
 ---
 
@@ -41,9 +51,18 @@ const pubData = JSON.stringify(
 
     <!-- Filters (Alpine.js) -->
     <div
-      x-data={`{ active: 'All', tsFrom: ${minTs}, tsTo: ${maxTs}, pubs: ${pubData}, get count() { return this.pubs.filter(p => (this.active === 'All' || p.c.includes(this.active)) && p.t >= this.tsFrom && p.t <= this.tsTo).length; } }`}
+      x-data={`{ active: 'All', tsFrom: ${minTs}, tsTo: ${maxTs}, query: '', pubs: ${pubData}, get count() { const q = this.query.trim().toLowerCase(); return this.pubs.filter(p => (this.active === 'All' || p.c.includes(this.active)) && p.t >= this.tsFrom && p.t <= this.tsTo && (!q || p.s.includes(q))).length; } }`}
       class="mb-10"
     >
+      <div class="mb-4">
+        <input
+          type="search"
+          x-model="query"
+          placeholder="Search publications…"
+          class="w-full border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-navy"
+        />
+      </div>
+
       <div class="flex flex-wrap gap-2 mb-4">
         {['All', ...allCategories].map((cat) => (
           <button
@@ -129,7 +148,14 @@ const pubData = JSON.stringify(
         {
           publications.map((pub) => (
             <li
-              x-show={`(active === 'All' || ${JSON.stringify(pub.data.categories)}.includes(active)) && ${pub.data.date.getTime()} >= tsFrom && ${pub.data.date.getTime()} <= tsTo`}
+              x-show={`(active === 'All' || ${JSON.stringify(pub.data.categories)}.includes(active)) && ${pub.data.date.getTime()} >= tsFrom && ${pub.data.date.getTime()} <= tsTo && (!query.trim() || $el.dataset.search.includes(query.trim().toLowerCase()))`}
+              data-search={[
+                pub.data.title,
+                pub.body ?? '',
+                ...(pub.data.links ?? []).flatMap((l) => [l.label, l.url]),
+              ]
+                .join(' ')
+                .toLowerCase()}
               class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow"
             >
               {pub.data.thumbnail && (
