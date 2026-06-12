@@ -3,26 +3,30 @@
 // Edit the `items` array below to change the four accomplishment cards,
 // or edit the prose paragraphs directly in the template below.
 
-import IconCard from "../../components/IconCard.astro";
+import { Image } from "astro:assets";
+import photoStudentOutcomes from "./accomplishment-student-outcomes.jpg";
+import photoCompetition from "./accomplishment-competition.jpeg";
+import photoRumble from "./accomplishment-rumble.jpg";
+import photoCommunity from "./accomplishment-community.jpg";
 
 const items = [
   {
-    icon: "lucide:graduation-cap",
+    photo: photoStudentOutcomes,
     heading: "Student outcomes",
     body: "At least 93% of our students pursue college educations, with 80% entering a STEM career path. Graduating seniors report that their Triple Helix experiences award them \u201ca glimpse into the type of job I want to have professionally, a more complete understanding of project management, friendships that I will never forget, and leadership skills to take into college and the workplace.\u201d Another stated \u201cI learned what I wanted to do in life.\u201d",
   },
   {
-    icon: "lucide:trophy",
+    photo: photoCompetition,
     heading: "Competition excellence",
     body: "Triple Helix competed in the 2023 FIRST Championship and won the Innovation in Control award. The team also won every in-season event in the 2022 and 2023 sessions. Triple Helix also did not let the disruption of moving shops into the 2024 session affect them significantly, with the lowest in-season result being eliminated in the semifinals and the best result being a win in the 2nd competition.",
   },
   {
-    icon: "lucide:flag",
+    photo: photoRumble,
     heading: "Rumble in the Roads",
     body: "Triple Helix established the Rumble in the Roads as the premier offseason FIRST Robotics Competition tournament in southeast Virginia. A collaboration between Triple Helix, Blackwater Robotics, and the Cat 5 Cybercanes, the Rumble engages over 30 teams in a one-day competition each fall. The Rumble is open to the public and free to attend.",
   },
   {
-    icon: "lucide:star",
+    photo: photoCommunity,
     heading: "Community recognition",
     body: "We\u2019ve been officially recognized as a cultural asset in our community. The intent of the City of Newport News Cultural Attractions Fund is to \u201cadd to the quality of life in the community and enhance the City\u2019s ability to attract and retain businesses and residents.\u201d Triple Helix is a cultural force that enables students to experience STEM as a thrilling, challenging competition\u2014a proven method for producing STEM culture leaders.",
   },
@@ -56,7 +60,22 @@ const items = [
       Our major accomplishments include:
     </p>
     <div class="grid gap-8 md:grid-cols-2">
-      {items.map((a) => <IconCard variant="card" {...a} />)}
+      {
+        items.map((item) => (
+          <div class="bg-white rounded shadow-sm overflow-hidden">
+            <Image
+              src={item.photo}
+              alt=""
+              class="w-full h-48 object-cover"
+              aria-hidden="true"
+            />
+            <div class="p-6">
+              <h3 class="font-bold text-navy mb-2">{item.heading}</h3>
+              <p class="text-gray-600 text-sm">{item.body}</p>
+            </div>
+          </div>
+        ))
+      }
     </div>
   </div>
 </section>
