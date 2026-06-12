@@ -3,6 +3,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "prettier --write .",
     "build": "astro build",
     "preview": "astro preview",
     "format": "prettier --write .",
