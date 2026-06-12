@@ -51,7 +51,7 @@ const pubData = JSON.stringify(
 
     <!-- Filters (Alpine.js) -->
     <div
-      x-data={`{ active: 'All', tsFrom: ${minTs}, tsTo: ${maxTs}, query: '', pubs: ${pubData}, get count() { const q = this.query.trim().toLowerCase(); return this.pubs.filter(p => (this.active === 'All' || p.c.includes(this.active)) && p.t >= this.tsFrom && p.t <= this.tsTo && (!q || p.s.includes(q))).length; } }`}
+      x-data={`{ active: 'All', tsFrom: ${minTs}, tsTo: ${maxTs}, query: '', limit: 12, pubs: ${pubData}, get count() { const q = this.query.trim().toLowerCase(); return this.pubs.filter(p => (this.active === 'All' || p.c.includes(this.active)) && p.t >= this.tsFrom && p.t <= this.tsTo && (!q || p.s.includes(q))).length; }, get visible() { const q = this.query.trim().toLowerCase(); let n = 0; return this.pubs.map(p => { const m = (this.active === 'All' || p.c.includes(this.active)) && p.t >= this.tsFrom && p.t <= this.tsTo && (!q || p.s.includes(q)); return m && n++ < this.limit; }); } }`}
       class="mb-10"
     >
       <div class="mb-4">
@@ -75,7 +75,7 @@ const pubData = JSON.stringify(
         ))}
       </div>
       <p class="text-sm text-gray-500 mb-6">
-        Showing <span class="font-medium text-navy" x-text="count"></span> of {publications.length}
+        Showing <span class="font-medium text-navy" x-text="Math.min(limit, count)"></span> of {publications.length}
       </p>
 
       <!-- Date range slider -->
@@ -146,16 +146,9 @@ const pubData = JSON.stringify(
       <!-- Publication list -->
       <ul class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
         {
-          publications.map((pub) => (
+          publications.map((pub, i) => (
             <li
-              x-show={`(active === 'All' || ${JSON.stringify(pub.data.categories)}.includes(active)) && ${pub.data.date.getTime()} >= tsFrom && ${pub.data.date.getTime()} <= tsTo && (!query.trim() || $el.dataset.search.includes(query.trim().toLowerCase()))`}
-              data-search={[
-                pub.data.title,
-                pub.body ?? '',
-                ...(pub.data.links ?? []).flatMap((l) => [l.label, l.url]),
-              ]
-                .join(' ')
-                .toLowerCase()}
+              x-show={`visible[${i}]`}
               class="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-md transition-shadow"
             >
               {pub.data.thumbnail && (
@@ -213,6 +206,15 @@ const pubData = JSON.stringify(
           ))
         }
       </ul>
+
+      <div x-show="count > limit" class="mt-8 text-center">
+        <button
+          @click="limit += 12"
+          class="border-2 border-navy-dark text-navy-dark font-bold px-6 py-3 rounded hover:bg-navy-dark hover:text-white transition-colors"
+        >
+          Show more <span x-text="`(${count - limit} remaining)`"></span>
+        </button>
+      </div>
     </div>
   </main>
 
