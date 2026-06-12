@@ -4,13 +4,13 @@ Source code for the Triple Helix Robotics website at [team2363.org](https://team
 
 ## Stack
 
-| Tool | Role |
-|------|------|
-| [Astro](https://astro.build) | Static site generator. Builds the site to plain HTML/CSS/JS. |
-| [Tailwind CSS](https://tailwindcss.com) | Utility-first CSS framework for styling. |
-| [Alpine.js](https://alpinejs.dev) | Lightweight JavaScript for interactive elements (nav toggle, publication filter). Loaded via CDN — no build step. |
-| [Prettier](https://prettier.io) + [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro) | Code formatter for `.astro`, `.ts`, `.md`, and `.json` files. |
-| GitHub Actions | CI (format check + build) and CD (deploy to GitHub Pages) on every push. |
+| Tool                                                                                                          | Role                                                                                                              |
+| ------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| [Astro](https://astro.build)                                                                                  | Static site generator. Builds the site to plain HTML/CSS/JS.                                                      |
+| [Tailwind CSS](https://tailwindcss.com)                                                                       | Utility-first CSS framework for styling.                                                                          |
+| [Alpine.js](https://alpinejs.dev)                                                                             | Lightweight JavaScript for interactive elements (nav toggle, publication filter). Loaded via CDN — no build step. |
+| [Prettier](https://prettier.io) + [prettier-plugin-astro](https://github.com/withastro/prettier-plugin-astro) | Code formatter for `.astro`, `.ts`, `.md`, and `.json` files.                                                     |
+| GitHub Actions                                                                                                | CI (format check + build) and CD (deploy to GitHub Pages) on every push.                                          |
 
 ## Prerequisites
 

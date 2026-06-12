@@ -3,7 +3,7 @@
 ## Goal
 
 Replace the WordPress site at team2363.org with a static site for Triple Helix
-Robotics (FRC Team 2363). Reuse the *content and behavior* of the current
+Robotics (FRC Team 2363). Reuse the _content and behavior_ of the current
 site, not its architecture. Use modern, low-dependency tooling similar in
 spirit to [iifound-org](../iifound-org), refresh the visual design, and make
 the repo approachable enough that high-school students can contribute content
@@ -101,7 +101,7 @@ This is the highest-priority "student-facing" piece.
 ## Closed questions
 
 - **Sponsor logos:** ✓ All 18 logos downloaded and co-located in
-  `src/pages/partners/sponsor-logos/`, optimized to WebP at build time. 
+  `src/pages/partners/sponsor-logos/`, optimized to WebP at build time.
 - **Contact form:** ✓ Formspree endpoint `mvznwnng` set in `src/pages/contact/index.astro`.
 - **Hosting/domain:** ✓ GitHub Pages at `https://team2363.org`. `site: 'https://team2363.org'`
   set in `astro.config.mjs`. No `base` path needed (custom domain serves from root).
@@ -111,7 +111,7 @@ This is the highest-priority "student-facing" piece.
 
   ## Open questions
 
-- **Sponsors:** Verify which sponsors are still active before launch (e.g. SPAWAR → NIWC 
+- **Sponsors:** Verify which sponsors are still active before launch (e.g. SPAWAR → NIWC
   Atlantic already updated; others may have changed).
 - **Mailchimp inline validation:** Mailchimp's `mc-validate.js` requires jQuery (not loaded
   on this site). On submit the form currently redirects to Mailchimp's hosted confirmation page.

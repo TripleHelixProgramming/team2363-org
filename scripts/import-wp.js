@@ -69,7 +69,10 @@ function htmlToMd(html) {
     (_, c) => `\n## ${stripTags(c).trim()}\n\n`,
   );
   // List items (before stripping ul/ol)
-  s = s.replace(/<li[^>]*>([\s\S]*?)<\/li>/gi, (_, c) => `- ${stripTags(c).trim()}\n`);
+  s = s.replace(
+    /<li[^>]*>([\s\S]*?)<\/li>/gi,
+    (_, c) => `- ${stripTags(c).trim()}\n`,
+  );
   s = s.replace(/<\/?[uo]l[^>]*>/gi, '');
   // Links → Markdown inline links
   s = s.replace(
@@ -126,7 +129,11 @@ function yamlStr(str) {
   // Only double quotes: wrap in single quotes
   if (hasDouble) return `'${str}'`;
   // No quotes but YAML-special characters: wrap in double quotes
-  if (/[:#{}\[\]|>&*!,%@`]/.test(str) || /^\s|\s$/.test(str) || str.startsWith('-'))
+  if (
+    /[:#{}\[\]|>&*!,%@`]/.test(str) ||
+    /^\s|\s$/.test(str) ||
+    str.startsWith('-')
+  )
     return `"${str}"`;
   return str;
 }
@@ -182,7 +189,9 @@ for (const raw of xml.split('<item>').slice(1)) {
   } else if (rawContent) {
     const firstParaM = rawContent.match(/<p[^>]*>([\s\S]*?)<\/p>/i);
     if (firstParaM) {
-      const plain = decodeEntities(stripTags(firstParaM[1])).replace(/\s+/g, ' ').trim();
+      const plain = decodeEntities(stripTags(firstParaM[1]))
+        .replace(/\s+/g, ' ')
+        .trim();
       description = plain.length > 300 ? plain.slice(0, 297) + '…' : plain;
     }
   }

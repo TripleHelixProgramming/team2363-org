@@ -3,50 +3,153 @@
     {
       "name": "Strategic & founding partners",
       "sponsors": [
-        { "name": "NASA Langley Research Center", "url": "https://www.nasa.gov/langley", "logo": "nasa.png" },
-        { "name": "U.S. Army Research Laboratory", "url": "https://www.arl.army.mil/", "logo": "arl.png" }
+        {
+          "name": "NASA Langley Research Center",
+          "url": "https://www.nasa.gov/langley",
+          "logo": "nasa.png"
+        },
+        {
+          "name": "U.S. Army Research Laboratory",
+          "url": "https://www.arl.army.mil/",
+          "logo": "arl.png"
+        }
       ]
     },
     {
       "name": "Major sponsors",
       "sponsors": [
-        { "name": "Intentional Innovation Foundation", "url": "https://www.iifound.org/", "logo": "iif.png" },
-        { "name": "DoDSTEM", "url": "https://dodstem.us/", "logo": "dodstem.jpg" },
-        { "name": "NIWC Atlantic", "url": "https://www.niwcatlantic.navy.mil/", "logo": "niwc.jpg" },
-        { "name": "Newport News Public Schools", "url": "https://sbo.nn.k12.va.us/", "logo": "nnps.jpg" },
-        { "name": "Lockheed Martin", "url": "https://www.lockheedmartin.com/", "logo": "lockheed.png" },
-        { "name": "Community Knights", "url": "https://communityknights.org/", "logo": "communityknights.jpg" },
-        { "name": "The Boeing Company", "url": "https://www.boeing.com/", "logo": "boeing.jpg" },
-        { "name": "TE Connectivity", "url": "https://www.te.com/", "logo": "te.png" },
-        { "name": "REV Robotics", "url": "https://www.revrobotics.com/", "logo": "rev.jpg" },
-        { "name": "The MITRE Corporation", "url": "https://www.mitre.org/", "logo": "mitre.png" }
+        {
+          "name": "Intentional Innovation Foundation",
+          "url": "https://www.iifound.org/",
+          "logo": "iif.png"
+        },
+        {
+          "name": "DoDSTEM",
+          "url": "https://dodstem.us/",
+          "logo": "dodstem.jpg"
+        },
+        {
+          "name": "NIWC Atlantic",
+          "url": "https://www.niwcatlantic.navy.mil/",
+          "logo": "niwc.jpg"
+        },
+        {
+          "name": "Newport News Public Schools",
+          "url": "https://sbo.nn.k12.va.us/",
+          "logo": "nnps.jpg"
+        },
+        {
+          "name": "Lockheed Martin",
+          "url": "https://www.lockheedmartin.com/",
+          "logo": "lockheed.png"
+        },
+        {
+          "name": "Community Knights",
+          "url": "https://communityknights.org/",
+          "logo": "communityknights.jpg"
+        },
+        {
+          "name": "The Boeing Company",
+          "url": "https://www.boeing.com/",
+          "logo": "boeing.jpg"
+        },
+        {
+          "name": "TE Connectivity",
+          "url": "https://www.te.com/",
+          "logo": "te.png"
+        },
+        {
+          "name": "REV Robotics",
+          "url": "https://www.revrobotics.com/",
+          "logo": "rev.jpg"
+        },
+        {
+          "name": "The MITRE Corporation",
+          "url": "https://www.mitre.org/",
+          "logo": "mitre.png"
+        }
       ]
     },
     {
       "name": "Community sponsors & core stakeholders",
       "sponsors": [
-        { "name": "Rumble in the Roads", "url": "https://rumble.events/", "logo": "rumble.png" },
-        { "name": "Virginia AeroSpace Business Association", "url": "https://www.vasba.aero/", "logo": "vasba.png" },
-        { "name": "City of Newport News, VA", "url": "https://www.nnva.gov/", "logo": "newport-news.png" },
-        { "name": "Dominion Energy Charitable Foundation", "url": "https://www.dominionenergy.com/", "logo": "dominion.jpg" },
+        {
+          "name": "Rumble in the Roads",
+          "url": "https://rumble.events/",
+          "logo": "rumble.png"
+        },
+        {
+          "name": "Virginia AeroSpace Business Association",
+          "url": "https://www.vasba.aero/",
+          "logo": "vasba.png"
+        },
+        {
+          "name": "City of Newport News, VA",
+          "url": "https://www.nnva.gov/",
+          "logo": "newport-news.png"
+        },
+        {
+          "name": "Dominion Energy Charitable Foundation",
+          "url": "https://www.dominionenergy.com/",
+          "logo": "dominion.jpg"
+        },
         { "name": "PTC", "url": "https://www.ptc.com/", "logo": "ptc.png" },
-        { "name": "FIRST Chesapeake", "url": "https://www.firstchesapeake.org/", "logo": "first-chesapeake.png" }
+        {
+          "name": "FIRST Chesapeake",
+          "url": "https://www.firstchesapeake.org/",
+          "logo": "first-chesapeake.png"
+        }
       ]
     }
   ],
   "weAlsoThank": [
-    "SAIC", "Raytheon", "Langley Federal Credit Union", "Showbest Fixture Corporation",
-    "Anonymous donors", "STIHL", "First Baptist Church Denbigh", "Yuriy Krushelnytskiy",
-    "KATO", "YakAttack", "Todd & Janelle Ferrante", "BAE Systems Newport News Ship Repair",
-    "Triad Machine Shop", "Clippard", "Q-Free Open Roads", "Analytical Mechanics Associates",
-    "R&L Machine Shop", "Canon Virginia", "Christopher Newport University",
-    "Jefferson Science Associates", "Peninsula Custom Coaters", "Solidworks", "Slack",
-    "InSource", "Dreamhost", "Williamsburg Regional Library", "Google",
-    "Michael & Patricia Laverdure", "Melissa & Pat Simpson", "Walmart", "Nomaco",
-    "The Junior Woman's Club of Hilton Village", "Swisslog Logistics", "Continental",
-    "Best Buy", "Newport News Shipbuilding - Huntington Ingalls Industries",
-    "Booz Allen Hamilton", "Anthem Foundation", "BAE Systems", "Symantec",
-    "Cox Communications", "AmericanMuscle.com", "Menchville High School",
-    "Intuitive Foundation", "Bailey Glasser", "Shapiro Washburn & Sharp", "Adobe", "Bonefish Grill"
+    "SAIC",
+    "Raytheon",
+    "Langley Federal Credit Union",
+    "Showbest Fixture Corporation",
+    "Anonymous donors",
+    "STIHL",
+    "First Baptist Church Denbigh",
+    "Yuriy Krushelnytskiy",
+    "KATO",
+    "YakAttack",
+    "Todd & Janelle Ferrante",
+    "BAE Systems Newport News Ship Repair",
+    "Triad Machine Shop",
+    "Clippard",
+    "Q-Free Open Roads",
+    "Analytical Mechanics Associates",
+    "R&L Machine Shop",
+    "Canon Virginia",
+    "Christopher Newport University",
+    "Jefferson Science Associates",
+    "Peninsula Custom Coaters",
+    "Solidworks",
+    "Slack",
+    "InSource",
+    "Dreamhost",
+    "Williamsburg Regional Library",
+    "Google",
+    "Michael & Patricia Laverdure",
+    "Melissa & Pat Simpson",
+    "Walmart",
+    "Nomaco",
+    "The Junior Woman's Club of Hilton Village",
+    "Swisslog Logistics",
+    "Continental",
+    "Best Buy",
+    "Newport News Shipbuilding - Huntington Ingalls Industries",
+    "Booz Allen Hamilton",
+    "Anthem Foundation",
+    "BAE Systems",
+    "Symantec",
+    "Cox Communications",
+    "AmericanMuscle.com",
+    "Menchville High School",
+    "Intuitive Foundation",
+    "Bailey Glasser",
+    "Shapiro Washburn & Sharp",
+    "Adobe",
+    "Bonefish Grill"
   ]
 }

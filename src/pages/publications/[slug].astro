@@ -44,8 +44,7 @@ const { title, date, categories, links, thumbnail } = entry.data;
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-width="2"
-          d="M15 19l-7-7 7-7"
-        ></path>
+          d="M15 19l-7-7 7-7"></path>
       </svg>
       All publications
     </a>
@@ -120,7 +119,7 @@ const { title, date, categories, links, thumbnail } = entry.data;
                       stroke-linejoin="round"
                       stroke-width="2"
                       d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-                    ></path>
+                    />
                   </svg>
                 </a>
               </li>
@@ -139,7 +138,9 @@ const { title, date, categories, links, thumbnail } = entry.data;
                 href={`/publications/${prev.id.replace(/\/index\.md$/, "")}/`}
                 class="group flex flex-col gap-1"
               >
-                <span class="text-xs text-gray-400 group-hover:text-navy transition-colors">← Older</span>
+                <span class="text-xs text-gray-400 group-hover:text-navy transition-colors">
+                  ← Older
+                </span>
                 <span class="text-sm font-medium text-navy group-hover:text-gold transition-colors leading-snug">
                   {prev.data.title}
                 </span>
@@ -152,7 +153,9 @@ const { title, date, categories, links, thumbnail } = entry.data;
                 href={`/publications/${next.id.replace(/\/index\.md$/, "")}/`}
                 class="group flex flex-col gap-1"
               >
-                <span class="text-xs text-gray-400 group-hover:text-navy transition-colors">Newer →</span>
+                <span class="text-xs text-gray-400 group-hover:text-navy transition-colors">
+                  Newer →
+                </span>
                 <span class="text-sm font-medium text-navy group-hover:text-gold transition-colors leading-snug">
                   {next.data.title}
                 </span>

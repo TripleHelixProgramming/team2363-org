@@ -17,7 +17,10 @@ import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const xmlPath = join(__dirname, '../content/triplehelixrobotics.WordPress.2026-06-12.xml');
+const xmlPath = join(
+  __dirname,
+  '../content/triplehelixrobotics.WordPress.2026-06-12.xml',
+);
 const publicDir = join(__dirname, '../public');
 
 const WP_ORIGIN = 'https://team2363.org';
@@ -73,7 +76,9 @@ async function download(url, localPath) {
 // ---------------------------------------------------------------------------
 // Download all attachments
 // ---------------------------------------------------------------------------
-let downloaded = 0, skipped = 0, errors = 0;
+let downloaded = 0,
+  skipped = 0,
+  errors = 0;
 
 for (const url of attachmentUrls) {
   const localPath = localPathFor(url);
@@ -85,10 +90,20 @@ for (const url of attachmentUrls) {
   process.stdout.write(`  ${url.replace(WP_ORIGIN, '')} ... `);
   const result = await download(url, localPath);
 
-  if (result === 'downloaded') { downloaded++; console.log('✓'); }
-  else if (result === 'skip')  { skipped++;    console.log('(exists)'); }
-  else                         { errors++;     } // error already printed
+  if (result === 'downloaded') {
+    downloaded++;
+    console.log('✓');
+  } else if (result === 'skip') {
+    skipped++;
+    console.log('(exists)');
+  } else {
+    errors++;
+  } // error already printed
 }
 
-console.log(`\nDownload complete: ${downloaded} new, ${skipped} skipped, ${errors} errors`);
-console.log('\nNote: publication thumbnails are handled by scripts/migrate-to-dirs.js');
+console.log(
+  `\nDownload complete: ${downloaded} new, ${skipped} skipped, ${errors} errors`,
+);
+console.log(
+  '\nNote: publication thumbnails are handled by scripts/migrate-to-dirs.js',
+);

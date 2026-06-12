@@ -45,10 +45,19 @@ function decodeEntities(str) {
 function htmlToText(html) {
   let s = html;
   s = s.replace(/<!--[\s\S]*?-->/g, '');
-  s = s.replace(/<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/gi, (_, c) => `\n### ${stripTags(c).trim()}\n`);
-  s = s.replace(/<li[^>]*>([\s\S]*?)<\/li>/gi, (_, c) => `- ${stripTags(c).trim()}\n`);
+  s = s.replace(
+    /<h[1-6][^>]*>([\s\S]*?)<\/h[1-6]>/gi,
+    (_, c) => `\n### ${stripTags(c).trim()}\n`,
+  );
+  s = s.replace(
+    /<li[^>]*>([\s\S]*?)<\/li>/gi,
+    (_, c) => `- ${stripTags(c).trim()}\n`,
+  );
   s = s.replace(/<\/?[uo]l[^>]*>/gi, '\n');
-  s = s.replace(/<blockquote[^>]*>([\s\S]*?)<\/blockquote>/gi, (_, c) => `\n> ${stripTags(c).trim()}\n`);
+  s = s.replace(
+    /<blockquote[^>]*>([\s\S]*?)<\/blockquote>/gi,
+    (_, c) => `\n> ${stripTags(c).trim()}\n`,
+  );
   s = s.replace(/<br\s*\/?>/gi, '\n');
   s = s.replace(/<\/p>/gi, '\n\n');
   s = s.replace(/<p[^>]*>/gi, '');

@@ -1,15 +1,15 @@
 ---
-import type { ImageMetadata } from 'astro';
-import { Image } from 'astro:assets';
-import { Icon } from 'astro-icon/components';
-import Base from '../../layouts/Base.astro';
-import Nav from '../../components/Nav.astro';
-import Footer from '../../components/Footer.astro';
-import sponsorsData from './sponsors.json';
+import type { ImageMetadata } from "astro";
+import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
+import Base from "../../layouts/Base.astro";
+import Nav from "../../components/Nav.astro";
+import Footer from "../../components/Footer.astro";
+import sponsorsData from "./sponsors.json";
 
 const logoModules = import.meta.glob<{ default: ImageMetadata }>(
-  './sponsor-logos/*.{png,jpg,jpeg,webp,svg}',
-  { eager: true }
+  "./sponsor-logos/*.{png,jpg,jpeg,webp,svg}",
+  { eager: true },
 );
 
 function getLogo(filename: string): ImageMetadata | undefined {
@@ -18,36 +18,36 @@ function getLogo(filename: string): ImageMetadata | undefined {
 
 const sponsorshipTiers = [
   {
-    name: 'Visionary partners',
-    level: 'Elite level',
-    amount: '$10,000+ annual contribution',
-    icon: 'lucide:gem',
+    name: "Visionary partners",
+    level: "Elite level",
+    amount: "$10,000+ annual contribution",
+    icon: "lucide:gem",
     description:
       "Triple Helix celebrates our relationship with these strategic and founding partners by displaying the sponsoring organization's logo on the team's competition robot, the organization's name on team t-shirts, and the organization's name or logo on this website, along with a shout-out at competition and social media recognition.",
   },
   {
-    name: 'Innovation sponsors',
-    level: 'Premium level',
-    amount: '$1,500+ annual contribution',
-    icon: 'lucide:lightbulb',
+    name: "Innovation sponsors",
+    level: "Premium level",
+    amount: "$1,500+ annual contribution",
+    icon: "lucide:lightbulb",
     description:
       "Triple Helix celebrates our relationship with these major sponsors by displaying the sponsoring organization's logo on the team's FIRST Robotics Competition robot for many thousands of eyes to see. We place the organization's name on team t-shirts, we display the organization's name or logo on this website, and we give them a shout-out on our social media.",
   },
   {
-    name: 'Builder sponsors',
-    level: 'Mid level',
-    amount: '$500+ annual contribution',
-    icon: 'lucide:hammer',
+    name: "Builder sponsors",
+    level: "Mid level",
+    amount: "$500+ annual contribution",
+    icon: "lucide:hammer",
     description:
       "Triple Helix celebrates our relationship with these sponsors by displaying the sponsoring organization's name or logo on this website and giving them a shout-out on our social media.",
   },
   {
-    name: 'Spark sponsors',
-    level: 'Entry level',
-    amount: '$200+ annual contribution',
-    icon: 'lucide:zap',
+    name: "Spark sponsors",
+    level: "Entry level",
+    amount: "$200+ annual contribution",
+    icon: "lucide:zap",
     description:
-      'Triple Helix celebrates our relationship with these sponsors by giving the sponsoring organization a shout-out on our social media.',
+      "Triple Helix celebrates our relationship with these sponsors by giving the sponsoring organization a shout-out on our social media.",
   },
 ];
 ---
@@ -61,43 +61,54 @@ const sponsorshipTiers = [
   <main>
     <!-- Intro -->
     <section class="max-w-4xl mx-auto px-4 py-16">
-      <h1 class="text-4xl font-bold text-navy-dark mb-8">Our relationship with our sponsors</h1>
+      <h1 class="text-4xl font-bold text-navy-dark mb-8">
+        Our relationship with our sponsors
+      </h1>
       <p class="text-gray-600 mb-6">
-        Our sponsors are integral parts of Triple Helix and help form the team's identity. Their
-        support extends far beyond monetary donations. Several sponsors provide the team with
-        mentors and advisors, others assist in part production or provide in-kind donation of
-        services or materials, and others provide volunteers during major Triple Helix events.
+        Our sponsors are integral parts of Triple Helix and help form the team's
+        identity. Their support extends far beyond monetary donations. Several
+        sponsors provide the team with mentors and advisors, others assist in
+        part production or provide in-kind donation of services or materials,
+        and others provide volunteers during major Triple Helix events.
       </p>
       <p class="text-gray-600 mb-6">
-        Our sponsors are true partners. Through our work together, we aim to effect a fundamental
-        change that enables our youth a greater access to STEM as a possible career choice. This
-        perspective resonated strongly with judges at a recent competition, who stated:
+        Our sponsors are true partners. Through our work together, we aim to
+        effect a fundamental change that enables our youth a greater access to
+        STEM as a possible career choice. This perspective resonated strongly
+        with judges at a recent competition, who stated:
       </p>
       <blockquote class="border-l-4 border-gold pl-6 my-6 text-gray-600 italic">
-        This year's Chairman's Award winner embodies the definition of an influencer. They're a
-        powerful and compelling force that impacts mentors, corporations, local governments, and
-        school boards who are now embracing the values of FIRST and STEM in their communities.
+        This year's Chairman's Award winner embodies the definition of an
+        influencer. They're a powerful and compelling force that impacts
+        mentors, corporations, local governments, and school boards who are now
+        embracing the values of FIRST and STEM in their communities.
       </blockquote>
       <p class="text-gray-600">
-        To be competitive in the FIRST Robotics Competition is a significant undertaking that
-        requires sustained sponsorship from multiple large funding sources, as well as sustained
-        involvement of volunteer mentors. More than a dozen engineers, designers, software
-        developers, and other technical professionals engage with Triple Helix students in hundreds
-        of contact hours each year. Students team up with these mentors to solve challenging
-        competitive long-term technical projects with real requirements and constraints, ultimately
-        winning recognition, gaining self-confidence, developing people and life skills, making new
-        friends, and discovering an unforeseen career path and a lifetime love of STEM.
+        To be competitive in the FIRST Robotics Competition is a significant
+        undertaking that requires sustained sponsorship from multiple large
+        funding sources, as well as sustained involvement of volunteer mentors.
+        More than a dozen engineers, designers, software developers, and other
+        technical professionals engage with Triple Helix students in hundreds of
+        contact hours each year. Students team up with these mentors to solve
+        challenging competitive long-term technical projects with real
+        requirements and constraints, ultimately winning recognition, gaining
+        self-confidence, developing people and life skills, making new friends,
+        and discovering an unforeseen career path and a lifetime love of STEM.
       </p>
     </section>
 
     <!-- Our partners -->
     <section class="max-w-5xl mx-auto px-4 pb-16">
-      <h2 class="text-3xl font-bold text-navy-dark mb-12 text-center">Our partners</h2>
+      <h2 class="text-3xl font-bold text-navy-dark mb-12 text-center">
+        Our partners
+      </h2>
 
       {
         sponsorsData.tiers.map(({ name, sponsors }) => (
           <div class="mb-12">
-            <h3 class="text-xl font-bold text-navy mb-6 border-b border-gray-200 pb-2">{name}</h3>
+            <h3 class="text-xl font-bold text-navy mb-6 border-b border-gray-200 pb-2">
+              {name}
+            </h3>
             <ul class="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
               {sponsors.map(({ name: sponsorName, url, logo }) => {
                 const src = getLogo(logo);
@@ -138,11 +149,17 @@ const sponsorshipTiers = [
 
       <!-- We also thank -->
       <div>
-        <h3 class="text-xl font-bold text-navy mb-4 border-b border-gray-200 pb-2">We also thank</h3>
+        <h3
+          class="text-xl font-bold text-navy mb-4 border-b border-gray-200 pb-2"
+        >
+          We also thank
+        </h3>
         <ul class="flex flex-wrap gap-x-4 gap-y-2">
-          {sponsorsData.weAlsoThank.map((name) => (
-            <li class="text-sm text-gray-600">{name}</li>
-          ))}
+          {
+            sponsorsData.weAlsoThank.map((name) => (
+              <li class="text-sm text-gray-600">{name}</li>
+            ))
+          }
         </ul>
       </div>
     </section>
@@ -152,40 +169,56 @@ const sponsorshipTiers = [
       <div class="max-w-4xl mx-auto">
         <h2 class="text-3xl font-bold mb-8">Become a donor</h2>
         <p class="text-gray-300 mb-4">
-          Triple Helix has been a consistent leader in advocating for STEM education on the Virginia
-          Peninsula, and we are seeking major corporate sponsors and new community partnerships to
-          bolster our ambitious efforts to create lasting positive change. We need your help to
-          develop the next generation of engineers, scientists, and technologists.
+          Triple Helix has been a consistent leader in advocating for STEM
+          education on the Virginia Peninsula, and we are seeking major
+          corporate sponsors and new community partnerships to bolster our
+          ambitious efforts to create lasting positive change. We need your help
+          to develop the next generation of engineers, scientists, and
+          technologists.
         </p>
         <p class="text-gray-300 mb-8">
-          Triple Helix is an all-volunteer program whose success depends on community support. All
-          forms of support are deeply valued:
+          Triple Helix is an all-volunteer program whose success depends on
+          community support. All forms of support are deeply valued:
         </p>
         <div class="grid gap-6 sm:grid-cols-3 mb-8">
           <div>
-            <Icon name="lucide:package" class="w-7 h-7 text-gold mb-2" aria-hidden="true" />
+            <Icon
+              name="lucide:package"
+              class="w-7 h-7 text-gold mb-2"
+              aria-hidden="true"
+            />
             <h3 class="font-bold text-gold mb-2">In-kind contributions</h3>
             <p class="text-sm text-gray-300">
-              In-kind donations of parts, materials, and tools are used to advance our capabilities
-              and boost the educational experience for our students.
+              In-kind donations of parts, materials, and tools are used to
+              advance our capabilities and boost the educational experience for
+              our students.
             </p>
           </div>
           <div>
-            <Icon name="lucide:banknote" class="w-7 h-7 text-gold mb-2" aria-hidden="true" />
+            <Icon
+              name="lucide:banknote"
+              class="w-7 h-7 text-gold mb-2"
+              aria-hidden="true"
+            />
             <h3 class="font-bold text-gold mb-2">Financial support</h3>
             <p class="text-sm text-gray-300">
-              Funds amplify the team's existing resources and are used to pay for team
-              infrastructure including tools and equipment. By offsetting these internal costs, this
-              support extends our ability to make lasting positive contributions to the community we
-              serve.
+              Funds amplify the team's existing resources and are used to pay
+              for team infrastructure including tools and equipment. By
+              offsetting these internal costs, this support extends our ability
+              to make lasting positive contributions to the community we serve.
             </p>
           </div>
           <div>
-            <Icon name="lucide:heart" class="w-7 h-7 text-gold mb-2" aria-hidden="true" />
+            <Icon
+              name="lucide:heart"
+              class="w-7 h-7 text-gold mb-2"
+              aria-hidden="true"
+            />
             <h3 class="font-bold text-gold mb-2">Service</h3>
             <p class="text-sm text-gray-300">
-              Donations of service hours enrich our program by helping us form exciting connections
-              in our community, and bring valuable new perspectives to our team processes.
+              Donations of service hours enrich our program by helping us form
+              exciting connections in our community, and bring valuable new
+              perspectives to our team processes.
             </p>
           </div>
         </div>
@@ -203,32 +236,47 @@ const sponsorshipTiers = [
     <!-- Sponsorship tiers -->
     <section class="bg-gray-50 py-16 px-4">
       <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold text-navy-dark mb-12 text-center">Sponsorship tiers</h2>
+        <h2 class="text-3xl font-bold text-navy-dark mb-12 text-center">
+          Sponsorship tiers
+        </h2>
         <div class="grid gap-6 sm:grid-cols-2">
           {
-            sponsorshipTiers.map(({ name, level, amount, icon, description }) => (
-              <div class="bg-white rounded p-6 shadow-sm">
-                <div class="flex items-center gap-2 mb-2">
-                  <Icon name={icon} class="w-5 h-5 text-gold shrink-0" aria-hidden="true" />
-                  <h3 class="font-bold text-navy">{name}</h3>
+            sponsorshipTiers.map(
+              ({ name, level, amount, icon, description }) => (
+                <div class="bg-white rounded p-6 shadow-sm">
+                  <div class="flex items-center gap-2 mb-2">
+                    <Icon
+                      name={icon}
+                      class="w-5 h-5 text-gold shrink-0"
+                      aria-hidden="true"
+                    />
+                    <h3 class="font-bold text-navy">{name}</h3>
+                  </div>
+                  <p class="text-xs text-gold font-semibold mb-3">
+                    {level} — {amount}
+                  </p>
+                  <p class="text-sm text-gray-600">{description}</p>
                 </div>
-                <p class="text-xs text-gold font-semibold mb-3">
-                  {level} — {amount}
-                </p>
-                <p class="text-sm text-gray-600">{description}</p>
-              </div>
-            ))
+              ),
+            )
           }
         </div>
         <p class="mt-10 text-sm text-gray-600">
-          Triple Helix solicits tax-deductible monetary donations through our operating sponsor{' '}
-          <a href="https://www.iifound.org/" class="text-navy hover:text-gold transition-colors">
+          Triple Helix solicits tax-deductible monetary donations through our
+          operating sponsor{" "}
+          <a
+            href="https://www.iifound.org/"
+            class="text-navy hover:text-gold transition-colors"
+          >
             Intentional Innovation Foundation
           </a>, a Newport News 501(c)(3) tax-exempt public charity.
         </p>
         <p class="mt-3 text-sm text-gray-600">
-          Wishing to contribute to Triple Helix by another method? Please{' '}
-          <a href="/contact/" class="text-navy hover:text-gold transition-colors">contact us</a>{' '}
+          Wishing to contribute to Triple Helix by another method? Please{" "}
+          <a
+            href="/contact/"
+            class="text-navy hover:text-gold transition-colors">contact us</a
+          >{" "}
           for more information on how you can get involved.
         </p>
       </div>

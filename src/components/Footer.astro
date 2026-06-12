@@ -1,17 +1,45 @@
 ---
-import { Icon } from 'astro-icon/components';
+import { Icon } from "astro-icon/components";
 
 const socialLinks = [
-  { label: 'YouTube', icon: 'simple-icons:youtube', href: 'https://www.youtube.com/@TripleHelix2363' },
-  { label: 'Facebook', icon: 'simple-icons:facebook', href: 'https://www.facebook.com/TripleHelix2363' },
-  { label: 'Instagram', icon: 'simple-icons:instagram', href: 'https://www.instagram.com/triplehelix2363/' },
-  { label: 'GitHub', icon: 'simple-icons:github', href: 'https://github.com/TripleHelixProgramming' },
-  { label: 'LinkedIn', icon: 'simple-icons:linkedin', href: 'https://www.linkedin.com/company/intentional-innovation-foundation/' },
+  {
+    label: "YouTube",
+    icon: "simple-icons:youtube",
+    href: "https://www.youtube.com/@TripleHelix2363",
+  },
+  {
+    label: "Facebook",
+    icon: "simple-icons:facebook",
+    href: "https://www.facebook.com/TripleHelix2363",
+  },
+  {
+    label: "Instagram",
+    icon: "simple-icons:instagram",
+    href: "https://www.instagram.com/triplehelix2363/",
+  },
+  {
+    label: "GitHub",
+    icon: "simple-icons:github",
+    href: "https://github.com/TripleHelixProgramming",
+  },
+  {
+    label: "LinkedIn",
+    icon: "simple-icons:linkedin",
+    href: "https://www.linkedin.com/company/intentional-innovation-foundation/",
+  },
 ];
 
 const resourceLinks = [
-  { label: 'Team Calendar', icon: 'lucide:calendar', href: 'http://calendar.team2363.org' },
-  { label: 'Team Handbook', icon: 'lucide:book-open', href: 'http://handbook.team2363.org' },
+  {
+    label: "Team Calendar",
+    icon: "lucide:calendar",
+    href: "http://calendar.team2363.org",
+  },
+  {
+    label: "Team Handbook",
+    icon: "lucide:book-open",
+    href: "http://handbook.team2363.org",
+  },
 ];
 
 const year = new Date().getFullYear();
@@ -37,7 +65,11 @@ const year = new Date().getFullYear();
               rel="noopener noreferrer"
               class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
             >
-              <Icon name="lucide:map-pin" class="w-4 h-4 shrink-0" aria-hidden="true" />
+              <Icon
+                name="lucide:map-pin"
+                class="w-4 h-4 shrink-0"
+                aria-hidden="true"
+              />
               Peninsula STEM Gym
             </a>
           </li>
@@ -46,7 +78,11 @@ const year = new Date().getFullYear();
               href="/contact/"
               class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
             >
-              <Icon name="lucide:mail" class="w-4 h-4 shrink-0" aria-hidden="true" />
+              <Icon
+                name="lucide:mail"
+                class="w-4 h-4 shrink-0"
+                aria-hidden="true"
+              />
               Contact us
             </a>
           </li>
@@ -66,7 +102,11 @@ const year = new Date().getFullYear();
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Icon name={icon} class="w-4 h-4 shrink-0" aria-hidden="true" />
+                  <Icon
+                    name={icon}
+                    class="w-4 h-4 shrink-0"
+                    aria-hidden="true"
+                  />
                   {label}
                 </a>
               </li>
@@ -88,7 +128,11 @@ const year = new Date().getFullYear();
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <Icon name={icon} class="w-4 h-4 shrink-0" aria-hidden="true" />
+                  <Icon
+                    name={icon}
+                    class="w-4 h-4 shrink-0"
+                    aria-hidden="true"
+                  />
                   {label}
                 </a>
               </li>

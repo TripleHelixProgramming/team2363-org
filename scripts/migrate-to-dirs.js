@@ -34,7 +34,8 @@ const pubsDir = join(__dirname, '../src/content/publications');
 
 // Matches: thumbnail: 'https://...' or thumbnail: "https://..." or bare URL
 // Uses [ \t]* (not \s*) to avoid consuming the trailing newline.
-const THUMB_REMOTE_RE = /^(thumbnail:\s*)['"]?(https?:\/\/[^'"}\s\n]+)['"]?[ \t]*$/m;
+const THUMB_REMOTE_RE =
+  /^(thumbnail:\s*)['"]?(https?:\/\/[^'"}\s\n]+)['"]?[ \t]*$/m;
 
 // ---------------------------------------------------------------------------
 // Download helper
@@ -103,7 +104,9 @@ for (const filename of flatFiles) {
   // Download thumbnail
   if (thumbnailUrl) {
     // Derive filename from URL, strip query string
-    thumbnailFilename = decodeURIComponent(thumbnailUrl.split('/').pop().split('?')[0]);
+    thumbnailFilename = decodeURIComponent(
+      thumbnailUrl.split('/').pop().split('?')[0],
+    );
     const thumbDest = join(destDir, thumbnailFilename);
     process.stdout.write(`  ${slug}: thumbnail ... `);
     const result = await downloadFile(thumbnailUrl, thumbDest);
