@@ -6,4 +6,5 @@ dist/
 node_modules/
 
 # System files
-.DS_Storescripts/
+.DS_Store
+scripts/
