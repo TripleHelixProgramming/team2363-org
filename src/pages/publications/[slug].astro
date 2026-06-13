@@ -10,7 +10,7 @@ export async function getStaticPaths() {
   const publications = await getCollection("publications");
   const sorted = sortPublications(publications);
   return sorted.map((entry, i) => ({
-    params: { slug: entry.id.replace(/\/index\.md$/, "") },
+    params: { slug: entry.id.replace(/\/index$/, "") },
     props: {
       entry,
       prev: sorted[i - 1] ?? null,
@@ -135,7 +135,7 @@ const { title, date, categories, links, thumbnail } = entry.data;
           <div>
             {prev && (
               <a
-                href={`/publications/${prev.id.replace(/\/index\.md$/, "")}/`}
+                href={`/publications/${prev.id.replace(/\/index$/, "")}/`}
                 class="group flex flex-col gap-1"
               >
                 <span class="text-xs text-gray-400 group-hover:text-navy transition-colors">
@@ -150,7 +150,7 @@ const { title, date, categories, links, thumbnail } = entry.data;
           <div class="text-right">
             {next && (
               <a
-                href={`/publications/${next.id.replace(/\/index\.md$/, "")}/`}
+                href={`/publications/${next.id.replace(/\/index$/, "")}/`}
                 class="group flex flex-col gap-1"
               >
                 <span class="text-xs text-gray-400 group-hover:text-navy transition-colors">

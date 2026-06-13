@@ -1,7 +1,8 @@
 import { defineCollection, z } from 'astro:content';
+import { glob } from 'astro/loaders';
 
 const publications = defineCollection({
-  type: 'content',
+  loader: glob({ pattern: '**/index.md', base: './src/content/publications' }),
   schema: ({ image }) =>
     z.object({
       title: z.string(),
@@ -12,7 +13,7 @@ const publications = defineCollection({
           z.object({
             label: z.coerce.string(),
             url: z.string().url(),
-          })
+          }),
         )
         .optional(),
       // Relative path to a co-located image file, e.g. ./thumbnail.jpg
