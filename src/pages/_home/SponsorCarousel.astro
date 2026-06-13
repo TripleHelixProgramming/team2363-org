@@ -36,7 +36,7 @@ const sponsors = sponsorsData.tiers
           return (
             <div
               title={s.name}
-              class="shrink-0 snap-start flex items-center justify-center w-[22rem] h-48 bg-white rounded border border-gray-300 p-4"
+              class="shrink-0 snap-start flex items-center justify-center w-[22rem] h-48 bg-white rounded-lg border-2 border-gray-200 shadow-md p-4"
             >
               <Image
                 src={logo}
@@ -48,12 +48,40 @@ const sponsors = sponsorsData.tiers
         })
       }
     </Carousel>
-    <div class="mt-8 text-center">
+    <div class="mt-8 flex flex-wrap justify-center gap-4">
       <a
         href={`${import.meta.env.BASE_URL}partners/`}
         class="inline-block border-2 border-purple text-purple font-bold px-6 py-3 rounded hover:bg-purple hover:text-white transition-colors"
       >
         See all our partners
+      </a>
+      <a
+        href={`${import.meta.env.BASE_URL}partners/#become-a-donor`}
+        class="inline-block border-2 border-purple text-purple font-bold px-6 py-3 rounded hover:bg-purple hover:text-white transition-colors"
+      >
+        Learn how you can support us
+      </a>
+      <a
+        href="https://www.paypal.com/donate?hosted_button_id=R9BJ2TLELQR6W"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center gap-1.5 border-2 border-purple text-purple font-bold px-6 py-3 rounded hover:bg-purple hover:text-white transition-colors"
+      >
+        Donate now
+        <svg
+          class="w-3.5 h-3.5"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
+          ></path>
+        </svg>
       </a>
     </div>
   </div>
