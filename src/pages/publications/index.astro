@@ -114,13 +114,18 @@ const pubData = JSON.stringify(
           />
         </div>
         <!-- Year tick marks at Jan 1 of each year -->
-        <div class="relative" style="height: 28px; overflow: visible">
+        <div class="relative -mt-2" style="height: 28px; overflow: visible">
           {yearMarks.map((year) => {
             const ts = new Date(year, 0, 1).getTime();
             const pct = ((ts - minTs) / tsRange * 100).toFixed(2);
+            const displayClass =
+              year % 10 === 0 ? "flex" :                        // div by 10: always
+              year % 5 === 0  ? "flex sm:hidden md:flex" :      // odd mult of 5: small + md+ only
+              year % 2 === 0  ? "hidden sm:flex" :              // even: sm+
+                                "hidden md:flex";                // odd: md+
             return (
               <div
-                class="absolute top-0 flex flex-col items-center"
+                class={`absolute top-0 ${displayClass} flex-col items-center`}
                 style={`left: ${pct}%; transform: translateX(-50%)`}
               >
                 <div class="w-px h-1.5 bg-gray-300"></div>

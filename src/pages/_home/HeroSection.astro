@@ -6,7 +6,7 @@ const hero = await getImage({ src: heroSrc, format: "webp" });
 ---
 
 <section
-  class="relative bg-purple text-white py-32 px-4 text-center"
+  class="relative bg-purple text-white py-32 px-4 text-center -mt-16 pt-48"
   style={`background-image: url('${hero.src}'); background-size: cover; background-position: center;`}
 >
   <div class="absolute inset-0 bg-purple/30"></div>
@@ -17,7 +17,7 @@ const hero = await getImage({ src: heroSrc, format: "webp" });
     </p>
     <a
       href="#about"
-      class="inline-block bg-gold text-purple font-bold px-8 py-3 rounded hover:bg-yellow-400 transition-colors"
+      class="inline-block bg-gold text-white font-bold px-8 py-3 rounded hover:bg-yellow-400 transition-colors"
     >
       Learn more
     </a>
