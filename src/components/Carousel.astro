@@ -34,7 +34,7 @@ const xData = `{ drag: false, startX: 0, sl: 0, prev() { ${prevExpr} }, next() {
 <div x-data={xData} class="relative">
   <button
     @click="prev()"
-    class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-5 z-10 bg-white border-2 border-gray-200 shadow-md rounded-full p-2 hover:bg-gray-50 transition-colors"
+    class="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-3 z-10 bg-white border-2 border-gray-200 shadow-md rounded-full p-2 hover:bg-gray-50 transition-colors"
     aria-label={prevLabel}
   >
     <svg
@@ -67,7 +67,7 @@ const xData = `{ drag: false, startX: 0, sl: 0, prev() { ${prevExpr} }, next() {
 
   <button
     @click="next()"
-    class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-5 z-10 bg-white border-2 border-gray-200 shadow-md rounded-full p-2 hover:bg-gray-50 transition-colors"
+    class="absolute right-0 top-1/2 -translate-y-1/2 translate-x-3 z-10 bg-white border-2 border-gray-200 shadow-md rounded-full p-2 hover:bg-gray-50 transition-colors"
     aria-label={nextLabel}
   >
     <svg

@@ -22,14 +22,17 @@ const currentPath = Astro.url.pathname;
     !transparent && "bg-purple",
   ]}
   x-data={transparent
-    ? "{ open: false, scrolled: window.scrollY > 10 }"
+    ? "{ open: false, scrolled: window.scrollY > 10, mobile: window.innerWidth < 768 }"
     : "{ open: false }"}
   {...transparent
     ? {
         "@scroll.window": "scrolled = window.scrollY > 10",
-        ":class": "scrolled ? 'bg-purple' : 'bg-transparent'",
+        "@resize.window": "mobile = window.innerWidth < 768",
+        ":class":
+          "(scrolled || open || mobile) ? 'bg-purple' : 'bg-transparent'",
       }
     : {}}
+  x-init="$watch('open', val => document.body.style.overflow = val ? 'hidden' : '')"
 >
   <nav
     class="max-w-6xl mx-auto px-4 flex items-center justify-between h-16"
@@ -37,7 +40,7 @@ const currentPath = Astro.url.pathname;
   >
     <a
       href={base}
-      class="font-bold text-lg text-gold hover:text-white transition-colors"
+      class="font-bold text-lg text-white hover:text-gold transition-colors"
     >
       Triple Helix Robotics
     </a>
@@ -91,14 +94,21 @@ const currentPath = Astro.url.pathname;
   </nav>
 
   <!-- Mobile menu -->
-  <div x-show="open" x-transition class="md:hidden bg-navy px-4 pb-4">
-    <ul class="flex flex-col gap-3 text-sm font-medium">
+  <div
+    x-show="open"
+    x-transition
+    class="md:hidden absolute top-full -mt-px left-0 right-0 bg-purple px-4 pb-4"
+  >
+    <ul class="flex flex-col gap-3 text-sm font-medium items-end">
       {
         links.map(({ label, href }) => (
           <li>
             <a
               href={href}
-              class="block py-1 hover:text-gold transition-colors"
+              class:list={[
+                "block py-1 hover:text-gold transition-colors",
+                currentPath === href ? "text-gold" : "text-white",
+              ]}
               @click="open = false"
             >
               {label}

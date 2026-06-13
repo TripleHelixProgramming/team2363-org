@@ -1,5 +1,5 @@
 # Treat all text files with LF line endings in the repo
-* text=auto
+* text=auto eol=lf
 
 # Explicitly mark binary formats so git never does CRLF conversion
 *.jpg  binary
