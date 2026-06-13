@@ -31,12 +31,12 @@ const socialLinks = [
 
 const resourceLinks = [
   {
-    label: "Team Calendar",
+    label: "Team calendar",
     icon: "lucide:calendar",
     href: "http://calendar.team2363.org",
   },
   {
-    label: "Team Handbook",
+    label: "Team handbook",
     icon: "lucide:book-open",
     href: "http://handbook.team2363.org",
   },
@@ -45,107 +45,89 @@ const resourceLinks = [
 const year = new Date().getFullYear();
 ---
 
-<footer class="bg-purple text-white">
-  <div class="max-w-5xl mx-auto px-4 pt-12 pb-8">
-    <!-- Brand row -->
-    <div class="mb-8">
-      <p class="text-gold font-bold text-lg">Triple Helix Robotics</p>
+<footer class="bg-purple text-white border-t-4 border-gold">
+  <div class="px-4 pt-12 pb-8 flex flex-wrap justify-center gap-32">
+    <!-- Get in touch -->
+    <div>
+      <h2 class="font-bold mb-4">Get in touch</h2>
+      <ul class="space-y-2">
+        <li>
+          <a
+            href="https://maps.app.goo.gl/Y2VosW3wmbiVZwp48"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
+          >
+            <Icon
+              name="lucide:map-pin"
+              class="w-4 h-4 shrink-0"
+              aria-hidden="true"
+            />
+            Peninsula STEM Gym
+          </a>
+        </li>
+        <li>
+          <a
+            href={`${import.meta.env.BASE_URL}contact/`}
+            class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
+          >
+            <Icon
+              name="lucide:mail"
+              class="w-4 h-4 shrink-0"
+              aria-hidden="true"
+            />
+            Contact us
+          </a>
+        </li>
+      </ul>
     </div>
 
-    <!-- 3-column grid -->
-    <div class="grid gap-10 md:grid-cols-3">
-      <!-- Get in touch -->
-      <div>
-        <h2 class="font-bold mb-4">Get in touch</h2>
-        <ul class="space-y-2">
-          <li>
-            <a
-              href="https://maps.app.goo.gl/Y2VosW3wmbiVZwp48"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
-            >
-              <Icon
-                name="lucide:map-pin"
-                class="w-4 h-4 shrink-0"
-                aria-hidden="true"
-              />
-              Peninsula STEM Gym
-            </a>
-          </li>
-          <li>
-            <a
-              href={`${import.meta.env.BASE_URL}contact/`}
-              class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
-            >
-              <Icon
-                name="lucide:mail"
-                class="w-4 h-4 shrink-0"
-                aria-hidden="true"
-              />
-              Contact us
-            </a>
-          </li>
-        </ul>
-      </div>
+    <!-- Resources -->
+    <div>
+      <h2 class="font-bold mb-4">Resources</h2>
+      <ul class="space-y-2">
+        {
+          resourceLinks.map(({ label, icon, href }) => (
+            <li>
+              <a
+                href={href}
+                class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon name={icon} class="w-4 h-4 shrink-0" aria-hidden="true" />
+                {label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
 
-      <!-- Resources -->
-      <div>
-        <h2 class="font-bold mb-4">Resources</h2>
-        <ul class="space-y-2">
-          {
-            resourceLinks.map(({ label, icon, href }) => (
-              <li>
-                <a
-                  href={href}
-                  class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Icon
-                    name={icon}
-                    class="w-4 h-4 shrink-0"
-                    aria-hidden="true"
-                  />
-                  {label}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-      </div>
-
-      <!-- Social -->
-      <div>
-        <h2 class="font-bold mb-4">Follow us</h2>
-        <ul class="space-y-2">
-          {
-            socialLinks.map(({ label, icon, href }) => (
-              <li>
-                <a
-                  href={href}
-                  class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Icon
-                    name={icon}
-                    class="w-4 h-4 shrink-0"
-                    aria-hidden="true"
-                  />
-                  {label}
-                </a>
-              </li>
-            ))
-          }
-        </ul>
-      </div>
+    <!-- Social -->
+    <div>
+      <h2 class="font-bold mb-4">Follow us</h2>
+      <ul class="space-y-2">
+        {
+          socialLinks.map(({ label, icon, href }) => (
+            <li>
+              <a
+                href={href}
+                class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Icon name={icon} class="w-4 h-4 shrink-0" aria-hidden="true" />
+                {label}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
     </div>
   </div>
 
-  <div
-    class="border-t-2 border-gold px-4 py-4 text-center text-xs text-gray-500"
-  >
+  <div class="px-4 py-4 text-center text-xs text-gray-300">
     © {year} Triple Helix Robotics
   </div>
 </footer>
