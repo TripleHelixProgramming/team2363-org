@@ -10,34 +10,26 @@ Triple Helix students have proudly submitted the following application to the 20
 
 ## What competitions did you attend in 2023?
 
-- FIRST Chesapeake District - Blacksburg VA Event
-
-Winner
-
+### [FIRST Chesapeake District - Blacksburg VA Event](https://www.thebluealliance.com/event/2023vabla)
+- Winner
 - Captain of Alliance 1
-
 - Autonomous Award
 
-- FIRST Chesapeake District - Portsmouth VA Event
+### [FIRST Chesapeake District - Portsmouth VA Event](https://www.thebluealliance.com/event/2023vapor)
 
-Winner
-
+- Winner
 - Captain of Alliance 1
-
 - Autonomous Award
 
-- FIRST Chesapeake District Championship
+### [FIRST Chesapeake District Championship](https://www.thebluealliance.com/event/2023chcmp)
 
-Winner
-
+- Winner
 - Captain of Alliance 2
-
 - Innovation in Control Award
 
-- FIRST Championship - Daly Division
+### [FIRST Championship - Daly Division](https://www.thebluealliance.com/event/2023dal)
 
-Second pick of Alliance 8
-
+- Second pick of Alliance 8
 - Innovation in Control Award
 
 ## What was your best performance of 2023?

@@ -19,6 +19,6 @@ To provide access to the car’s controls, a 5-inch switch was mounted on the st
 
 [STEP file](https://drive.google.com/a/iifound.org/file/d/1W52iDkrsEsuAn7PeNDl67CtEOp4qcrrM/view?usp=sharing)
 
-[](http://team2363.org/wp-content/uploads/2019/04/IMG_0163.jpg)
+![](./IMG_0163.jpg)
 
-[](http://team2363.org/wp-content/uploads/2019/04/Capture.png)
+![](./Capture.png)

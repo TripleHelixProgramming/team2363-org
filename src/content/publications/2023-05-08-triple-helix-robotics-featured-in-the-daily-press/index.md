@@ -12,6 +12,8 @@ categories:
 >Daily Press
 >May 7, 2023 at 11:08 am
 >
+>![](./97.png)
+>
 >*Triple Helix team members operate their robot during a match in the 2023 FIRST Championship. (Todd Ferrante)*
 >
 >Things didn’t go quite their way at the world robotics championship in Houston, but for the team of Hampton Roads high school students, it’s not about winning.
@@ -27,6 +29,8 @@ categories:
 >For volunteer head coach Nate Laverdure, the team has never been stronger.
 >
 >“Overall our competitiveness in the official season has just been over and above anything we’ve done before,” Laverdure said, adding that their ability to communicate what’s special about their robot to the judges was a major factor in their awards for autonomous functions.
+>
+>![](./98.png)
 >
 >*Triple Helix team members work on their robot during the 2023 FIRST Championship in Houston. (Todd Ferrante)*
 >
@@ -62,6 +66,8 @@ categories:
 >
 >“I don’t think anybody said, ‘oh boy this is it’ — they didn’t, they just go, ‘Oh, so it’s just going to take longer,’” he said. “There was never that feeling like they were defeated.”
 >
+>![](./99.png)
+>
 >*Triple Helix's robot, number 2363, carries a cone to their grid to score points in the 2023 FIRST Championship. (Todd Ferrante)*
 >
 >The world championship was also a recruiting ground for many of the top engineering companies and government agencies in the country. Nichols is currently doing an internship with NASA, where he is writing pathfinding algorithms to make robots follow a trajectory from point A to point B — which he said is “incredibly similar” to what he does in robotics competitions.
@@ -72,4 +78,4 @@ categories:
 >
 >“It surprises me that (robotics teams) aren’t everywhere,” he continued, “I don’t know why every school doesn’t have a team because the way things are so focused on technology and STEM — this is the fast track to get you there.”
 >
->Gavin Stone, 757-712-4806, gavin.stone@virginiamedia.com
+>*Gavin Stone, 757-712-4806, gavin.stone@virginiamedia.com*

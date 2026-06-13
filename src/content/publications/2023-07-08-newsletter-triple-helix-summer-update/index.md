@@ -6,6 +6,8 @@ categories:
   - Newsletter
 ---
 
+![](./IMG_4389.jpg)
+
 *Recent Triple Helix graduates Joshua N. and Justin B. present to NASA Langley Research Center employees at a recent Lunch & Learn event organized by the Center's two "house FRC teams" NASA Knights and Triple Helix.*
 
 **New faces**
