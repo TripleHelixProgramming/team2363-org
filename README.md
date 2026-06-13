@@ -51,8 +51,10 @@ team2363-org/
 │   └── images/uploads/          WP media archive (reference; new images go in src/pages/)
 ├── src/
 │   ├── content/
-│   │   ├── config.ts            Zod schema for the publications content collection
 │   │   └── publications/        One directory per publication: index.md + thumbnail image
+│   ├── content.config.ts        Zod schema for the publications content collection
+│   ├── styles/
+│   │   └── global.css           Tailwind base/components/utilities entry point
 │   ├── components/
 │   │   ├── Nav.astro            Site navigation
 │   │   └── Footer.astro         Site footer
@@ -73,6 +75,7 @@ team2363-org/
 ├── docs/
 │   └── style-guide.md           Brand colors, typography, icons, and design conventions
 ├── astro.config.mjs             Astro configuration
+├── postcss.config.mjs           PostCSS configuration (wires Tailwind into the build)
 ├── tailwind.config.mjs          Tailwind configuration (brand colors, fonts)
 └── PLAN.md                      Project plan and phase roadmap
 ```
