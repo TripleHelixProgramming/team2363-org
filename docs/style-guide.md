@@ -9,10 +9,11 @@ This document defines the visual, typographic, and writing conventions for the t
 | Name       | Hex       | Tailwind token                        | Use                                          |
 | ---------- | --------- | ------------------------------------- | -------------------------------------------- |
 | Gold       | `#fdb813` | `text-gold`, `bg-gold`, `border-gold` | Primary accent, icons, highlights, CTAs      |
-| Navy dark  | `#00102E` | `text-navy-dark`, `bg-navy-dark`      | Page backgrounds, hero, footer, dark CTAs    |
+| Purple     | `#662E91` | `text-purple`, `bg-purple`            | Page backgrounds, hero, footer, dark CTAs    |
 | Navy       | `#233452` | `text-navy`, `bg-navy`                | Body text headings, secondary backgrounds    |
+| Watermelon | `#EF2D56` | `text-watermelon`                     | Hyperlinks on light backgrounds              |
 | White      | `#ffffff` | `text-white`, `bg-white`              | Card backgrounds, text on dark               |
-| Light gray | `#F4F5F7` | `bg-gray-50` (approx.)                | Section backgrounds (alternating with white) |
+| Light gray | `#F3F4F6` | `bg-gray-100`                         | Section backgrounds (alternating with white) |
 | Gray 600   | —         | `text-gray-600`                       | Body prose                                   |
 | Gray 300   | —         | `text-gray-300`                       | Muted text on dark backgrounds               |
 
@@ -26,12 +27,12 @@ This document defines the visual, typographic, and writing conventions for the t
 
 ### Heading scale
 
-| Element                    | Tailwind classes                    | Use                 |
-| -------------------------- | ----------------------------------- | ------------------- |
-| Page title (h1)            | `text-4xl font-bold text-navy-dark` | One per page        |
-| Section heading (h2)       | `text-3xl font-bold text-navy-dark` | Major page sections |
-| Subsection heading (h3)    | `font-bold text-navy`               | Cards, list items   |
-| Footer column heading (h2) | `font-bold`                         | Footer only         |
+| Element                    | Tailwind classes                 | Use                 |
+| -------------------------- | -------------------------------- | ------------------- |
+| Page title (h1)            | `text-4xl font-bold text-purple` | One per page        |
+| Section heading (h2)       | `text-3xl font-bold text-purple` | Major page sections |
+| Subsection heading (h3)    | `font-bold text-navy`            | Cards, list items   |
+| Footer column heading (h2) | `font-bold`                      | Footer only         |
 
 ### Body text
 
@@ -144,23 +145,12 @@ Always include `aria-hidden="true"` on decorative icons. If an icon conveys mean
 </div>
 ```
 
-### CTA button — primary (gold)
+### CTA button — light background
 
 ```html
 <a
   href="/contact/"
-  class="inline-block bg-gold text-navy-dark font-bold px-6 py-3 rounded hover:bg-yellow-400 transition-colors"
->
-  Button label
-</a>
-```
-
-### CTA button — secondary (outlined)
-
-```html
-<a
-  href="/publications/"
-  class="inline-block border-2 border-navy-dark text-navy-dark font-bold px-6 py-3 rounded hover:bg-navy-dark hover:text-white transition-colors"
+  class="inline-block border-2 border-purple text-purple font-bold px-6 py-3 rounded hover:bg-purple hover:text-white transition-colors"
 >
   Button label
 </a>
@@ -171,7 +161,7 @@ Always include `aria-hidden="true"` on decorative icons. If an icon conveys mean
 ```html
 <a
   href="/contact/"
-  class="inline-block bg-navy-dark text-white font-bold px-6 py-3 rounded hover:bg-navy transition-colors"
+  class="inline-block bg-gold text-purple font-bold px-6 py-3 rounded hover:bg-yellow-400 transition-colors"
 >
   Button label
 </a>
@@ -197,7 +187,7 @@ Always include `aria-hidden="true"` on decorative icons. If an icon conveys mean
 
 ## Dark sections
 
-Several sections use `bg-navy-dark text-white`. Inside these:
+Several sections use `bg-purple text-white`. Inside these:
 
 - Body text: `text-gray-300`
 - Headings: `text-white` or `font-bold` (inherits white)

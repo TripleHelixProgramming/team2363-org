@@ -6,10 +6,9 @@ export default {
       colors: {
         // Triple Helix brand palette (from live site CSS custom properties)
         gold: '#fdb813',
-        navy: {
-          DEFAULT: '#233452',
-          dark: '#00102E',
-        },
+        navy: '#233452',
+        purple: '#662E91',
+        watermelon: '#EF2D56',
         // burgundy (#b73d3d) present on live site but may be Sydney theme default —
         // confirm with team before using in new design
       },

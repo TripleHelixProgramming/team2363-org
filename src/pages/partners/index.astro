@@ -61,7 +61,7 @@ const sponsorshipTiers = [
   <main>
     <!-- Intro -->
     <section class="max-w-4xl mx-auto px-4 py-16">
-      <h1 class="text-4xl font-bold text-navy-dark mb-8">
+      <h1 class="text-4xl font-bold text-purple mb-8">
         Our relationship with our sponsors
       </h1>
       <p class="text-gray-600 mb-6">
@@ -98,74 +98,86 @@ const sponsorshipTiers = [
     </section>
 
     <!-- Our partners -->
-    <section class="max-w-5xl mx-auto px-4 pb-16">
-      <h2 class="text-3xl font-bold text-navy-dark mb-12 text-center">
-        Our partners
-      </h2>
+    <section class="bg-gray-100 py-16 px-4">
+      <div class="max-w-5xl mx-auto">
+        <h2 class="text-3xl font-bold text-purple mb-12 text-center">
+          Our partners
+        </h2>
 
-      {
-        sponsorsData.tiers.map(({ name, sponsors }) => (
-          <div class="mb-12">
-            <h3 class="text-xl font-bold text-navy mb-6 border-b border-gray-200 pb-2">
-              {name}
-            </h3>
-            <ul class="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
-              {sponsors.map(({ name: sponsorName, url, logo }) => {
-                const src = getLogo(logo);
-                return (
-                  <li>
-                    <a
-                      href={url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      class="flex flex-col items-center gap-2 p-3 rounded border border-gray-100 hover:border-gold hover:shadow-sm transition-all group"
-                      title={sponsorName}
-                    >
-                      {src ? (
-                        <Image
-                          src={src}
-                          alt={sponsorName}
-                          width={80}
-                          height={80}
-                          class="w-20 h-20 object-contain"
-                          loading="lazy"
-                        />
-                      ) : (
-                        <span class="w-20 h-20 flex items-center justify-center text-xs text-gray-400">
-                          {sponsorName}
-                        </span>
-                      )}
-                      <span class="text-xs text-center text-gray-500 group-hover:text-navy transition-colors">
-                        {sponsorName}
-                      </span>
-                    </a>
-                  </li>
-                );
-              })}
-            </ul>
-          </div>
-        ))
-      }
+        {
+          sponsorsData.tiers.map(({ name, sponsors }) => {
+            const logoSize =
+              name === "Strategic & founding partners"
+                ? { px: 160, cls: "w-40 h-40" }
+                : name === "Major sponsors"
+                  ? { px: 120, cls: "w-[120px] h-[120px]" }
+                  : { px: 80, cls: "w-20 h-20" };
+            return (
+              <div class="mb-12">
+                <h3 class="text-xl font-bold text-purple mb-6 border-b border-gray-200 pb-2 text-center">
+                  {name}
+                </h3>
+                <ul class="grid gap-6 grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5">
+                  {sponsors.map(({ name: sponsorName, url, logo }) => {
+                    const src = getLogo(logo);
+                    return (
+                      <li>
+                        <a
+                          href={url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          class="flex flex-col items-center gap-2 p-3 rounded border border-gray-200 bg-white hover:border-gold hover:shadow-sm transition-all group w-full h-full"
+                          title={sponsorName}
+                        >
+                          {src ? (
+                            <Image
+                              src={src}
+                              alt={sponsorName}
+                              width={logoSize.px}
+                              height={logoSize.px}
+                              class={`${logoSize.cls} object-contain`}
+                              loading="lazy"
+                            />
+                          ) : (
+                            <span
+                              class={`${logoSize.cls} flex items-center justify-center text-xs text-gray-400`}
+                            >
+                              {sponsorName}
+                            </span>
+                          )}
+                          <span class="text-xs text-center text-gray-500 group-hover:text-gray-600 transition-colors">
+                            {sponsorName}
+                          </span>
+                        </a>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </div>
+            );
+          })
+        }
 
-      <!-- We also thank -->
-      <div>
-        <h3
-          class="text-xl font-bold text-navy mb-4 border-b border-gray-200 pb-2"
-        >
-          We also thank
-        </h3>
-        <ul class="flex flex-wrap gap-x-4 gap-y-2">
-          {
-            sponsorsData.weAlsoThank.map((name) => (
-              <li class="text-sm text-gray-600">{name}</li>
-            ))
-          }
-        </ul>
+        <!-- We also thank -->
+        <div>
+          <h3
+            class="text-xl font-bold text-purple mb-4 border-b border-gray-200 pb-2 text-center"
+          >
+            We also thank
+          </h3>
+          <ul class="flex flex-wrap gap-x-8 gap-y-3 justify-center">
+            {
+              sponsorsData.weAlsoThank.map((name) => (
+                <li class="text-sm text-gray-600">{name}</li>
+              ))
+            }
+          </ul>
+        </div>
       </div>
     </section>
 
     <!-- Become a donor -->
-    <section class="bg-navy-dark text-white py-16 px-4">
+    <section class="bg-purple text-white py-16 px-4">
       <div class="max-w-4xl mx-auto">
         <h2 class="text-3xl font-bold mb-8">Become a donor</h2>
         <p class="text-gray-300 mb-4">
@@ -181,10 +193,10 @@ const sponsorshipTiers = [
           community support. All forms of support are deeply valued:
         </p>
         <div class="grid gap-6 sm:grid-cols-3 mb-8">
-          <div>
+          <div class="text-center">
             <Icon
               name="lucide:package"
-              class="w-7 h-7 text-gold mb-2"
+              class="w-7 h-7 text-gold mb-2 mx-auto"
               aria-hidden="true"
             />
             <h3 class="font-bold text-gold mb-2">In-kind contributions</h3>
@@ -194,10 +206,10 @@ const sponsorshipTiers = [
               our students.
             </p>
           </div>
-          <div>
+          <div class="text-center">
             <Icon
               name="lucide:banknote"
-              class="w-7 h-7 text-gold mb-2"
+              class="w-7 h-7 text-gold mb-2 mx-auto"
               aria-hidden="true"
             />
             <h3 class="font-bold text-gold mb-2">Financial support</h3>
@@ -208,10 +220,10 @@ const sponsorshipTiers = [
               to make lasting positive contributions to the community we serve.
             </p>
           </div>
-          <div>
+          <div class="text-center">
             <Icon
               name="lucide:heart"
-              class="w-7 h-7 text-gold mb-2"
+              class="w-7 h-7 text-gold mb-2 mx-auto"
               aria-hidden="true"
             />
             <h3 class="font-bold text-gold mb-2">Service</h3>
@@ -226,7 +238,7 @@ const sponsorshipTiers = [
           href="https://www.paypal.com/donate?hosted_button_id=R9BJ2TLELQR6W"
           target="_blank"
           rel="noopener noreferrer"
-          class="inline-block bg-gold text-navy-dark font-bold px-6 py-3 rounded hover:bg-yellow-400 transition-colors"
+          class="block w-fit mx-auto bg-gold text-purple font-bold px-6 py-3 rounded hover:bg-yellow-400 transition-colors"
         >
           Donate now
         </a>
@@ -234,48 +246,51 @@ const sponsorshipTiers = [
     </section>
 
     <!-- Sponsorship tiers -->
-    <section class="bg-gray-50 py-16 px-4">
+    <section class="bg-gray-100 py-16 px-4">
       <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold text-navy-dark mb-12 text-center">
+        <h2 class="text-3xl font-bold text-purple mb-12 text-center">
           Sponsorship tiers
         </h2>
-        <div class="grid gap-6 sm:grid-cols-2">
+        <div class="flex flex-col gap-6">
           {
             sponsorshipTiers.map(
               ({ name, level, amount, icon, description }) => (
-                <div class="bg-white rounded p-6 shadow-sm">
-                  <div class="flex items-center gap-2 mb-2">
+                <div class="rounded shadow-sm overflow-hidden grid grid-cols-[1fr_3fr]">
+                  <div class="bg-purple px-5 py-6 flex flex-col items-center justify-center gap-2 text-center">
                     <Icon
                       name={icon}
-                      class="w-5 h-5 text-gold shrink-0"
+                      class="w-6 h-6 text-gold"
                       aria-hidden="true"
                     />
-                    <h3 class="font-bold text-navy">{name}</h3>
+                    <h3 class="font-bold text-white">{name}</h3>
                   </div>
-                  <p class="text-xs text-gold font-semibold mb-3">
-                    {level} — {amount}
-                  </p>
-                  <p class="text-sm text-gray-600">{description}</p>
+                  <div class="bg-white px-5 py-6">
+                    <p class="text-sm font-semibold text-purple mb-2">
+                      {level} — {amount}
+                    </p>
+                    <p class="text-sm text-gray-600">{description}</p>
+                  </div>
                 </div>
               ),
             )
           }
         </div>
-        <p class="mt-10 text-sm text-gray-600">
+        <p class="mt-10 text-sm text-gray-600 max-w-lg mx-auto">
           Triple Helix solicits tax-deductible monetary donations through our
           operating sponsor{" "}
           <a
             href="https://www.iifound.org/"
-            class="text-navy hover:text-gold transition-colors"
+            class="text-watermelon hover:text-gold transition-colors"
           >
-            Intentional Innovation Foundation
-          </a>, a Newport News 501(c)(3) tax-exempt public charity.
+            Intentional Innovation Foundation</a
+          >, a Newport News 501(c)(3) tax-exempt public charity.
         </p>
-        <p class="mt-3 text-sm text-gray-600">
+        <p class="mt-3 text-sm text-gray-600 max-w-lg mx-auto">
           Wishing to contribute to Triple Helix by another method? Please{" "}
           <a
             href={`${import.meta.env.BASE_URL}contact/`}
-            class="text-navy hover:text-gold transition-colors">contact us</a
+            class="text-watermelon hover:text-gold transition-colors"
+            >contact us</a
           >{" "}
           for more information on how you can get involved.
         </p>

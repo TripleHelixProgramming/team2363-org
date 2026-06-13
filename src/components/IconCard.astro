@@ -31,14 +31,14 @@ const { icon, heading, body, variant = "stacked" } = Astro.props;
           class="w-5 h-5 text-gold shrink-0"
           aria-hidden="true"
         />
-        <h3 class="font-bold text-navy text-sm">{heading}</h3>
+        <h3 class="font-bold text-purple text-sm">{heading}</h3>
       </div>
       <p class="text-gray-600 text-sm">{body}</p>
     </div>
   ) : (
     <div>
       <Icon name={icon} class="w-8 h-8 text-gold mb-3" aria-hidden="true" />
-      <h3 class="font-bold text-navy mb-2">{heading}</h3>
+      <h3 class="font-bold text-purple mb-2">{heading}</h3>
       <p class="text-gray-600 text-sm">{body}</p>
     </div>
   )

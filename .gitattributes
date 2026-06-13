@@ -1,0 +1,16 @@
+# Treat all text files with LF line endings in the repo
+* text=auto
+
+# Explicitly mark binary formats so git never does CRLF conversion
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.gif  binary
+*.webp binary
+*.svg  binary
+*.ico  binary
+*.woff binary
+*.woff2 binary
+*.ttf  binary
+*.otf  binary
+*.pdf  binary

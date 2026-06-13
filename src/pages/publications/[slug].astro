@@ -31,7 +31,7 @@ const { title, date, categories, links, thumbnail } = entry.data;
     <!-- Back link -->
     <a
       href={`${import.meta.env.BASE_URL}publications/`}
-      class="inline-flex items-center gap-1 text-sm text-gray-500 hover:text-navy transition-colors mb-8"
+      class="inline-flex items-center gap-1 text-sm text-gray-500 hover:text-gold transition-colors mb-8"
     >
       <svg
         class="w-4 h-4"
@@ -71,7 +71,7 @@ const { title, date, categories, links, thumbnail } = entry.data;
           ))
         }
       </div>
-      <h1 class="text-3xl font-bold text-navy-dark mb-2 leading-snug">
+      <h1 class="text-3xl font-bold text-purple mb-2 leading-snug">
         {title}
       </h1>
       <p class="text-sm text-gray-400">
@@ -86,7 +86,7 @@ const { title, date, categories, links, thumbnail } = entry.data;
     </div>
 
     <!-- Body -->
-    <div class="prose prose-navy max-w-none">
+    <div class="prose max-w-none">
       <Content />
     </div>
 
@@ -104,7 +104,7 @@ const { title, date, categories, links, thumbnail } = entry.data;
                   href={url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  class="inline-flex items-center gap-1 text-sm font-medium text-gold hover:underline"
+                  class="inline-flex items-center gap-1 text-sm font-medium text-watermelon hover:text-gold"
                 >
                   {label}
                   <svg
@@ -138,10 +138,10 @@ const { title, date, categories, links, thumbnail } = entry.data;
                 href={`/publications/${prev.id.replace(/\/index$/, "")}/`}
                 class="group flex flex-col gap-1"
               >
-                <span class="text-xs text-gray-400 group-hover:text-navy transition-colors">
+                <span class="text-xs text-gray-400 group-hover:text-gold transition-colors">
                   ← Older
                 </span>
-                <span class="text-sm font-medium text-navy group-hover:text-gold transition-colors leading-snug">
+                <span class="text-sm font-medium text-gold group-hover:text-gold transition-colors leading-snug">
                   {prev.data.title}
                 </span>
               </a>
@@ -153,10 +153,10 @@ const { title, date, categories, links, thumbnail } = entry.data;
                 href={`/publications/${next.id.replace(/\/index$/, "")}/`}
                 class="group flex flex-col gap-1"
               >
-                <span class="text-xs text-gray-400 group-hover:text-navy transition-colors">
+                <span class="text-xs text-gray-400 group-hover:text-gold transition-colors">
                   Newer →
                 </span>
-                <span class="text-sm font-medium text-navy group-hover:text-gold transition-colors leading-snug">
+                <span class="text-sm font-medium text-gold group-hover:text-gold transition-colors leading-snug">
                   {next.data.title}
                 </span>
               </a>
@@ -197,11 +197,11 @@ const { title, date, categories, links, thumbnail } = entry.data;
     margin-bottom: 1.5em;
   }
   .prose :global(a) {
-    color: #fdb813;
+    color: #ef2d56;
     text-decoration: underline;
   }
   .prose :global(a:hover) {
-    color: #233452;
+    color: #fdb813;
   }
   .prose :global(ul),
   .prose :global(ol) {

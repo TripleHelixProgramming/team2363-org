@@ -44,8 +44,8 @@ const pubData = JSON.stringify(
   <Nav />
 
   <main class="max-w-5xl mx-auto px-4 py-16">
-    <h1 class="text-4xl font-bold text-navy-dark mb-4">Publications</h1>
-    <p class="text-gray-600 mb-10">
+    <h1 class="text-4xl font-bold text-purple mb-4">Publications</h1>
+    <p class="text-gray-600 mb-6">
       Technical writeups, newsletters, CAD releases, robot reveals, and more.
     </p>
 
@@ -54,52 +54,40 @@ const pubData = JSON.stringify(
       x-data={`{ active: 'All', tsFrom: ${minTs}, tsTo: ${maxTs}, query: '', limit: 12, pubs: ${pubData}, get count() { const q = this.query.trim().toLowerCase(); return this.pubs.filter(p => (this.active === 'All' || p.c.includes(this.active)) && p.t >= this.tsFrom && p.t <= this.tsTo && (!q || p.s.includes(q))).length; }, get visible() { const q = this.query.trim().toLowerCase(); let n = 0; return this.pubs.map(p => { const m = (this.active === 'All' || p.c.includes(this.active)) && p.t >= this.tsFrom && p.t <= this.tsTo && (!q || p.s.includes(q)); return m && n++ < this.limit; }); } }`}
       class="mb-10"
     >
-      <div class="mb-4">
+      <div class="mb-8">
         <input
           type="search"
           x-model="query"
           placeholder="Search publications…"
-          class="w-full border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-navy"
+          class="w-full border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:border-purple"
         />
       </div>
 
-      <div class="flex flex-wrap gap-2 mb-4">
-        {['All', ...allCategories].map((cat) => (
-          <button
-            class="px-3 py-1 rounded-full text-sm border transition-colors"
-            :class={`active === '${cat}' ? 'bg-navy-dark text-white border-navy-dark' : 'border-gray-300 text-gray-600 hover:border-navy'`}
-            @click={`active = '${cat}'`}
-          >
-            {cat}
-          </button>
-        ))}
-      </div>
-      <p class="text-sm text-gray-500 mb-6">
-        Showing <span class="font-medium text-navy" x-text="Math.min(limit, count)"></span> of {publications.length}
-      </p>
-
       <!-- Date range slider -->
       <div class="mb-8">
-        <div class="flex items-center justify-between mb-3">
-          <span class="text-sm text-gray-600">
-            <strong class="text-navy" x-text="new Date(tsFrom).toLocaleDateString('en-US', {month: 'short', year: 'numeric'})"></strong>
+        <div class="flex items-center mb-1">
+          <div class="flex-1"></div>
+          <span class="text-sm text-gray-600 text-center">
+            <span x-text="new Date(tsFrom).toLocaleDateString('en-US', {month: 'short', year: 'numeric'})"></span>
             <span class="text-gray-400 mx-1">—</span>
-            <strong class="text-navy" x-text="new Date(tsTo).toLocaleDateString('en-US', {month: 'short', year: 'numeric'})"></strong>
+            <span x-text="new Date(tsTo).toLocaleDateString('en-US', {month: 'short', year: 'numeric'})"></span>
           </span>
-          <button
-            x-show={`tsFrom !== ${minTs} || tsTo !== ${maxTs}`}
-            @click={`tsFrom = ${minTs}; tsTo = ${maxTs}`}
-            class="text-xs text-gray-400 hover:text-navy transition-colors"
-          >
-            Reset
-          </button>
+          <div class="flex-1 flex justify-end">
+            <button
+              x-show={`tsFrom !== ${minTs} || tsTo !== ${maxTs}`}
+              @click={`tsFrom = ${minTs}; tsTo = ${maxTs}`}
+              class="text-xs text-gray-400 hover:text-gold transition-colors"
+            >
+              Reset
+            </button>
+          </div>
         </div>
         <div class="relative h-8 flex items-center select-none">
           <!-- Track background -->
           <div class="absolute inset-x-0 h-1 bg-gray-200 rounded-full"></div>
           <!-- Active fill between handles -->
           <div
-            class="absolute h-1 bg-navy rounded-full pointer-events-none"
+            class="absolute h-1 bg-purple rounded-full pointer-events-none"
             :style={`{ left: ((tsFrom - ${minTs}) / ${tsRange} * 100) + '%', right: ((${maxTs} - tsTo) / ${tsRange} * 100) + '%' }`}
           ></div>
           <!-- Lower handle -->
@@ -126,7 +114,7 @@ const pubData = JSON.stringify(
           />
         </div>
         <!-- Year tick marks at Jan 1 of each year -->
-        <div class="relative mt-1" style="height: 28px; overflow: visible">
+        <div class="relative" style="height: 28px; overflow: visible">
           {yearMarks.map((year) => {
             const ts = new Date(year, 0, 1).getTime();
             const pct = ((ts - minTs) / tsRange * 100).toFixed(2);
@@ -142,6 +130,21 @@ const pubData = JSON.stringify(
           })}
         </div>
       </div>
+
+      <div class="flex flex-wrap gap-2 mb-8">
+        {['All', ...allCategories].map((cat) => (
+          <button
+            class="px-3 py-1 rounded-full text-sm border transition-colors"
+            :class={`active === '${cat}' ? 'bg-purple text-white border-purple' : 'border-gray-300 text-gray-600 hover:border-purple'`}
+            @click={`active = '${cat}'`}
+          >
+            {cat}
+          </button>
+        ))}
+      </div>
+      <p class="text-sm text-gray-500 mb-6">
+        Showing <span class="font-medium text-gray-600" x-text="Math.min(limit, count)"></span> of {publications.length}
+      </p>
 
       <!-- Publication list -->
       <ul class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
@@ -174,7 +177,7 @@ const pubData = JSON.stringify(
                     day: 'numeric',
                   })}
                 </p>
-                <h2 class="font-bold text-navy mb-2 leading-snug">
+                <h2 class="font-bold text-purple mb-2 leading-snug">
                   <a
                     href={`/publications/${pub.id.replace(/\/index\.md$/, '')}/`}
                     class="hover:text-gold transition-colors"
@@ -193,7 +196,7 @@ const pubData = JSON.stringify(
                           href={url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          class="text-xs font-medium text-gold hover:underline"
+                          class="text-xs font-medium text-watermelon hover:text-gold"
                         >
                           {label} →
                         </a>
@@ -210,7 +213,7 @@ const pubData = JSON.stringify(
       <div x-show="count > limit" class="mt-8 text-center">
         <button
           @click="limit += 12"
-          class="border-2 border-navy-dark text-navy-dark font-bold px-6 py-3 rounded hover:bg-navy-dark hover:text-white transition-colors"
+          class="border-2 border-purple text-purple font-bold px-6 py-3 rounded hover:bg-purple hover:text-white transition-colors"
         >
           Show more <span x-text="`(${count - limit} remaining)`"></span>
         </button>
@@ -246,7 +249,7 @@ const pubData = JSON.stringify(
     width: 1.125rem;
     height: 1.125rem;
     border-radius: 9999px;
-    background: #233452;
+    background: #fdb813;
     border: 2px solid white;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
     pointer-events: all;
@@ -255,7 +258,7 @@ const pubData = JSON.stringify(
     width: 1.125rem;
     height: 1.125rem;
     border-radius: 9999px;
-    background: #233452;
+    background: #fdb813;
     border: 2px solid white;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
     pointer-events: all;

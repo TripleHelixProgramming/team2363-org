@@ -10,9 +10,9 @@ const latestPublications = sortPublications(allPublications)
   .slice(0, 6);
 ---
 
-<section class="bg-gray-50 py-16 px-4">
+<section class="bg-gray-100 py-16 px-4">
   <div class="max-w-5xl mx-auto">
-    <h2 class="text-3xl font-bold text-navy-dark mb-8">
+    <h2 class="text-3xl font-bold text-purple mb-8 text-center">
       Our latest publications
     </h2>
     {
@@ -32,7 +32,7 @@ const latestPublications = sortPublications(allPublications)
     <div class="mt-8 text-center">
       <a
         href={`${import.meta.env.BASE_URL}publications/`}
-        class="inline-block border-2 border-navy-dark text-navy-dark font-bold px-6 py-3 rounded hover:bg-navy-dark hover:text-white transition-colors"
+        class="inline-block border-2 border-purple text-purple font-bold px-6 py-3 rounded hover:bg-purple hover:text-white transition-colors"
       >
         See all publications
       </a>
