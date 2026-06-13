@@ -41,7 +41,7 @@ You can reach the Triple Helix leadership team at [contact@team2363.org](mailto:
 **Save the date - Rumble 8 - The Ocho**
 The 8th annual [Rumble in the Roads](https://www.rumbleintheroads.com/), Hampton Roads' unofficial offseason FRC tournament, is scheduled for Saturday, October 28, 2023 at Heritage High School in Newport News. Triple Helix is proud to help organize this event along with partners Blackwater Robotics and the NASA Knights.  The volunteer registration for the event will open later this summer; stay tuned for more information!
 
-
-*Nate Laverdure*  
-*President, Intentional Innovation Foundation*  
-*Former head coach, Triple Helix Robotics*
+--  
+Nate Laverdure  
+President, Intentional Innovation Foundation  
+Former head coach, Triple Helix Robotics

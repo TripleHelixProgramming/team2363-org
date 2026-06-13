@@ -57,6 +57,18 @@ Use a centered wrapper div with an iframe. The `src` URL uses `/embed/` instead 
 
 ---
 
+### Line breaks without paragraph spacing
+
+Use `<br>` tags to split lines within the same paragraph (e.g. a byline inside a blockquote):
+
+```markdown
+> By Nour Habib<br>Daily Press<br>Apr 16, 2023 at 10:44 am
+```
+
+Trailing double spaces also work in theory but are stripped by most editors; `<br>` is more reliable.
+
+---
+
 ### Italicizing text
 
 Use standard markdown `*text*`. Works inside links too:
@@ -110,11 +122,6 @@ Event links use The Blue Alliance format: `https://www.thebluealliance.com/event
 
 ## Not yet reviewed
 
-- 2023-04-17-triple-helix-robotics-featured-in-newport-news-public-schools-newsletter
-- 2023-04-16-triple-helix-robotics-featured-in-daily-press
-- 2023-04-13-2023-first-championship-conference-schedule
-- 2023-04-10-triple-helix-robotics-featured-in-newport-news-now
-- 2023-04-09-newsletter-triple-helix-your-first-chesapeake-champions-are-heading-to-worlds
 - 2023-04-01-robust-led-strip-lights
 - 2023-03-25-genome-xi-2023-controller-maps
 - 2023-03-20-triple-helix-robotics-featured-in-the-virginian-pilot

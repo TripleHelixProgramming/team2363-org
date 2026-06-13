@@ -10,13 +10,16 @@ export function excerpt(body: string, maxLength = 180): string {
     .replace(/!\[[^\]]*\]\([^)]*\)/g, '')
     // Links → keep label text
     .replace(/\[([^\]]*)\]\([^)]*\)/g, '$1')
+    // Blockquote markers (must precede headers so ">## …" is handled correctly)
+    .replace(/^>\s*/gm, '')
     // Headers → plain text (strip leading # chars)
     .replace(/^#{1,6}\s+/gm, '')
-    // Blockquote markers
-    .replace(/^>\s*/gm, '')
     // Bold / italic (**, *, __, _)
     .replace(/\*{1,3}([^*\n]+)\*{1,3}/g, '$1')
     .replace(/_{1,3}([^_\n]+)_{1,3}/g, '$1')
+    // HTML tags — void elements like <br> become a space, others are dropped
+    .replace(/<br\s*\/?>/gi, ' ')
+    .replace(/<[^>]*>/g, '')
     // Inline code
     .replace(/`[^`]*`/g, '')
     // Horizontal rules

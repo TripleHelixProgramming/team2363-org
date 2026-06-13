@@ -8,9 +8,7 @@ categories:
 
 >## Next-level experience: Hampton Roads robotics team looks back on ‘most competitive’ season yet
 >
->By Gavin Stone
->Daily Press
->May 7, 2023 at 11:08 am
+>By Gavin Stone<br>Daily Press<br>May 7, 2023 at 11:08 am
 >
 >![](./97.png)
 >
