@@ -29,6 +29,6 @@ A few months ago, Triple Helix graduated 10 stellar senior students.  As we mov
 Several Triple Helix partners renewed their sponsorship of the team for the upcoming 2019 FRC season. We thank our mentors and friends at the SPAWAR Systems Center - Atlantic, and the DoD STEM funding organization, for their generous and continued support!  In addition, we would like to share our deep appreciation of the Virginia AeroSpace Business Association (VASBA) for increasing their level of support of Triple Helix for the upcoming season.
 
 
-*Nate Laverdure*  
-*Head coach, Triple Helix Robotics*  
+*Nate Laverdure*<br>
+*Head coach, Triple Helix Robotics*<br>
 *President, Intentional Innovation Foundation*

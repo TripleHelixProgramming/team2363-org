@@ -38,6 +38,6 @@ For the second season, Triple Helix has been selected to receive $5,000 in spons
 In addition, Triple Helix was awarded a new $5,000 grant through Best Buy's Community Grant program which supports programs that provide youth with access to new technologies and help them become interested and fluent in digital learning while developing skills to help better prepare them for future education and career success.
 
 
-*Nate Laverdure*  
-*Head coach, Triple Helix Robotics*  
+*Nate Laverdure*<br>
+*Head coach, Triple Helix Robotics*<br>
 *President, Intentional Innovation Foundation*

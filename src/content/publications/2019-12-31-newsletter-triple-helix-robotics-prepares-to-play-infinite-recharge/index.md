@@ -29,6 +29,6 @@ The team greatly appreciates your support.
 [http://team2363.org/partners/](http://team2363.org/partners/)
 
 
-*Nate Laverdure*  
-*Head coach, Triple Helix Robotics*  
+*Nate Laverdure*<br>
+*Head coach, Triple Helix Robotics*<br>
 *President, Intentional Innovation Foundation*

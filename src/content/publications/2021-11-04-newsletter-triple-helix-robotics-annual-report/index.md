@@ -26,6 +26,6 @@ The report captures the many stellar recent accomplishments of our flagship comp
 [Join our team](http://team2363.org/2021/07/be-a-mentor-for-triple-helix-robotics/) - [Donate](https://www.paypal.com/fundraiser/charity/1879071) - [Donate in-kind](http://team2363.org/2019/09/in-kind-donation-most-wanted-list/)
 
 
-*Nate Laverdure*  
-*President, Intentional Innovation Foundation*  
+*Nate Laverdure*<br>
+*President, Intentional Innovation Foundation*<br>
 *Head coach, Triple Helix Robotics*

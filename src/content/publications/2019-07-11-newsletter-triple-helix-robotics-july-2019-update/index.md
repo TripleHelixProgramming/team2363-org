@@ -32,6 +32,6 @@ The Peninsula STEM Gym was initially established with the generous assistance of
 Triple Helix meets year-round, and this summer we have been diving deep into team development projects, training activities, outreach event planning, collaborations with other teams, and more.  Now is a great time to drop by and check out what we're all about!
 
 
-*Nate Laverdure*  
-*Head coach, Triple Helix Robotics*  
+*Nate Laverdure*<br>
+*Head coach, Triple Helix Robotics*<br>
 *President, Intentional Innovation Foundation*
