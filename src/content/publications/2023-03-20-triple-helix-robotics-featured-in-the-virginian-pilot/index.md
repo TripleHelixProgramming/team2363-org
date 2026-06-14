@@ -16,6 +16,8 @@ PORTSMOUTH — A small army of robots — built by teenagers — descended on Po
 
 Students from Hampton Roads were among 29 teams from the D.C.-Maryland-Virginia area who met at Churchland High School to duke it out in a game called Charged Up, which puts teams in a mock energy-storage scenario. This involves collecting cubes and cones, which are added to their respective “grids,” then balancing their robots on a charging platform before time runs out.
 
+![](./1.png)
+
 *Jacob Dizon, left, and Greyson Watts, right, pilot their robot while dressed as knights in the FIRST Robotics competition at Churchland High School in Portsmouth, Virginia on March 18, 2023. The team, NASA Knights, are based in Hampton, Virginia and are sponsored by NASA Langley Research Center. (Billy Schuerman/The Virginian-Pilot)*
 
 Teams form alliances for each match and have to work together with students from other schools to win, and these partnerships benefit them in the playoffs when the top-performing teams get to pick who will join them. Students also take on the role of talent scouts, evaluating what their robots’ weaknesses are and identifying teams that can offset them for the best chance of winning.
@@ -23,6 +25,8 @@ Teams form alliances for each match and have to work together with students from
 This spirit of “coopertition” — a mashup of the words cooperation and competition — extends to the sharing of parts to help with repairs for damage sustained during matches, according to David Martin, a mentor for Royal Robotics of Portsmouth.
 
 Of the seven Hampton Roads teams competing this weekend, five made the playoffs, with Triple Helix Robotics out of Menchville High School in Newport News leading the winning alliance in the final round. The teams that qualify for the district championship at George Mason University in April won’t be selected until after the next Charged Up event in Glenn Allen this weekend. All these events lead up to the world championship in Houston the weekend of April 19.
+
+![](./2.png)
 
 *The robot from team Imperial Robotics (4286) attempts to balance on the charging station before time expires, while Triple Helix's robot (back left) works on adding the cubes and cones to their grid, at the FIRST Robotics competition at Churchland High School in Portsmouth on March 18, 2023. (Billy Schuerman/The Virginian-Pilot)*
 
@@ -45,6 +49,8 @@ Another NASA-sponsored team from Hampton Roads, the NASA Knights — a team out 
 “It was pretty much my second home,” Walker said. “I was like, ‘Oh I’m back here again, might as well build a robot.’”
 
 Royal Robotics out of Churchland High School improved on its performance at the previous competition, during which it broke its robot’s claw almost immediately. This time it employed a simpler grabbing mechanism using a pneumatic system that simply squeezed two metal bars together, and worked out some new code for the autonomous portion that paid dividends on Sunday.
+
+![](./3-1.png)
 
 *Robots battle for rank at the FIRST Robotics competition at Churchland High School in Portsmouth on March 18, 2023. (Billy Schuerman/The Virginian-Pilot)*
 

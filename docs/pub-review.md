@@ -123,19 +123,11 @@ Event links use The Blue Alliance format: `https://www.thebluealliance.com/event
 ## Not yet reviewed
 
 - 2023-03-20-triple-helix-robotics-featured-in-the-virginian-pilot
-- 2023-03-20-newsletter-triple-helix-on-fire-six-regular-season-tournament-wins-in-a-row
 - 2023-03-12-standard-software-suite
 - 2023-03-10-fillable-double-elimination-bracket-handout
-- 2023-03-06-newsletter-triple-helix-starts-the-competition-season-with-a-win-in-blacksburg
-- 2023-03-02-woodie-flowers-submission-2023
-- 2023-03-02-genome-xi-2023-bom
-- 2023-02-27-genome-xi-2023-auto-modes
 - 2023-02-22-genome-xi-2023-reveal-video
 - 2023-01-07-newsletter-triple-helix-robotics-is-playing-charged-up
-- 2023-01-04-genome-nu-2022-cad-release
 - 2022-11-15-rev-swerve-wheel-tread-jig
-- 2022-10-22-budget-2022-2023
-- 2022-08-10-newsletter-triple-helix-semifinalists-in-wv-endurance-robot-tournament
 - 2022-07-24-matt-wilbur-award
 - 2022-07-22-newsletter-triple-helix-robotics-quarterfinalists-at-iri
 - 2022-05-25-sds-mk4-swerve-wheel-tread-jigs

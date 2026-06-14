@@ -6,3 +6,7 @@ categories:
   - Programming
   - Strategy
 ---
+![](./1-Two-cone-charge-north.png)
+![](./2-Two-cone-south.png)
+![](./3-Two-cone-collect-north.png)
+
