@@ -16,6 +16,8 @@ The Matt Wilbur Award celebrates adult team members who effectively advance the 
 																										
 		
 
+![](./PXL_20220724_170309186.PORTRAIT.jpg)
+
 The Matt Wilbur Award reflects the name of our team’s founder. During his incredible 8-year period as head coach, Mr. Wilbur led Triple Helix to 5 regular-season wins and 20 official awards. His leadership established Triple Helix as a regional powerhouse of competitive excellence, which allowed us to recently become one of the winningest teams in our Chesapeake Region. He also saw 92% of graduates pursue their college plans, 83% of them majoring in a STEM field. Most importantly, he helped many Triple Helix students find something in themselves that they didn’t know existed, and helped others find outlets for things that they needed to show the world. Through the systems of leadership and project management that Mr. Wilbur established for the team, Mr. Wilbur laid the cornerstone for all that Triple Helix does and aspires to do.
 
 Below, find more information about each of our honorees.

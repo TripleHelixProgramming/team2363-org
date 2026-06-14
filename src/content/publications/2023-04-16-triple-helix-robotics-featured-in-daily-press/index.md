@@ -8,8 +8,8 @@ categories:
 
 ![](./IMG_6242.jpg)
 
-## Newport News robotics team headed to world championship
-
+> ## Newport News robotics team headed to world championship
+> 
 > By Nour Habib<br>Daily Press<br>Apr 16, 2023 at 10:44 am
 >
 > ![](./IMG_6694.jpg)

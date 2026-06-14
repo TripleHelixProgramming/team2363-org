@@ -6,6 +6,8 @@ categories:
   - Newsletter
 ---
 
+![](./DSC7458_1080.jpg)
+
 Triple Helix returned victorious last night, having won the FIRST Chesapeake District - Haymarket VA event along with partners 612 and 1731!  After ranking 5th after qualification rounds, we entered eliminations prepared to face a tough battle against great opponents.  Our robot Genome Lambda is technically ambitious, making use of several electromechanical & controls techniques right there on the cutting edge, and we discovered several areas of improvement via an iterative break & repair cycle completed many times over the course of the 2-day event.  We took every eliminations round to 3 matches, finally besting the 2nd-ranked alliance with TWO one-point wins in the final matches, for the hard-fought event win.  It all couldn't possibly have been more dramatic!
 
 We were also awarded the Engineering Inspiration Award, FIRST's 2nd-highest honor.  A Texas team that we look up to said recently that they consider EI the "most important award in FRC as it shows you are working in your community to spread STEM in effective ways."  Here's what the judges had to say about us:

@@ -13,3 +13,5 @@ thumbnail: ./PXL_20211125_120848526-scaled.jpg
 ---
 
 This 3d printable plate replaces a stock part and limits joystick inputs to a circular shape (1= x2 + y2). The mask works on both right and left sticks. The pictured example was printed from PETG with supports at 0.1mm layer height and 30% infill.
+![](./PXL_20211125_122045173.jpg)
+

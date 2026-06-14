@@ -7,4 +7,6 @@ categories:
   - Strategy
 ---
 
+![](./Autos-Reference.png)
+
 Auto Routines

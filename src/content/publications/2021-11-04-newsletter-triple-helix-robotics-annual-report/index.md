@@ -13,6 +13,8 @@ links:
 
 Intentional Innovation Foundation, the nonprofit operating sponsor for Menchville High School's Triple Helix Robotics team, has published our annual report for the July 2020 - June 2021 fiscal year.
 
+![](./unnamed.png)
+
 [http://team2363.org/2021/10/2020-2021-annual-report/](http://team2363.org/2021/10/2020-2021-annual-report/)
 
 The report captures the many stellar recent accomplishments of our flagship competitive youth STEM program:

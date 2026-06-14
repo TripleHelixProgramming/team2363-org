@@ -51,6 +51,8 @@ This success --
 
 -- represents the culmination of an amazing 2022 season for Triple Helix and is a massive honor for our team.
 
+![](./Image-from-iOS-1.jpg)
+
 ## West Virginia Robotics Xtreme (WVRoX)
 
 In 2 weeks, Triple Helix travels to Morgantown WV where we will play at [WVRoX](https://www.marsfirst.org/wvrox), a 26-hour overnight endurance competition.  We are really excited to play over 30 matches in a field of 24 great teams...
@@ -64,5 +66,5 @@ Our fans can follow along as we play at these events by monitoring
 
 Also, while we're at an event, the link [watch.team2363.org](http://watch.team2363.org/) should take you directly to a live stream of our matches.
 
-Thanks for your support!
+Thanks for your support!<br>
 Nate

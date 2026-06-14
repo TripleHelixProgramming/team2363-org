@@ -20,9 +20,13 @@ Triple Helix's 2019 robot used vision systems to target the retroflectors which 
 
 In February 2020, Triple Helix mentors posed a question in the official Q&A seeking a definition of the word "brief" as it appeared in the blue box below rule R8:
 
+![](./Untitled.png)
+
 The question was deleted from the Q&A system soon after it was posted.
 
 Our question, the original text of which is lost, was a non sequitur. We proposed the fanciful idea that since the manual describes the January-March build season as "brief" in a completely separate discussion of Vendor qualifications, then it must be acceptable to illuminate a high-intensity light for no longer than 3 months at a time.
+
+![](./Untitled-1.png)
 
 The following email conversation tells the story of that deleted question.  We share this conversation here because we think it remains an informative look into the thought processes of both the game designers and the players.
 

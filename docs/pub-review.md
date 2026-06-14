@@ -122,10 +122,6 @@ Event links use The Blue Alliance format: `https://www.thebluealliance.com/event
 
 ## Not yet reviewed
 
-- 2023-03-20-triple-helix-robotics-featured-in-the-virginian-pilot
-- 2023-03-12-standard-software-suite
-- 2023-03-10-fillable-double-elimination-bracket-handout
-- 2023-02-22-genome-xi-2023-reveal-video
 - 2023-01-07-newsletter-triple-helix-robotics-is-playing-charged-up
 - 2022-11-15-rev-swerve-wheel-tread-jig
 - 2022-07-24-matt-wilbur-award

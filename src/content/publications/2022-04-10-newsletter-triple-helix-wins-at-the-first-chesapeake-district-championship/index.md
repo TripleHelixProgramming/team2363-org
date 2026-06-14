@@ -15,6 +15,8 @@ links:
 
 Yesterday evening, our Triple Helix robotics team was crowned winners of the FIRST Chesapeake District Championship held at the Hampton Coliseum, having competed against the 60 highest-ranked high school FIRST Robotics Competition teams in Virginia, Maryland, and DC.
 
+![](./zcz_8039-1.jpg)
+
 Photo courtesy of Zach Clarke
 
 Our #1 seeded alliance was captained by the RoboBees of Hollywood, MD and joined by partner team 620 Warbots of Vienna, VA. We didn't have an easy path to victory-- the playoff rounds of this event were the most nerve-wracking matches I have ever experienced in my 20 years of FRC.
@@ -41,6 +43,6 @@ We cannot be more grateful to our entire network of stakeholders for what they d
 
 The team is taking a couple days off. On Tuesday, our post-season starts. We'd really like you to be a part of it!
 
-
-*Nate Laverdure*
-*Head coach, Triple Helix Robotics*
+--<br>
+Nate Laverdure<br>
+Head coach, Triple Helix Robotics

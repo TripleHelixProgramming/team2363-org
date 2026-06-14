@@ -30,3 +30,5 @@ Assembly instructions:
 - Install drill bushings (McMaster 96511A666) into the top plate such that they are flush with the lower surface.
 
 - Assemble the drill jig with SHCS 8-32 x 5/8" LG fasteners.
+![](./PXL_20220514_183022466.jpg)
+

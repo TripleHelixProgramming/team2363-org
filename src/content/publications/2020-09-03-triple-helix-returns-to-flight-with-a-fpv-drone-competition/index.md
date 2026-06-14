@@ -19,3 +19,5 @@ Triple Helix returns to flight by coming together to create the Tele Operated Ro
 [Responding to the realities of the Coronavirus](https://drive.google.com/file/d/1hfRqnfrSNA8P311rIZcaU1Pl8K6t-X-B/view?usp=sharing) slide deck, last updated 28 Apr 2021
 
 [FPV Quad Build Guide](https://drive.google.com/file/d/1jyFVmJlJFFgrTAdYaAaK3bPoauMYavak/view?usp=sharing) slide deck, last updated 28 Apr 2021
+![](./realities.png)
+
