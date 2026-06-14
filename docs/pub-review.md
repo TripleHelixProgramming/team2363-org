@@ -122,8 +122,6 @@ Event links use The Blue Alliance format: `https://www.thebluealliance.com/event
 
 ## Not yet reviewed
 
-- 2023-04-01-robust-led-strip-lights
-- 2023-03-25-genome-xi-2023-controller-maps
 - 2023-03-20-triple-helix-robotics-featured-in-the-virginian-pilot
 - 2023-03-20-newsletter-triple-helix-on-fire-six-regular-season-tournament-wins-in-a-row
 - 2023-03-12-standard-software-suite
