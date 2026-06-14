@@ -2,6 +2,7 @@
 slug: 2022-03-21-newsletter-triple-helix-robotics-now-3x-winners-in-colonial-heights
 title: "Newsletter: Triple Helix Robotics now 3x winners in Colonial Heights"
 date: 2022-03-21
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

@@ -2,6 +2,7 @@
 slug: 2020-04-15-newsletter-peninsula-stem-gym-seeks-new-home
 title: "Newsletter: Peninsula STEM Gym seeks new home"
 date: 2020-04-15
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

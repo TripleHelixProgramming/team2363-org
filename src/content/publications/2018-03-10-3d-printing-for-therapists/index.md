@@ -2,6 +2,7 @@
 slug: 2018-03-10-3d-printing-for-therapists
 title: 3D printing for therapists
 date: 2018-03-10
+author: 'Nate Laverdure'
 categories:
   - Outreach
   - Talks

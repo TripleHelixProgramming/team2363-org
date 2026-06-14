@@ -2,6 +2,7 @@
 slug: 2019-11-06-budget-2019-2020
 title: "Budget: 2019-2020"
 date: 2019-11-06
+author: 'Nate Laverdure'
 categories:
   - Administrative
 links:

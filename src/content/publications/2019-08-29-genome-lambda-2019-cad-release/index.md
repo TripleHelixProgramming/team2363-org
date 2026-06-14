@@ -2,6 +2,7 @@
 slug: 2019-08-29-genome-lambda-2019-cad-release
 title: Genome Lambda (2019) CAD release
 date: 2019-08-29
+author: 'Nate Laverdure'
 categories:
   - CAD
 links:

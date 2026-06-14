@@ -2,6 +2,7 @@
 slug: 2018-11-15-newsletter-this-saturday-inaugural-open-house-of-the-peninsula-stem-gym
 title: "Newsletter: This Saturday: inaugural open house of the Peninsula STEM Gym"
 date: 2018-11-15
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

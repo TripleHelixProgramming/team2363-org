@@ -22,7 +22,8 @@ export async function getStaticPaths() {
 
 const { entry, prev, next } = Astro.props;
 const { Content } = await render(entry);
-const { title, date, categories, links, thumbnail, videoUrl } = entry.data;
+const { title, date, categories, links, thumbnail, videoUrl, author } =
+  entry.data;
 ---
 
 <Base title={title}>
@@ -83,6 +84,7 @@ const { title, date, categories, links, thumbnail, videoUrl } = entry.data;
             day: "numeric",
           })
         }
+        {author && <span> by {author}</span>}
       </p>
     </div>
 

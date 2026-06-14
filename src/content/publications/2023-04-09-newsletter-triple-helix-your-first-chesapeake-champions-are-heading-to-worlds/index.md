@@ -2,6 +2,7 @@
 slug: 2023-04-09-newsletter-triple-helix-your-first-chesapeake-champions-are-heading-to-worlds
 title: "Newsletter: Triple Helix, your FIRST Chesapeake Champions, are heading to Worlds"
 date: 2023-04-09
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 ---

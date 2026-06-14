@@ -2,6 +2,7 @@
 slug: 2015-12-14-snap-ring-groove-machining-procedure
 title: Snap ring groove machining procedure
 date: 2015-12-14
+author: 'Nate Laverdure'
 categories:
   - Mechanical
 links:

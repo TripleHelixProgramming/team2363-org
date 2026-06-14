@@ -2,6 +2,7 @@
 slug: 2015-09-03-diy-encoder-stage-for-versaplanetary
 title: 'DIY ''encoder stage'' for VersaPlanetary'
 date: 2015-09-03
+author: 'Nate Laverdure'
 categories:
   - Electrical
 links:

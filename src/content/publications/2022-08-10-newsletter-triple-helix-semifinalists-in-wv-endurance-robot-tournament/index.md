@@ -2,6 +2,7 @@
 slug: 2022-08-10-newsletter-triple-helix-semifinalists-in-wv-endurance-robot-tournament
 title: "Newsletter: Triple Helix: semifinalists in WV endurance robot tournament"
 date: 2022-08-10
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 ---

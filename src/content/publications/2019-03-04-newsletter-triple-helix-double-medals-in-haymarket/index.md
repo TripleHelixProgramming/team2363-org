@@ -2,6 +2,7 @@
 slug: 2019-03-04-newsletter-triple-helix-double-medals-in-haymarket
 title: "Newsletter: Triple Helix-- double medals in Haymarket!"
 date: 2019-03-04
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 ---

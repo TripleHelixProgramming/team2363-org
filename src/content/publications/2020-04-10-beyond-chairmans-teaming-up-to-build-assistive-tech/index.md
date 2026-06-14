@@ -2,6 +2,7 @@
 slug: 2020-04-10-beyond-chairmans-teaming-up-to-build-assistive-tech
 title: "Beyond Chairman’s: teaming up to build assistive tech"
 date: 2020-04-10
+author: 'Nate Laverdure'
 categories:
   - Outreach
   - Talks

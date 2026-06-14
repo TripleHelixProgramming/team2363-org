@@ -2,6 +2,7 @@
 slug: 2021-07-10-electronics-workbench-upgrade
 title: Electronics workbench upgrade
 date: 2021-07-10
+author: 'Nate Laverdure'
 categories:
   - Administrative
   - Electrical

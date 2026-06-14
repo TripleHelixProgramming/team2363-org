@@ -2,6 +2,7 @@
 slug: 2023-03-06-newsletter-triple-helix-starts-the-competition-season-with-a-win-in-blacksburg
 title: "Newsletter: Triple Helix starts the competition season with a win in Blacksburg!"
 date: 2023-03-06
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 ---

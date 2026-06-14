@@ -2,6 +2,7 @@
 slug: 2022-02-10-deans-list-2022-justin-b
 title: 'Dean''s List 2022: Justin B'
 date: 2022-02-10
+author: 'Nate Laverdure'
 categories:
   - Awards
 links:

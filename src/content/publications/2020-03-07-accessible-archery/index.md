@@ -2,6 +2,7 @@
 slug: 2020-03-07-accessible-archery
 title: Accessible archery
 date: 2020-03-07
+author: 'Nate Laverdure'
 categories:
   - CAD
   - Outreach

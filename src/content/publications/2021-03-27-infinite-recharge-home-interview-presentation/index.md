@@ -2,6 +2,7 @@
 slug: 2021-03-27-infinite-recharge-home-interview-presentation
 title: "Infinite Recharge @ Home interview presentation"
 date: 2021-03-27
+author: 'Justin Babilino'
 categories:
   - Awards
 links:

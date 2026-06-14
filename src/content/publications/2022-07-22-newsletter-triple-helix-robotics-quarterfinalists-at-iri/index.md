@@ -2,6 +2,7 @@
 slug: 2022-07-22-newsletter-triple-helix-robotics-quarterfinalists-at-iri
 title: "Newsletter: Triple Helix Robotics - quarterfinalists at IRI!"
 date: 2022-07-22
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

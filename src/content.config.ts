@@ -20,6 +20,7 @@ const publications = defineCollection({
       // Run scripts/migrate-to-dirs.js to download images and update all entries.
       thumbnail: image().optional(),
       videoUrl: z.string().url().optional(),
+      author: z.string().optional(),
     }),
 });
 

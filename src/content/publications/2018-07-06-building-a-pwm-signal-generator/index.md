@@ -2,6 +2,7 @@
 slug: 2018-07-06-building-a-pwm-signal-generator
 title: Building a pulse width modulation (PWM) signal generator
 date: 2018-07-06
+author: 'Bill Bretton'
 categories:
   - Electrical
 links:

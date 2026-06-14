@@ -2,6 +2,7 @@
 slug: 2019-09-20-in-kind-donation-most-wanted-list
 title: In-kind donation most wanted list
 date: 2019-09-20
+author: 'Nate Laverdure'
 categories:
   - Administrative
 links:

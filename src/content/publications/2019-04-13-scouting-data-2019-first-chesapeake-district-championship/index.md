@@ -2,6 +2,7 @@
 slug: 2019-04-13-scouting-data-2019-first-chesapeake-district-championship
 title: "Scouting data: 2019 FIRST Chesapeake District Championship"
 date: 2019-04-13
+author: 'Nate Laverdure'
 categories:
   - Scouting
 links:

@@ -2,6 +2,7 @@
 slug: 2020-01-29-case-for-wide-angle-vga-usb-camera-module
 title: Case for wide angle VGA USB camera module
 date: 2020-01-29
+author: 'Nate Laverdure'
 categories:
   - CAD
   - Electrical

@@ -2,6 +2,7 @@
 slug: 2023-05-08-how-we-shipped-our-pit-to-the-first-championship
 title: How we shipped our pit to the FIRST Championship
 date: 2023-05-08
+author: 'Nate Laverdure'
 categories:
   - Administrative
 links:

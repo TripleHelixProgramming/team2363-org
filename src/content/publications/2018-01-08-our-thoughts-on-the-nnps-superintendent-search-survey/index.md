@@ -2,6 +2,7 @@
 slug: 2018-01-08-our-thoughts-on-the-nnps-superintendent-search-survey
 title: Our thoughts on the NNPS Superintendent Search Survey
 date: 2018-01-08
+author: 'Nate Laverdure'
 categories:
   - Administrative
 ---

@@ -2,6 +2,7 @@
 slug: 2019-01-18-method-for-arcade-drive-input-scaling
 title: Method for Arcade Drive input scaling
 date: 2019-01-18
+author: 'Nate Laverdure'
 categories:
   - Programming
 links:

@@ -2,6 +2,7 @@
 slug: 2020-01-29-latching-switch-adapter-for-arcade-button
 title: Latching switch adapter for arcade button
 date: 2020-01-29
+author: 'Nate Laverdure'
 categories:
   - CAD
   - Electrical

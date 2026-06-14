@@ -2,6 +2,7 @@
 slug: 2022-04-10-newsletter-triple-helix-wins-at-the-first-chesapeake-district-championship
 title: "Newsletter: Triple Helix wins the FIRST Chesapeake District Championship"
 date: 2022-04-10
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

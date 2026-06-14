@@ -2,6 +2,7 @@
 slug: 2017-02-17-trailer-towing-requirements
 title: Trailer towing requirements
 date: 2017-02-17
+author: 'Nate Laverdure'
 categories:
   - Administrative
   - Outreach

@@ -2,6 +2,7 @@
 slug: 2020-10-16-newsletter-triple-helix-robotics-october-2020-update
 title: "Newsletter: Triple Helix Robotics - October 2020 update"
 date: 2020-10-16
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

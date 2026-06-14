@@ -2,6 +2,7 @@
 slug: 2018-11-29-converting-festos-flow-rate-spec-to-cv
 title: 'Converting Festo''s flow rate spec to Cv'
 date: 2018-11-29
+author: 'Nate Laverdure'
 categories:
   - Mechanical
   - Pneumatics

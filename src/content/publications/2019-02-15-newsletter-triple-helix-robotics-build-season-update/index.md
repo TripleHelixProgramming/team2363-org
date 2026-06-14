@@ -2,6 +2,7 @@
 slug: 2019-02-15-newsletter-triple-helix-robotics-build-season-update
 title: "Newsletter: Triple Helix Robotics - build season update"
 date: 2019-02-15
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

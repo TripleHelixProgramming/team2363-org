@@ -2,6 +2,7 @@
 slug: 2018-03-29-genome-kappa-2018-final-caw
 title: Genome Kappa (2018) final CAW
 date: 2018-03-29
+author: 'Bill Bretton'
 categories:
   - BOM-CAW
 links:

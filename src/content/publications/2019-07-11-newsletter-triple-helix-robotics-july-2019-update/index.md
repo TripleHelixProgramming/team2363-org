@@ -2,6 +2,7 @@
 slug: 2019-07-11-newsletter-triple-helix-robotics-july-2019-update
 title: "Newsletter: Triple Helix Robotics - July 2019 update"
 date: 2019-07-11
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

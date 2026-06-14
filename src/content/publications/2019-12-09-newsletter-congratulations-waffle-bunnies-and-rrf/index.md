@@ -2,6 +2,7 @@
 slug: 2019-12-09-newsletter-congratulations-waffle-bunnies-and-rrf
 title: "Newsletter: Congratulations Waffle Bunnies and RRF !"
 date: 2019-12-09
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 ---

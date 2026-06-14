@@ -2,6 +2,7 @@
 slug: 2019-02-28-typical-pre-competition-briefing
 title: Typical pre-competition briefing
 date: 2019-02-28
+author: 'Nate Laverdure'
 categories:
   - Administrative
   - Talks

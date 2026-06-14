@@ -2,6 +2,7 @@
 slug: 2021-04-08-newsletter-triple-helix-completes-all-the-infinite-recharge-home-skills-challenges
 title: 'Newsletter: Triple Helix completes all the "Infinite Recharge @ Home" Skills Challenges'
 date: 2021-04-08
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 ---

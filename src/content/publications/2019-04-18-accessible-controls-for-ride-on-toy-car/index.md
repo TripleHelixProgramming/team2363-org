@@ -2,6 +2,7 @@
 slug: 2019-04-18-accessible-controls-for-ride-on-toy-car
 title: Accessible controls for ride-on toy car
 date: 2019-04-18
+author: 'Nate Laverdure'
 categories:
   - CAD
   - Outreach

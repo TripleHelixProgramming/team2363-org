@@ -2,6 +2,7 @@
 slug: 2023-07-08-newsletter-triple-helix-summer-update
 title: "Newsletter: Triple Helix summer update"
 date: 2023-07-08
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 ---

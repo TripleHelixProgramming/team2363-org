@@ -2,6 +2,7 @@
 slug: 2016-02-28-adapting-fingertech-mecanums
 title: 'Adapting the FingerTech 2" mecanums for FRC use'
 date: 2016-02-28
+author: 'Nate Laverdure'
 categories:
   - Mechanical
 links:

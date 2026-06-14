@@ -2,6 +2,7 @@
 slug: 2023-04-13-2023-first-championship-conference-schedule
 title: 2023 FIRST Championship conference schedule
 date: 2023-04-13
+author: 'Nate Laverdure'
 categories:
   - Administrative
   - Talks

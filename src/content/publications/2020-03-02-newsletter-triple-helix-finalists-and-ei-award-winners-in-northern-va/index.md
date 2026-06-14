@@ -2,6 +2,7 @@
 slug: 2020-03-02-newsletter-triple-helix-finalists-and-ei-award-winners-in-northern-va
 title: "Newsletter: Triple Helix: Finalists and EI Award winners in Northern VA!"
 date: 2020-03-02
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 ---

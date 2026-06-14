@@ -2,6 +2,7 @@
 slug: 2021-12-02-budget-2021-2022
 title: "Budget: 2021-2022"
 date: 2021-12-02
+author: 'Nate Laverdure'
 categories:
   - Administrative
 links:

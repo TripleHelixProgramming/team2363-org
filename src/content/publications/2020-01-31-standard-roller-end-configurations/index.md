@@ -2,6 +2,7 @@
 slug: 2020-01-31-standard-roller-end-configurations
 title: Standard roller end configurations
 date: 2020-01-31
+author: 'Nate Laverdure'
 categories:
   - Mechanical
 links:

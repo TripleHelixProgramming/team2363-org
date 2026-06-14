@@ -2,6 +2,7 @@
 slug: 2022-04-14-2022-first-championship-conference-schedule
 title: 2022 FIRST Championship conference schedule
 date: 2022-04-14
+author: 'Nate Laverdure'
 categories:
   - Administrative
   - Talks

@@ -2,6 +2,7 @@
 slug: 2023-01-07-newsletter-triple-helix-robotics-is-playing-charged-up
 title: "Newsletter: Triple Helix Robotics is playing CHARGED UP"
 date: 2023-01-07
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 videoUrl: 'https://www.youtube.com/watch?v=0zpflsYc4PA'

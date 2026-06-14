@@ -2,6 +2,7 @@
 slug: 2018-11-26-replacing-cots-gear-stages-with-chain-or-belt
 title: Replacing COTS gear stages with chain or belt
 date: 2018-11-26
+author: 'Nate Laverdure'
 categories:
   - Mechanical
 links:

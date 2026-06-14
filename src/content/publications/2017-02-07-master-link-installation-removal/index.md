@@ -2,6 +2,7 @@
 slug: 2017-02-07-master-link-installation-removal
 title: Installing and removing a master link
 date: 2017-02-07
+author: 'Nate Laverdure'
 categories:
   - Mechanical
 links:

@@ -2,6 +2,7 @@
 slug: 2019-05-02-a-vision-for-first-chesapeake
 title: A vision for FIRST Chesapeake
 date: 2019-05-02
+author: 'Nate Laverdure'
 categories:
   - Outreach
 links:

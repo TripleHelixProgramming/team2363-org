@@ -2,6 +2,7 @@
 slug: 2019-01-04-2018-summer-mini-ftc-robot-cad
 title: 2018 Summer Mini FTC Robot CAD
 date: 2019-01-04
+author: 'Justin Babilino'
 categories:
   - CAD
 links:

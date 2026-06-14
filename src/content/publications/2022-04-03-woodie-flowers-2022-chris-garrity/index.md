@@ -2,6 +2,7 @@
 slug: 2022-04-03-woodie-flowers-2022-chris-garrity
 title: "Woodie Flowers 2022: Chris Garrity"
 date: 2022-04-03
+author: 'Justin Babilino'
 categories:
   - Awards
 ---

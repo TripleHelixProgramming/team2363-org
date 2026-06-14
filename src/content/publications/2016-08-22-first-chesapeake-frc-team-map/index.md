@@ -2,6 +2,7 @@
 slug: 2016-08-22-first-chesapeake-frc-team-map
 title: FIRST Chesapeake FRC team map
 date: 2016-08-22
+author: 'Nate Laverdure'
 categories:
   - Outreach
 links:

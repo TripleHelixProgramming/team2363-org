@@ -2,6 +2,7 @@
 slug: 2022-02-10-deans-list-2022-joshua-n
 title: 'Dean''s List 2022: Joshua N'
 date: 2022-02-10
+author: 'Nate Laverdure'
 categories:
   - Awards
 links:

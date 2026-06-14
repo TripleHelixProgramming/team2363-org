@@ -2,6 +2,7 @@
 slug: 2022-01-26-explainer-intake-linkage-design-process
 title: "Explainer: intake linkage design process"
 date: 2022-01-26
+author: 'Nate Laverdure'
 categories:
   - Mechanical
   - Talks

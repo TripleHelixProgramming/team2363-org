@@ -2,6 +2,7 @@
 slug: 2023-03-20-newsletter-triple-helix-on-fire-six-regular-season-tournament-wins-in-a-row
 title: "Newsletter: Triple Helix on fire! Six regular-season tournament wins in a row"
 date: 2023-03-20
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 ---

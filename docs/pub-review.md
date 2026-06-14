@@ -215,4 +215,3 @@ Event links use The Blue Alliance format: `https://www.thebluealliance.com/event
 - 2018-09-01-newsletter-triple-helix-update-september-2018
 - 2018-08-30-triple-helix-tech-tips
 - 2018-08-03-newsletter-triple-helix-update-august-2018
-- 2018-07-06-building-a-pwm-signal-generator

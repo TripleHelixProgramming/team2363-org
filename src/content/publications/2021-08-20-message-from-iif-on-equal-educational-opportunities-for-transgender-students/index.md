@@ -2,6 +2,7 @@
 slug: 2021-08-20-message-from-iif-on-equal-educational-opportunities-for-transgender-students
 title: Message from IIF on equal educational opportunities for transgender students
 date: 2021-08-20
+author: 'Nate Laverdure'
 categories:
   - Administrative
 ---

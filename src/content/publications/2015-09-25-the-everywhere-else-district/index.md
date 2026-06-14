@@ -2,6 +2,7 @@
 slug: 2015-09-25-the-everywhere-else-district
 title: The Everywhere Else District
 date: 2015-09-25
+author: 'Nate Laverdure'
 categories:
   - Outreach
 links:

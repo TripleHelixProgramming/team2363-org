@@ -2,6 +2,7 @@
 slug: 2022-05-25-sds-mk4-swerve-wheel-tread-jigs
 title: SDS MK4 swerve wheel tread jigs
 date: 2022-05-25
+author: 'Nate Laverdure'
 categories:
   - CAD
   - Mechanical

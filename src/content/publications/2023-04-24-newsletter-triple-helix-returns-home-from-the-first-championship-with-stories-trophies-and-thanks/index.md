@@ -2,6 +2,7 @@
 slug: 2023-04-24-newsletter-triple-helix-returns-home-from-the-first-championship-with-stories-trophies-and-thanks
 title: "Newsletter: Triple Helix returns home from the FIRST Championship with stories, trophies, and thanks"
 date: 2023-04-24
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 ---

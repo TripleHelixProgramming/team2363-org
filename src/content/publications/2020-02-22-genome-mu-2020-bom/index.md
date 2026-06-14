@@ -2,6 +2,7 @@
 slug: 2020-02-22-genome-mu-2020-bom
 title: Genome Mu (2020) BOM
 date: 2020-02-22
+author: 'Nate Laverdure'
 categories:
   - BOM-CAW
 links:

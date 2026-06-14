@@ -2,6 +2,7 @@
 slug: 2017-05-27-using-4-awg-with-the-anderson-sb50
 title: Using 4 AWG cable with the Anderson SB50 connectors
 date: 2017-05-27
+author: 'Nate Laverdure'
 categories:
   - Electrical
 links:

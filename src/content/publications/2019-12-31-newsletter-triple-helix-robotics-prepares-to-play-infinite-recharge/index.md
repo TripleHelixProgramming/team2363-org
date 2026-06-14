@@ -2,6 +2,7 @@
 slug: 2019-12-31-newsletter-triple-helix-robotics-prepares-to-play-infinite-recharge
 title: 'Newsletter: Triple Helix Robotics prepares to play "Infinite Recharge"'
 date: 2019-12-31
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 ---

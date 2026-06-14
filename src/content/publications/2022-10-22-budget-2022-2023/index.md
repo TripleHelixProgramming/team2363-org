@@ -2,6 +2,7 @@
 slug: 2022-10-22-budget-2022-2023
 title: "Budget: 2022-2023"
 date: 2022-10-22
+author: 'Nate Laverdure'
 categories:
   - Administrative
 links:

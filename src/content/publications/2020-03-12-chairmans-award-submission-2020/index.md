@@ -2,6 +2,7 @@
 slug: 2020-03-12-chairmans-award-submission-2020
 title: 'Chairman''s Award submission 2020'
 date: 2020-03-12
+author: 'Nate Laverdure'
 categories:
   - Awards
 links:

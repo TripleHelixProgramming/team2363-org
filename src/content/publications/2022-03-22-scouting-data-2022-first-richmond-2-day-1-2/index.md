@@ -2,6 +2,7 @@
 slug: 2022-03-22-scouting-data-2022-first-richmond-2-day-1-2
 title: "Scouting data: 2022 FIRST Richmond #2 Day 1 &amp; 2"
 date: 2022-03-22
+author: 'Joshua Nichols'
 categories:
   - Scouting
 links:

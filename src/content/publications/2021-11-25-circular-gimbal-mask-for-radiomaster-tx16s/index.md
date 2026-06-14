@@ -2,6 +2,7 @@
 slug: 2021-11-25-circular-gimbal-mask-for-radiomaster-tx16s
 title: Circular gimbal mask for Radiomaster TX16S
 date: 2021-11-25
+author: 'Nate Laverdure'
 categories:
   - CAD
 links:

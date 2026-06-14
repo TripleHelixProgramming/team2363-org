@@ -2,6 +2,7 @@
 slug: 2020-03-09-nmir-correspondence
 title: NMIR correspondence
 date: 2020-03-09
+author: 'Nate Laverdure'
 categories:
   - Administrative
 links:

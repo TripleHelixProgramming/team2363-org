@@ -2,6 +2,7 @@
 slug: 2016-11-19-command-based-java-for-frc
 title: Command based Java for FRC
 date: 2016-11-19
+author: 'Matt Lythgoe'
 categories:
   - Programming
   - Talks

@@ -2,6 +2,7 @@
 slug: 2020-03-28-live-qa-hosting-a-rumble
 title: "Live Q&A - Hosting a Rumble"
 date: 2020-03-28
+author: 'Nate Laverdure'
 categories:
   - Talks
 links:

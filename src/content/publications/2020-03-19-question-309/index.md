@@ -2,6 +2,7 @@
 slug: 2020-03-19-question-309
 title: Question 309
 date: 2020-03-19
+author: 'Nate Laverdure'
 categories:
   - Administrative
 links:

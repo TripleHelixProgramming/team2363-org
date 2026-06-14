@@ -2,6 +2,7 @@
 slug: 2018-09-23-press-release-peninsula-stem-gym-provides-practice-opportunities-for-hampton-roads-youth-robotics-teams
 title: "Press release: Peninsula STEM Gym provides practice opportunities for Hampton Roads youth robotics teams"
 date: 2018-09-23
+author: 'Nate Laverdure'
 categories:
   - Newsletter
   - Publicity

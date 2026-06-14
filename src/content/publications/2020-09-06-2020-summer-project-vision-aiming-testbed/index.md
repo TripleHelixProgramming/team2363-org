@@ -2,6 +2,7 @@
 slug: 2020-09-06-2020-summer-project-vision-aiming-testbed
 title: "2020 summer project: vision aiming testbed"
 date: 2020-09-06
+author: 'Justin Babilino'
 categories:
   - CAD
 links:

@@ -2,6 +2,7 @@
 slug: 2019-11-10-dropping-the-bom
 title: Dropping the BOM
 date: 2019-11-10
+author: 'Nate Laverdure'
 categories:
   - Administrative
   - BOM-CAW

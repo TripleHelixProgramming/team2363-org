@@ -2,6 +2,7 @@
 slug: 2022-03-07-newsletter-triple-helix-robotics-winners-in-colonial-heights
 title: "Newsletter: Triple Helix Robotics - winners in Colonial Heights!"
 date: 2022-03-07
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

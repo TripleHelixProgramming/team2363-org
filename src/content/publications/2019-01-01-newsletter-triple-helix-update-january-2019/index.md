@@ -2,6 +2,7 @@
 slug: 2019-01-01-newsletter-triple-helix-update-january-2019
 title: "Newsletter: Triple Helix update - January 2019"
 date: 2019-01-01
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

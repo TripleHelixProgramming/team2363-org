@@ -2,6 +2,7 @@
 slug: 2019-03-01-genome-lambda-2019-bom
 title: Genome Lambda (2019) BOM
 date: 2019-03-01
+author: 'Bill Bretton'
 categories:
   - BOM-CAW
 links:

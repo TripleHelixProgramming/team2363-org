@@ -2,6 +2,7 @@
 slug: 2018-09-01-newsletter-triple-helix-update-september-2018
 title: "Newsletter: Triple Helix update - September 2018"
 date: 2018-09-01
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

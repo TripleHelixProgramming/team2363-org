@@ -2,6 +2,7 @@
 slug: 2021-03-03-genome-mu-2020-data-sheet
 title: Genome Mu (2020) data sheet
 date: 2021-03-03
+author: 'Nate Laverdure'
 categories:
   - Robot reveals
   - Strategy

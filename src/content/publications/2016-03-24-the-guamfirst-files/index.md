@@ -2,6 +2,7 @@
 slug: 2016-03-24-the-guamfirst-files
 title: The GuamFIRST Files
 date: 2016-03-24
+author: 'Nate Laverdure'
 categories:
   - Outreach
 thumbnail: ./g4239-0-0.png

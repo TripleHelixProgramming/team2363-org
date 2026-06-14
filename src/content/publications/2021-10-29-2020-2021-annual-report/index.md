@@ -2,6 +2,7 @@
 slug: 2021-10-29-2020-2021-annual-report
 title: 2020-2021 Annual Report
 date: 2021-10-29
+author: 'Nate Laverdure'
 categories:
   - Administrative
 links:

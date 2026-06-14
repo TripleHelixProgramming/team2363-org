@@ -2,6 +2,7 @@
 slug: 2023-03-02-genome-xi-2023-bom
 title: Genome Xi (2023) BOM
 date: 2023-03-02
+author: 'Nate Laverdure'
 categories:
   - BOM-CAW
 links:

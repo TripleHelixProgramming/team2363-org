@@ -2,6 +2,7 @@
 slug: 2021-02-01-our-infinite-recharge-at-home-skills-competition-raw-scores
 title: Our Infinite Recharge at Home Skills Competition raw scores
 date: 2021-02-01
+author: 'Nate Laverdure'
 categories:
   - Strategy
 links:

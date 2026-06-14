@@ -2,6 +2,7 @@
 slug: 2020-01-09-newsletter-triple-helix-robotics-early-build-season-update
 title: "Newsletter: Triple Helix Robotics early build season update"
 date: 2020-01-09
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

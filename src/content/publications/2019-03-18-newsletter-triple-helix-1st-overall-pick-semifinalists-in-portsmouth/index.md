@@ -2,6 +2,7 @@
 slug: 2019-03-18-newsletter-triple-helix-1st-overall-pick-semifinalists-in-portsmouth
 title: "Newsletter: Triple Helix 1st overall pick & semifinalists in Portsmouth!"
 date: 2019-03-18
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

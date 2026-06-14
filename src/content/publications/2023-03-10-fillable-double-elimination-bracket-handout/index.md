@@ -2,6 +2,7 @@
 slug: 2023-03-10-fillable-double-elimination-bracket-handout
 title: Fillable double elimination bracket handout
 date: 2023-03-10
+author: 'Nate Laverdure'
 categories:
   - Administrative
 links:

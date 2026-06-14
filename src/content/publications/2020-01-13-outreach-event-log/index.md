@@ -2,6 +2,7 @@
 slug: 2020-01-13-outreach-event-log
 title: Outreach event log
 date: 2020-01-13
+author: 'Nate Laverdure'
 categories:
   - Administrative
   - Outreach

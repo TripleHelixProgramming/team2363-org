@@ -2,6 +2,7 @@
 slug: 2022-11-15-rev-swerve-wheel-tread-jig
 title: REV MAXSwerve wheel tread jig
 date: 2022-11-15
+author: 'Nate Laverdure'
 categories:
   - CAD
   - Mechanical

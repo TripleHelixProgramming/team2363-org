@@ -2,6 +2,7 @@
 slug: 2021-07-07-be-a-mentor-for-triple-helix-robotics
 title: "Be a mentor for Triple Helix Robotics!"
 date: 2021-07-07
+author: 'Nate Laverdure'
 categories:
   - Administrative
 ---

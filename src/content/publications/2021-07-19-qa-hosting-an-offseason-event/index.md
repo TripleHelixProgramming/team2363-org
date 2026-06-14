@@ -2,6 +2,7 @@
 slug: 2021-07-19-qa-hosting-an-offseason-event
 title: QA - Hosting an Offseason Event
 date: 2021-07-19
+author: 'Nate Laverdure'
 categories:
   - Outreach
 links:

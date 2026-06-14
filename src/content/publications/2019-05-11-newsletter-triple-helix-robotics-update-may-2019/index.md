@@ -2,6 +2,7 @@
 slug: 2019-05-11-newsletter-triple-helix-robotics-update-may-2019
 title: "Newsletter: Triple Helix Robotics update - May 2019"
 date: 2019-05-11
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:

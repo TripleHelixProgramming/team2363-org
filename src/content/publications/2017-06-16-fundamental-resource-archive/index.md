@@ -2,6 +2,7 @@
 slug: 2017-06-16-fundamental-resource-archive
 title: Fundamental resource archive
 date: 2017-06-16
+author: 'Nate Laverdure'
 categories:
   - Administrative
 links:

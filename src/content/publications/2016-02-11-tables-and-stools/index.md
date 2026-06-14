@@ -2,6 +2,7 @@
 slug: 2016-02-11-tables-and-stools
 title: "Tables and stools: understanding exact constraint design of deformable-body systems"
 date: 2016-02-11
+author: 'Nate Laverdure'
 categories:
   - Mechanical
 links:

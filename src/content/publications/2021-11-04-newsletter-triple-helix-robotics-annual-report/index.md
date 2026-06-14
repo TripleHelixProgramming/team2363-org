@@ -2,6 +2,7 @@
 slug: 2021-11-04-newsletter-triple-helix-robotics-annual-report
 title: "Newsletter: Triple Helix Robotics annual report"
 date: 2021-11-04
+author: 'Nate Laverdure'
 categories:
   - Newsletter
 links:
