@@ -11,6 +11,9 @@ thumbnail: ./Capture-1.png
 ---
 
 2015 summer development project
-Butterfly drive
-Mode 1: 6 wheeled west coast drive with 4" colsons
-Mode 2: 4 wheel drive with 4" omni wheels
+
+- Butterfly drive
+
+- Mode 1: 6 wheeled west coast drive with 4" colsons
+
+- Mode 2: 4 wheel drive with 4" omni wheels

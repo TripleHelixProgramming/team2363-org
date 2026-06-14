@@ -4,27 +4,17 @@ title: 2022 IRI application
 date: 2022-05-16
 categories:
   - Administrative
-links:
-  - label: Indiana Robotics Invitational
-    url: 'http://indianaroboticsinvitational.org/'
-  - label: "FIRST Chesapeake District - Greater Richmond Event #1 Day 1"
-    url: 'https://www.thebluealliance.com/event/2022va305'
-  - label: "FIRST Chesapeake District - Greater Richmond Event #2 Day 1"
-    url: 'https://www.thebluealliance.com/event/2022va319'
-  - label: "FIRST Chesapeake District - Greater Richmond Event #2 Day 2"
-    url: 'https://www.thebluealliance.com/event/2022va320'
-  - label: FIRST Chesapeake District Championship
-    url: 'https://www.thebluealliance.com/event/2022chcmp'
+videoUrl: 'https://youtu.be/pCZOgE5DTME'
 ---
 
 Triple Helix students have proudly submitted the following application to the 2022 [Indiana Robotics Invitational](http://indianaroboticsinvitational.org/), a competitive and prestigious annual offseason FRC tournament in the Indianapolis area.
 
 ## What competitions did you attend in 2022?
 
-- FIRST Chesapeake District - Greater Richmond Event #1 Day 1 (Winner)
-- FIRST Chesapeake District - Greater Richmond Event #2 Day 1 (Undefeated, Winner)
-- FIRST Chesapeake District - Greater Richmond Event #2 Day 2 (Winner)
-- FIRST Chesapeake District Championship (Winner)
+- [FIRST Chesapeake District - Greater Richmond Event #1 Day 1](https://www.thebluealliance.com/event/2022va305) (Winner)
+- [FIRST Chesapeake District - Greater Richmond Event #2 Day 1](https://www.thebluealliance.com/event/2022va319) (Undefeated, Winner)
+- [FIRST Chesapeake District - Greater Richmond Event #2 Day 2](https://www.thebluealliance.com/event/2022va320) (Winner)
+- [FIRST Chesapeake District Championship](https://www.thebluealliance.com/event/2022chcmp) (Winner)
 
 ## What was your best performance this year?
 
@@ -37,5 +27,3 @@ Working with limited membership due to COVID, we focused on building the fastest
 During competition season, we selected and trained a new driver ~1 week prior to the DCMP due to an injury on the drive team. Triple Helix declined our invitation to the FIRST Championship due to travel restrictions by the school system.
 
 ## Link to a team video, if you would like to share one.
-
-https://youtu.be/pCZOgE5DTME

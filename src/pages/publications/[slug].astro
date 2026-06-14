@@ -5,6 +5,7 @@ import Base from "../../layouts/Base.astro";
 import Nav from "../../components/Nav.astro";
 import Footer from "../../components/Footer.astro";
 import { sortPublications } from "../../utils/publications";
+import VideoEmbed from "../../components/VideoEmbed.astro";
 
 export async function getStaticPaths() {
   const publications = await getCollection("publications");
@@ -21,7 +22,7 @@ export async function getStaticPaths() {
 
 const { entry, prev, next } = Astro.props;
 const { Content } = await render(entry);
-const { title, date, categories, links, thumbnail } = entry.data;
+const { title, date, categories, links, thumbnail, videoUrl } = entry.data;
 ---
 
 <Base title={title}>
@@ -89,6 +90,15 @@ const { title, date, categories, links, thumbnail } = entry.data;
     <div class="prose max-w-none">
       <Content />
     </div>
+
+    <!-- Video embed -->
+    {
+      videoUrl && (
+        <div class="mt-8">
+          <VideoEmbed url={videoUrl} />
+        </div>
+      )
+    }
 
     <!-- Links -->
     {

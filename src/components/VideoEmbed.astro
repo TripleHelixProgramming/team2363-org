@@ -1,0 +1,30 @@
+---
+interface Props {
+  url: string;
+}
+
+const { url } = Astro.props;
+
+function getYouTubeId(url: string): string | null {
+  const m =
+    url.match(/youtube\.com\/watch\?v=([^&]+)/) ||
+    url.match(/youtu\.be\/([^?]+)/) ||
+    url.match(/youtube\.com\/embed\/([^?]+)/);
+  return m ? m[1] : null;
+}
+
+const videoId = getYouTubeId(url);
+---
+
+{
+  videoId && (
+    <div class="relative w-full" style="padding-bottom:56.25%">
+      <iframe
+        class="absolute inset-0 w-full h-full rounded-lg"
+        src={`https://www.youtube.com/embed/${videoId}`}
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      />
+    </div>
+  )
+}
