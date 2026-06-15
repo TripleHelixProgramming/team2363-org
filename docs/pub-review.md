@@ -122,13 +122,6 @@ Event links use The Blue Alliance format: `https://www.thebluealliance.com/event
 
 ## Not yet reviewed
 
-- 2022-07-22-newsletter-triple-helix-robotics-quarterfinalists-at-iri
-- 2022-05-25-sds-mk4-swerve-wheel-tread-jigs
-- 2022-04-27-triple-helix-featured-in-menchville-hs-student-newspaper-the-lions-roar
-- 2022-04-27-triple-helix-featured-in-jefferson-lab-news
-- 2022-04-14-2022-first-championship-conference-schedule
-- 2022-04-10-newsletter-triple-helix-wins-at-the-first-chesapeake-district-championship
-- 2022-04-10-genome-nu-2020-pre-match-checklist
 - 2022-04-03-woodie-flowers-2022-chris-garrity
 - 2022-04-02-genome-nu-2022-bom
 - 2022-03-23-the-engineering-awards-hexafecta

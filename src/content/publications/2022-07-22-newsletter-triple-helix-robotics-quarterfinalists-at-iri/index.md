@@ -5,21 +5,6 @@ date: 2022-07-22
 author: 'Nate Laverdure'
 categories:
   - Newsletter
-links:
-  - label: '"Rumble in the Roads"'
-    url: 'https://www.rumbleintheroads.com/'
-  - label: Indiana Robotics Invitational
-    url: 'http://indianaroboticsinvitational.org/'
-  - label: "Check out this 10-minute summary of the IRI by FIRST Updates Now!"
-    url: 'https://www.youtube.com/watch?v=2F334KJ_Mzo'
-  - label: WVRoX
-    url: 'https://www.marsfirst.org/wvrox'
-  - label: "Check out this 1-minute teaser for the event!"
-    url: 'https://www.youtube.com/watch?v=gX0MCsIDB0s'
-  - label: "https://www.thebluealliance.com/team/2363"
-    url: 'https://www.thebluealliance.com/team/2363'
-  - label: watch.team2363.org
-    url: 'http://watch.team2363.org/'
 ---
 
 This summer, Menchville High School's award-winning Triple Helix robotics team travels to two high-profile offseason tournaments where we compete (for fun and bragging rights) on a national stage against many of the world's top teams.

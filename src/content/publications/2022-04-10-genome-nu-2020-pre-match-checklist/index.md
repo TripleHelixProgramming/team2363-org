@@ -10,15 +10,15 @@ Triple Helix's pit crew ensured that our 2022 robot, Genome Nu, was ready for ea
 
 - Periodically inspect all wire connections
 
-Power: battery->breaker->PDP->Controller->Motor
+  - Power: battery->breaker->PDP->Controller->Motor
 
-- CAN: RIO->can devices->PDP
+  - CAN: RIO->can devices->PDP
 
 - Inspect each swerve module
 
-Clean movement
+  - Clean movement
 
-- Carpet fuzz
+  - Carpet fuzz
 
 - Inspect belts for wear
 

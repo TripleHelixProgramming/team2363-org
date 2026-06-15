@@ -5,13 +5,6 @@ date: 2022-04-10
 author: 'Nate Laverdure'
 categories:
   - Newsletter
-links:
-  - label: '"More than robots"'
-    url: 'https://www.youtube.com/watch?v=AjIISbARc20'
-  - label: '"This isn''t a robot"'
-    url: 'https://www.youtube.com/watch?v=hpEWBmdL0Ow'
-  - label: 'falling for the Randy Pausch-style "head fake"'
-    url: 'https://www.youtube.com/watch?v=ji5_MqicxSo'
 ---
 
 Yesterday evening, our Triple Helix robotics team was crowned winners of the FIRST Chesapeake District Championship held at the Hampton Coliseum, having competed against the 60 highest-ranked high school FIRST Robotics Competition teams in Virginia, Maryland, and DC.
@@ -31,8 +24,8 @@ Triple Helix finishes our 2022 regular season:
 
 In addition to our outstanding performance as a team, our team members were recognized individually as well:
 
-- Our lead programming student (and at this event, our human player!) Joshua Nichols was selected as one of the three Dean's List Finalists to represent FIRST Chesapeake on the world level. We're so incredibly proud of Josh and the work he has done over a period of 9+ years to not only increase visibility and respect for STEM in his community, but also to create real STEM exploration opportunities for those who need it. Read our nominating essay, written by the team mentors, here.
-- Our mentor Chris Garrity was recognized as one of the mentors nominated for the Woodie Flowers Finalist Award, which celebrates effective communication in the art and science of engineering and design. Chris is not only a core mentor for Triple Helix but he's also a reliable event volunteer who makes our competition season possible. Read our nominating essay, written by the team students, here.
+- Our lead programming student (and at this event, our human player!) Joshua Nichols was selected as one of the three Dean's List Finalists to represent FIRST Chesapeake on the world level. We're so incredibly proud of Josh and the work he has done over a period of 9+ years to not only increase visibility and respect for STEM in his community, but also to create real STEM exploration opportunities for those who need it. Read our nominating essay, written by the team mentors, [here](/publications/2022-02-10-deans-list-2022-joshua-n/).
+- Our mentor Chris Garrity was recognized as one of the mentors nominated for the Woodie Flowers Finalist Award, which celebrates effective communication in the art and science of engineering and design. Chris is not only a core mentor for Triple Helix but he's also a reliable event volunteer who makes our competition season possible. Read our nominating essay, written by the team students, [here](/publications/2022-04-03-woodie-flowers-2022-chris-garrity/).
 
 There are so many amazing stories to share from this event and from this season. Stories about struggle, sacrifice, mistakes, bad fortune, good fortune, commitment, skill, resilience, and reward. Our team members will carry these experiences with them for the rest of their lives.
 

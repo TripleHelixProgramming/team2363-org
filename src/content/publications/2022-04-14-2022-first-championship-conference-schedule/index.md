@@ -7,8 +7,6 @@ categories:
   - Administrative
   - Talks
 links:
-  - label: a 2019 document by Jon Stratis
-    url: 'https://www.chiefdelphi.com/t/where-to-find-list-of-detroit-conferences/354831/11'
   - label: Schedule document
     url: 'https://docs.google.com/spreadsheets/d/18Ej_dUJT6PfR93ysZX93RliAJ2oRhXnPJhdqR3JrsqE/edit?usp=sharing'
 thumbnail: ./Capture-1.png
@@ -16,4 +14,4 @@ thumbnail: ./Capture-1.png
 
 A graphical schedule for the Championship Conferences at the 2022 FIRST Championship in Houston, TX.  Based on [a 2019 document by Jon Stratis](https://www.chiefdelphi.com/t/where-to-find-list-of-detroit-conferences/354831/11).
 
-1/2 day per page, color coded, calendar format. It makes it a lot easier to see/understand which items overlap, and might conflict with each other!
+>1/2 day per page, color coded, calendar format. It makes it a lot easier to see/understand which items overlap, and might conflict with each other!
