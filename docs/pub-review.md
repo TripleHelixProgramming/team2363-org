@@ -122,8 +122,6 @@ Event links use The Blue Alliance format: `https://www.thebluealliance.com/event
 
 ## Not yet reviewed
 
-- 2022-11-15-rev-swerve-wheel-tread-jig
-- 2022-07-24-matt-wilbur-award
 - 2022-07-22-newsletter-triple-helix-robotics-quarterfinalists-at-iri
 - 2022-05-25-sds-mk4-swerve-wheel-tread-jigs
 - 2022-04-27-triple-helix-featured-in-menchville-hs-student-newspaper-the-lions-roar

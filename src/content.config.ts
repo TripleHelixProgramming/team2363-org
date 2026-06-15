@@ -22,6 +22,9 @@ const publications = defineCollection({
       gallery: z
         .array(z.object({ src: image(), caption: z.string() }))
         .optional(),
+      accordion: z
+        .array(z.object({ heading: z.string(), body: z.string().optional() }))
+        .optional(),
       videoUrl: z.string().url().optional(),
       author: z.string().optional(),
     }),
