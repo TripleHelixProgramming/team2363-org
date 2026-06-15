@@ -3,6 +3,8 @@ import Base from "../../layouts/Base.astro";
 import Nav from "../../components/Nav.astro";
 import Footer from "../../components/Footer.astro";
 import { Icon } from "astro-icon/components";
+import { Image } from "astro:assets";
+import handbookCover from "./ZCZ_0587-Enhanced-NR-scaled.jpg";
 
 const contactEmail = "contact@team2363.org";
 ---
@@ -159,12 +161,11 @@ const contactEmail = "contact@team2363.org";
       <div
         class="bg-white border border-gray-200 rounded-lg overflow-hidden shadow-sm flex flex-col"
       >
-        <!-- TODO: replace this placeholder with a handbook cover image saved to public/ or co-located here -->
-        <div
-          class="bg-gray-100 h-52 flex items-center justify-center text-gray-400 text-sm"
-        >
-          Handbook cover image — coming soon
-        </div>
+        <Image
+          src={handbookCover}
+          alt="Team members cheeing in the stands"
+          class="w-full h-52 object-cover"
+        />
         <div class="p-6 flex flex-col flex-1">
           <div class="flex items-center gap-2 mb-3">
             <Icon
