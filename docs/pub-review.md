@@ -123,13 +123,6 @@ Event links use The Blue Alliance format: `https://www.thebluealliance.com/event
 ## Not yet reviewed
 
 - 2021-10-29-2020-2021-annual-report
-- 2020-03-12-chairmans-award-submission-2020
-- 2020-03-10-event-floor-non-technical-talking-points-2020
-- 2020-03-09-nmir-correspondence
-- 2020-03-07-accessible-archery
-- 2020-03-02-newsletter-triple-helix-finalists-and-ei-award-winners-in-northern-va
-- 2020-02-26-genome-mu-2020-reveal-video
-- 2020-02-22-genome-mu-2020-bom
 - 2020-02-05-woodie-flowers-submission-2020
 - 2020-01-31-standard-roller-end-configurations
 - 2020-01-29-latching-switch-adapter-for-arcade-button

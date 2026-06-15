@@ -21,14 +21,12 @@ A great way to help Triple Helix (without devoting endless amounts of your time)
 In addition, you're welcome drop by any of our team meetings-- we'd love to show you what our awesome students are working on!
 
 ## The Peninsula STEM Gym is ready for *Infinite Recharge*
-The [Peninsula STEM Gym](http://team2363.org/locations/) is stocked with the materials and tools needed to build mockup wooden field elements for the 2020 FIRST Robotics Competition game!
+The Peninsula STEM Gym is stocked with the materials and tools needed to build mockup wooden field elements for the 2020 FIRST Robotics Competition game!
 
 Attention woodworkers among us: we are seeking volunteers who'd like to use their building skills to help the local FRC teams by constructing these mockup game elements with us! Please contact us if you're interested in joining the project.
 
 ## Thank you to all our wonderful sponsors!
 The team greatly appreciates your support.
-[http://team2363.org/partners/](http://team2363.org/partners/)
-
 
 --<br>
 Nate Laverdure<br>

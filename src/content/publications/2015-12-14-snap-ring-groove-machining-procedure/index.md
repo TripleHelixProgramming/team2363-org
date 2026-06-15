@@ -11,4 +11,4 @@ links:
 thumbnail: ./Capture.png
 ---
 
-Here's the procedure we use to create a snap ring groove feature in our standard 1/2" hex shaft.  This procedure is referenced within [episode 7](https://www.youtube.com/watch?v=9KZYZQ9OELA) of the ["Triple Helix builds a drivetrain" video series](http://team2363.org/2018/05/2363-builds-a-drivetrain/).
+Here's the procedure we use to create a snap ring groove feature in our standard 1/2" hex shaft.  This procedure is referenced within [episode 7](https://www.youtube.com/watch?v=9KZYZQ9OELA) of the ["Triple Helix builds a drivetrain" video series](/publications/2018-05-12-2363-builds-a-drivetrain/).

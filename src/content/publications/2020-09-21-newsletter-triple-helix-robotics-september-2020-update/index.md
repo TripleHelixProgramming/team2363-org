@@ -17,7 +17,7 @@ As Triple Helix Robotics begins a new school year, our team leaders have been th
 
 Students and mentors interested in participating in our Tele-Operated Robotics Competition are invited to:
 
-- Register with the team via join.team2363.org (this is an annual requirement for all students and mentors).
+- Register with the team via [join.team2363.org](https://join.team2363.org) (this is an annual requirement for all students and mentors).
 - Register with the FAA as a drone operator under The Exception for Recreational Flyers at https://faadronezone.faa.gov/. The cost is $5 for 3 years of registration.
 - Join us on the team Slack where you will learn how you can pick up your kit of parts and start the process of building your quad!
 

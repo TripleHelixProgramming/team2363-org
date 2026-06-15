@@ -23,7 +23,7 @@ Our community robotics practice facility in Newport News was the subject of a [
 
 Founded and operated by Triple Helix's operating sponsor [Intentional Innovation Foundation](http://www.iifound.org/) (IIF), the Peninsula STEM Gym is a place for student robotics teams to develop competition robots and have real-world engineering experiences that will inspire a lifelong interest in science and math.  Our gym features a 75%-sized mockup FRC field as well as an official FIRST Tech Challenge playing field sponsored by Newport News Shipbuilding.  These resources are available for our neighbors to share.
 
-The Peninsula STEM Gym was initially established with the generous assistance of a Community Knights GIFT Grant.  Ongoing operation of the STEM Gym is supported by IIF and Triple Helix sponsors.  [More information about our STEM Gym can be found here](http://team2363.org/2018/09/press-release-peninsula-stem-gym-provides-practice-opportunities-for-hampton-roads-youth-robotics-teams/).
+The Peninsula STEM Gym was initially established with the generous assistance of a Community Knights GIFT Grant.  Ongoing operation of the STEM Gym is supported by IIF and Triple Helix sponsors.  [More information about our STEM Gym can be found here](/publications/2018-09-23-press-release-peninsula-stem-gym-provides-practice-opportunities-for-hampton-roads-youth-robotics-teams/).
 
 ## Now live: our 2019 Chairman's Award video
 Triple Helix students and mentors developed [this video](https://www.youtube.com/watch?v=eUAyk7Mau-I) during the spring 2019 season to meet the submission requirements for the FIRST Chairman's Award and to discuss the personal impact that team participation has had in their lives.

@@ -5,97 +5,47 @@ date: 2020-03-12
 author: 'Nate Laverdure'
 categories:
   - Awards
-links:
-  - label: FIRST
-    url: 'https://www.firstinspires.org/'
-  - label: Intentional Innovation Foundation (IIF)
-    url: 'https://www.iifound.org/'
-  - label: Rumble in the Roads
-    url: 'https://www.rumbleintheroads.com/'
-  - label: FLL
-    url: 'https://www.firstlegoleague.org/'
-  - label: FTC
-    url: 'https://www.firstinspires.org/robotics/ftc'
-  - label: FRC
-    url: 'https://www.firstinspires.org/robotics/frc'
-  - label: Virginia Tech
-    url: 'https://vt.edu/'
-  - label: YouTube channel
-    url: 'https://www.youtube.com/user/TripleHelix2363'
-  - label: mechanical video tutorials
-    url: 'https://www.youtube.com/user/TripleHelix2363/playlists?view=50&amp;sort=dd&amp;shelf_id=12'
-  - label: 2018 Gripper Prototype
-    url: 'https://www.youtube.com/watch?v=d-l09rh7EL0'
-  - label: 1610
-    url: 'https://www.blackwaterrobotics.org/'
-  - label: NASA Langley Research Center
-    url: 'https://www.nasa.gov/langley'
-  - label: Christopher Newport University (CNU)
-    url: 'https://cnu.edu/'
-  - label: Newport News Shipbuilding
-    url: 'https://nns.huntingtoningalls.com/'
-  - label: Newport News Public Schools
-    url: 'http://sbo.nn.k12.va.us/'
-  - label: BC Charles Elementary School
-    url: 'http://charles.nn.k12.va.us/'
-  - label: 2020 FIRST Championship
-    url: 'https://www.firstchampionship.org/'
-  - label: CNU Community STEM Day
-    url: 'https://cnu.edu/news/2019/06/18-cnu-stemday/'
-  - label: Jefferson Lab
-    url: 'https://www.jlab.org/'
-  - label: Continental Corporation
-    url: 'https://www.continental.com/en-us'
-  - label: NASA
-    url: 'https://www.nasa.gov/'
-  - label: Boeing
-    url: 'https://www.boeing.com/'
-  - label: Community Knights
-    url: 'https://communityknights.org/'
-  - label: VCU Occupational Therapy (OT)
-    url: 'https://occu.chp.vcu.edu/'
-  - label: Children’s Assistive Technology Service (CATS)
-    url: 'https://atdevicesforkids.org/'
 thumbnail: ./DSC9981-scaled.jpg
 ---
 
 Triple Helix is proud to publish this essay as part of our submission for the 2020 FIRST Robotics Competition Chairman's Award.
-Triple Helix has evolved to be a STEM leader in the Hampton Roads (HR) community. As such, it is important to evaluate our environment and assess the most pressing needs to address. We determined that our goals should be team sustainability, supporting the larger [FIRST](https://www.firstinspires.org/) community, and spreading the message of FIRST.
 
-BUILDING OUR FOUNDATION - TEAM SUSTAINABILITY
-
-We first tackled the need to develop a strategic plan for the team’s sustainability. Our approach includes an emphasis on student leadership, strong recruitment, an open door policy, and funding through our nonprofit organization, the [Intentional Innovation Foundation (IIF)](https://www.iifound.org/). 
-
-To address financial sustainability, [IIF](https://www.iifound.org/) was created to be a funding umbrella for Triple Helix and [Rumble in the Roads](https://www.rumbleintheroads.com/). In March 2015, it became apparent that there was a need to give a corporate structure to Triple Helix's efforts independent of our school. Triple Helix mentors and supporters established [IIF](https://www.iifound.org/) to meet  the needs of the team and to enable the organization to serve a larger community by operating and sponsoring STEM education activities throughout HR. IIF is a 501(c)(3) tax-exempt public charity and an all-volunteer organization. Establishing a nonprofit opened the door to funding opportunities only available to nonprofits.
-
-We address the team’s need for a continuous influx of new students as we lose students who graduate by conducting a number of outreach events at local schools focusing on students who participate in [FLL](https://www.firstlegoleague.org/) and [FTC](https://www.firstinspires.org/robotics/ftc), hold multiple open houses, and participate in events at our school such as Back to School Night and the activities fair. Triple Helix is committed to providing an opportunity for all students to participate on an [FRC](https://www.firstinspires.org/robotics/frc) team. We allow students to join who go to other schools that do not have a team and also those who attend private schools or are homeschooled.
-
-To address the need to retain students and develop student’s leadership skills, we have developed a new student presentation and have a detailed training plan for learning team equipment. The team has developed a structure based on students taking on a number of leadership positions. There is an overall team captain and leaders for each of the subteams such as mechanical, programming, and scouting. Due to their experience on Triple Helix, 86% of our team members go on to pursue a degree in a STEM field from institutions such as [Virginia Tech](https://vt.edu/).
-
-In order to address the need to recruit and retain mentors, we engage with local businesses and sponsors to raise awareness of Triple Helix and our strong program. Because we are a known leader in the STEM community, we attract FIRST alumni that want to return to the program as mentors. Over 40% of our current mentors participated in one or more FIRST programs as a student. We also maximize our use of the varied skill sets of the parents who fill roles from programming mentor to outreach and scouting mentor.
-
-SUPPORTING FIRST PROGRAMS
-
-The team evaluated how to best support the FIRST community with our given resources and skill sets and we determined that our efforts would be best spent in supporting and sustaining existing teams. Our widest reaching effort is sharing best practices and lessons learned with the worldwide community via videos and publications. We created a [YouTube channel](https://www.youtube.com/user/TripleHelix2363) in 2013, where we began posting build season logs and match videos. We have expanded into videos for drive team development and [mechanical video tutorials](https://www.youtube.com/user/TripleHelix2363/playlists?view=50&sort=dd&shelf_id=12), like how to build bumpers or a drivetrain. Our goal is to help rookie teams with robot development, and to share videos of tested engineering and our team practices. For example, our [2018 Gripper Prototype](https://www.youtube.com/watch?v=d-l09rh7EL0) video has had over 49,000 views. Our website has a plethora of [publications](/publications/) for teams to utilize for team management and robot development. Our published [budget](/publications/2019-11-06-budget-2019-2020/) provides insight on the inner administrative workings of an active FRC team.
-
-Our primary regional effort is our annual off-season competition, [Rumble in the Roads](https://www.rumbleintheroads.com/), which we host with partner teams [1610](https://www.blackwaterrobotics.org/) and 5957. The event attracts over 30 teams from VA, NC, and MD. The pre-season event gives teams the opportunity to test new designs, provides practice for the drive team, as well as the opportunity to interact with other teams in a more relaxed competitive environment. This event is our largest outreach event, with over 300 visitors in 2019. It also provides an incredible opportunity to network with local community leaders and sponsors. Judges include high school teachers, university professors, professional engineers, and even the COO of [NASA Langley Research Center](https://www.nasa.gov/langley). To make Rumble accessible to rookie teams, we often waive their competition fees.
-
-To address the needs of our local FIRST teams, we have sponsored several HR FRC summits. These meetings were an opportunity for teams to come together to share ideas and updates. The team also sponsored a roundtable discussion at [Christopher Newport University (CNU)](https://cnu.edu/) where all levels of FIRST teams came together to discuss the expansion of FIRST teams in our community and the challenges that they were facing. 
-
-As we looked at the challenges of our team and other local teams, it became clear that a practice facility was our next major goal. In 2018, we established the [Peninsula STEM Gym](/publications/2018-09-23-press-release-peninsula-stem-gym-provides-practice-opportunities-for-hampton-roads-youth-robotics-teams/). Attached to a community woodworking makerspace, it is a multifaceted collaborative workspace that caters to all levels of FIRST teams. We have an FRC playing field, an FTC playing field sponsored by [Newport News Shipbuilding](https://nns.huntingtoningalls.com/), and space available for FLL teams to set up and collaborate. Local FRC and FTC teams used the STEM gym as a workspace for a collaboration with the Newport News Police Department (NNPD) on a robot for their shooting range. Triple Helix recently hosted the FLL Kickoff at the STEM Gym. The kickoff gave local teams an opportunity to review the playing field, discuss robot design options, and talk to experts regarding their projects. Local FTC and FRC teams have used the space to test their robots and practice at least 30 times since its establishment.
-
-Triple Helix also provides targeted support to local teams based on their needs. During local FRC team 122’s hiatus year, we took in students and mentors who still wanted to participate on a team, and helped 122 reestablish the following year. We started a partnership with [Newport News Public Schools](http://sbo.nn.k12.va.us/) to expand opportunities for students to participate in FLL and FLL Jr. teams. On a weekly basis we have mentored two FLL teams. We held an FLL practice day at Rumble to allow teams an opportunity to practice both judging and running their robot on the field. We started and coached an FLL Jr. team at [BC Charles Elementary School](http://charles.nn.k12.va.us/). We also run an FLL Jr. Expo to give local teams an opportunity to compete. On multiple occasions, we have hosted FLL teams at our shop and have provided them with tours and information. For the past two years, we have invited The Waffle Bunnies to come to a meeting and practice their project presentation. This practice helped the team to earn a spot at the [2020 FIRST Championship](https://www.firstchampionship.org/).
-
-COMMUNITY CONNECTION
-
-Our next focus was on our sponsors and local community. We wanted to address how to best expand the awareness of STEM and FIRST in our community, support our sponsors, and give back. Triple Helix plays an active role in the local FIRST community. In the last five years alone, we have attended over 125 community demonstrations and sponsor-hosted events. The events vary from large such as the [CNU Community STEM Day](https://cnu.edu/news/2019/06/18-cnu-stemday/), showcasing our team and robot to over 4,000 visitors, to small such as Mad Science Night at Baron Elementary School. We  regularly provide laptops and FLL mats for STEM events in the community, such as summer programming workshops for ESL, Refugee children, and a homeless shelter. 
-
-Triple Helix values our sponsor relationships. In 2016, we partnered with sponsor [Jefferson Lab](https://www.jlab.org/) to host the HR FRC Kickoff. We later worked with them to 3D print parts that were needed for their GlueX Experiment. In 2017, team members had an opportunity to tour [Continental Corporation](https://www.continental.com/en-us)’s Newport News facility and to demonstrate the robot to their staff. They later became a team sponsor. In 2017, [NASA](https://www.nasa.gov/) and [Boeing](https://www.boeing.com/) invited us to the NASA Langley Centennial Gala. Student leaders mingled with industry officials, made professional connections, and participated in a milestone event. We have presented to AFCEA’s HR chapter at Langley AFB on our team’s strategies and structure. Team members lend manpower to support such activities of sponsors like the Junior Woman’s Club of Hilton Village and [Community Knights](https://communityknights.org/).
-
-Giving back is an important part of the mission of Triple Helix. Triple Helix is a certifying organization of the President’s Volunteer Service Award to reward students who volunteer in support of our sponsors and community. This year, the team assisted the NNPD by weaving mats for the homeless out of plastic bags.
-
-Last year, we also began a partnership with the [VCU Occupational Therapy (OT)](https://occu.chp.vcu.edu/) program. Each year, a doctoral student will work as a mentor on the team in an effort to intersect the engineering skills of our team members with the therapy skills of the student. The three goals of the partnership are to produce a novel assistive technology (AT) project each year, develop the team as a resource for local AT agencies, and disseminate knowledge learned via a FIRST conference and OT publications. The first year, we worked with the [Children’s Assistive Technology Service (CATS)](https://atdevicesforkids.org/) program to adapt a toy car for a child with mobility impairments. The goal is to allow children too young for an electric wheelchair to have the ability to explore. Currently, we have two more cars that we will be adapting after build season, and students are adapting Nerf guns to enable play for children with a variety of limiting conditions.
-
-IT’S IN OUR GENES
-
-Our efforts have truly been impactful on the team and our FIRST community. We really are “more than just robots.”
+>Triple Helix has evolved to be a STEM leader in the Hampton Roads (HR) community. As such, it is important to evaluate our environment and assess the most pressing needs to address. We determined that our goals should be team sustainability, supporting the larger [FIRST](https://www.firstinspires.org/) community, and spreading the message of FIRST.
+>
+>## BUILDING OUR FOUNDATION - TEAM SUSTAINABILITY
+>
+>We first tackled the need to develop a strategic plan for the team’s sustainability. Our approach includes an emphasis on student leadership, strong recruitment, an open door policy, and funding through our nonprofit organization, the [Intentional Innovation Foundation (IIF)](https://www.iifound.org/). 
+>
+>To address financial sustainability, [IIF](https://www.iifound.org/) was created to be a funding umbrella for Triple Helix and [Rumble in the Roads](https://www.rumbleintheroads.com/). In March 2015, it became apparent that there was a need to give a corporate structure to Triple Helix's efforts independent of our school. Triple Helix mentors and supporters established [IIF](https://www.iifound.org/) to meet  the needs of the team and to enable the organization to serve a larger community by operating and sponsoring STEM education activities throughout HR. IIF is a 501(c)(3) tax-exempt public charity and an all-volunteer organization. Establishing a nonprofit opened the door to funding opportunities only available to nonprofits.
+>
+>We address the team’s need for a continuous influx of new students as we lose students who graduate by conducting a number of outreach events at local schools focusing on students who participate in [FLL](https://www.firstlegoleague.org/) and [FTC](https://www.firstinspires.org/robotics/ftc), hold multiple open houses, and participate in events at our school such as Back to School Night and the activities fair. Triple Helix is committed to providing an opportunity for all students to participate on an [FRC](https://www.firstinspires.org/robotics/frc) team. We allow students to join who go to other schools that do not have a team and also those who attend private schools or are homeschooled.
+>
+>To address the need to retain students and develop student’s leadership skills, we have developed a new student presentation and have a detailed training plan for learning team equipment. The team has developed a structure based on students taking on a number of leadership positions. There is an overall team captain and leaders for each of the subteams such as mechanical, programming, and scouting. Due to their experience on Triple Helix, 86% of our team members go on to pursue a degree in a STEM field from institutions such as [Virginia Tech](https://vt.edu/).
+>
+>In order to address the need to recruit and retain mentors, we engage with local businesses and sponsors to raise awareness of Triple Helix and our strong program. Because we are a known leader in the STEM community, we attract FIRST alumni that want to return to the program as mentors. Over 40% of our current mentors participated in one or more FIRST programs as a student. We also maximize our use of the varied skill sets of the parents who fill roles from programming mentor to outreach and scouting mentor.
+>
+>## SUPPORTING FIRST PROGRAMS
+>
+>The team evaluated how to best support the FIRST community with our given resources and skill sets and we determined that our efforts would be best spent in supporting and sustaining existing teams. Our widest reaching effort is sharing best practices and lessons learned with the worldwide community via videos and publications. We created a [YouTube channel](https://www.youtube.com/user/TripleHelix2363) in 2013, where we began posting build season logs and match videos. We have expanded into videos for drive team development and [mechanical video tutorials](https://www.youtube.com/user/TripleHelix2363/playlists?view=50&sort=dd&shelf_id=12), like how to build bumpers or a drivetrain. Our goal is to help rookie teams with robot development, and to share videos of tested engineering and our team practices. For example, our [2018 Gripper Prototype](https://www.youtube.com/watch?v=d-l09rh7EL0) video has had over 49,000 views. Our website has a plethora of [publications](/publications/) for teams to utilize for team management and robot development. Our published [budget](/publications/2019-11-06-budget-2019-2020/) provides insight on the inner administrative workings of an active FRC team.
+>
+>Our primary regional effort is our annual off-season competition, [Rumble in the Roads](https://www.rumbleintheroads.com/), which we host with partner teams [1610](https://www.blackwaterrobotics.org/) and 5957. The event attracts over 30 teams from VA, NC, and MD. The pre-season event gives teams the opportunity to test new designs, provides practice for the drive team, as well as the opportunity to interact with other teams in a more relaxed competitive environment. This event is our largest outreach event, with over 300 visitors in 2019. It also provides an incredible opportunity to network with local community leaders and sponsors. Judges include high school teachers, university professors, professional engineers, and even the COO of [NASA Langley Research Center](https://www.nasa.gov/langley). To make Rumble accessible to rookie teams, we often waive their competition fees.
+>
+>To address the needs of our local FIRST teams, we have sponsored several HR FRC summits. These meetings were an opportunity for teams to come together to share ideas and updates. The team also sponsored a roundtable discussion at [Christopher Newport University (CNU)](https://cnu.edu/) where all levels of FIRST teams came together to discuss the expansion of FIRST teams in our community and the challenges that they were facing. 
+>
+>As we looked at the challenges of our team and other local teams, it became clear that a practice facility was our next major goal. In 2018, we established the [Peninsula STEM Gym](/publications/2018-09-23-press-release-peninsula-stem-gym-provides-practice-opportunities-for-hampton-roads-youth-robotics-teams/). Attached to a community woodworking makerspace, it is a multifaceted collaborative workspace that caters to all levels of FIRST teams. We have an FRC playing field, an FTC playing field sponsored by [Newport News Shipbuilding](https://nns.huntingtoningalls.com/), and space available for FLL teams to set up and collaborate. Local FRC and FTC teams used the STEM gym as a workspace for a collaboration with the Newport News Police Department (NNPD) on a robot for their shooting range. Triple Helix recently hosted the FLL Kickoff at the STEM Gym. The kickoff gave local teams an opportunity to review the playing field, discuss robot design options, and talk to experts regarding their projects. Local FTC and FRC teams have used the space to test their robots and practice at least 30 times since its establishment.
+>
+>Triple Helix also provides targeted support to local teams based on their needs. During local FRC team 122’s hiatus year, we took in students and mentors who still wanted to participate on a team, and helped 122 reestablish the following year. We started a partnership with [Newport News Public Schools](http://sbo.nn.k12.va.us/) to expand opportunities for students to participate in FLL and FLL Jr. teams. On a weekly basis we have mentored two FLL teams. We held an FLL practice day at Rumble to allow teams an opportunity to practice both judging and running their robot on the field. We started and coached an FLL Jr. team at [BC Charles Elementary School](http://charles.nn.k12.va.us/). We also run an FLL Jr. Expo to give local teams an opportunity to compete. On multiple occasions, we have hosted FLL teams at our shop and have provided them with tours and information. For the past two years, we have invited The Waffle Bunnies to come to a meeting and practice their project presentation. This practice helped the team to earn a spot at the [2020 FIRST Championship](https://www.firstchampionship.org/).
+>
+>## COMMUNITY CONNECTION
+>
+>Our next focus was on our sponsors and local community. We wanted to address how to best expand the awareness of STEM and FIRST in our community, support our sponsors, and give back. Triple Helix plays an active role in the local FIRST community. In the last five years alone, we have attended over 125 community demonstrations and sponsor-hosted events. The events vary from large such as the [CNU Community STEM Day](https://cnu.edu/news/2019/06/18-cnu-stemday/), showcasing our team and robot to over 4,000 visitors, to small such as Mad Science Night at Baron Elementary School. We  regularly provide laptops and FLL mats for STEM events in the community, such as summer programming workshops for ESL, Refugee children, and a homeless shelter. 
+>
+>Triple Helix values our sponsor relationships. In 2016, we partnered with sponsor [Jefferson Lab](https://www.jlab.org/) to host the HR FRC Kickoff. We later worked with them to 3D print parts that were needed for their GlueX Experiment. In 2017, team members had an opportunity to tour [Continental Corporation](https://www.continental.com/en-us)’s Newport News facility and to demonstrate the robot to their staff. They later became a team sponsor. In 2017, [NASA](https://www.nasa.gov/) and [Boeing](https://www.boeing.com/) invited us to the NASA Langley Centennial Gala. Student leaders mingled with industry officials, made professional connections, and participated in a milestone event. We have presented to AFCEA’s HR chapter at Langley AFB on our team’s strategies and structure. Team members lend manpower to support such activities of sponsors like the Junior Woman’s Club of Hilton Village and [Community Knights](https://communityknights.org/).
+>
+>Giving back is an important part of the mission of Triple Helix. Triple Helix is a certifying organization of the President’s Volunteer Service Award to reward students who volunteer in support of our sponsors and community. This year, the team assisted the NNPD by weaving mats for the homeless out of plastic bags.
+>
+>Last year, we also began a partnership with the [VCU Occupational Therapy (OT)](https://occu.chp.vcu.edu/) program. Each year, a doctoral student will work as a mentor on the team in an effort to intersect the engineering skills of our team members with the therapy skills of the student. The three goals of the partnership are to produce a novel assistive technology (AT) project each year, develop the team as a resource for local AT agencies, and disseminate knowledge learned via a FIRST conference and OT publications. The first year, we worked with the [Children’s Assistive Technology Service (CATS)](https://atdevicesforkids.org/) program to adapt a toy car for a child with mobility impairments. The goal is to allow children too young for an electric wheelchair to have the ability to explore. Currently, we have two more cars that we will be adapting after build season, and students are adapting Nerf guns to enable play for children with a variety of limiting conditions.
+>
+>## IT’S IN OUR GENES
+>
+>Our efforts have truly been impactful on the team and our FIRST community. We really are “more than just robots.”

@@ -15,7 +15,7 @@ Triple Helix students and mentors are [flying their quadcopters](https://www.you
 
 We still have room for new team members!  If you are a high school student on the peninsula (*or an aspiring mentor to a peninsula HS student!*) and would like to join Triple Helix and participate in our FPV drone competition, you're invited to:
 
-- Register with the team via join.team2363.org (this is an annual requirement for all students and mentors).
+- Register with the team via [join.team2363.org](https://join.team2363.org) (this is an annual requirement for all students and mentors).
 - Register with the FAA as a drone operator under The Exception for Recreational Flyers at https://faadronezone.faa.gov/. The cost is $5 for 3 years of registration.
 - Join us on the team Slack where you will learn how you can pick up your kit of parts and start the process of building your quad!
 

@@ -19,10 +19,10 @@ links:
 It's crunch time!  Triple Helix is taking a breath to give our fans a brief update about our status as we test and refine our robot for the 2019 FIRST Robotics Competition game: Destination Deep Space.
 
 **Our Chairman's Award submission is in**
-The Chairman's Award is the most prestigious award in FIRST, and it honors the team that best represents a model for other teams to emulate. The award recognizes teams who make a significant, measurable impact for their participants and community over a sustained period.  [Our essay can be found here](http://team2363.org/2019/02/chairmans-award-submission-2019/).
+The Chairman's Award is the most prestigious award in FIRST, and it honors the team that best represents a model for other teams to emulate. The award recognizes teams who make a significant, measurable impact for their participants and community over a sustained period.  [Our essay can be found here](/publications/2019-02-07-chairmans-award-submission-2019/).
 
 **Peninsula STEM Gym ready to host practices & scrimmages**
-Because of the incredible efforts of a few volunteers (special thanks to Eric Leatherbury and Russell Moore!), the FRC playing field at our [STEM Gym](http://team2363.org/locations/#stemgym) is now equipped to host realistic practice sessions for Hampton Roads teams.  The field has a full-size Habitat, Rocket, Cargo Ship, and human player Feeder Station in place and ready to use.  Triple Helix expects to make great use of the space between each of our upcoming competitions!  [Contact us](mailto:contact@team2363.org) for more information about how your team can use the gym, too.
+Because of the incredible efforts of a few volunteers (special thanks to Eric Leatherbury and Russell Moore!), the FRC playing field at our STEM Gym is now equipped to host realistic practice sessions for Hampton Roads teams.  The field has a full-size Habitat, Rocket, Cargo Ship, and human player Feeder Station in place and ready to use.  Triple Helix expects to make great use of the space between each of our upcoming competitions!  [Contact us](mailto:contact@team2363.org) for more information about how your team can use the gym, too.
 
 **Let us serve you at the Junior Woman’s Club of Hilton Village Dinner Theater**
 Triple Helix students will serve dinner at the JWCHV's 52nd production of the Gaslight Dinner Theatre the evening of Friday, March 8.  See attached flyer for more information about the play!

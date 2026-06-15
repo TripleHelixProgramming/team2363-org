@@ -27,7 +27,7 @@ Our stunning performance in this qualifier event means that we are very likely t
 
 Fans of Triple Helix Robotics are invited to cheer us on at [our next qualifier, at Churchland High School in Portsmouth, VA on March 18-19](https://www.firstchesapeake.org/frc/portsmouth/). The event is open to the public on Saturday and Sunday. You can also watch the event steaming live at [watch.team2363.org](http://watch.team2363.org/), and dive into our stats at [thebluealliance.com/team/2363](https://www.thebluealliance.com/team/2363/2023).
 
-Thanks to FIRST Chesapeake, the host team FRC 401 Copperhead Robotics, a really stellar crew of Triple Helix parents, and [all our wonderful sponsors](http://team2363.org/partners/) for making this weekend’s experience possible! We could not do this without your steadfast support.
+Thanks to FIRST Chesapeake, the host team FRC 401 Copperhead Robotics, a really stellar crew of Triple Helix parents, and [all our wonderful sponsors](/partners/) for making this weekend’s experience possible! We could not do this without your steadfast support.
 
 –<br>
 Nate Laverdure<br>

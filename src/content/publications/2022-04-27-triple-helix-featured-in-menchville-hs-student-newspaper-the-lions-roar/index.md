@@ -30,4 +30,4 @@ thumbnail: ./B2087A3B-4DC9-41AF-A0C0-6C7F12FFFA9C.jpeg
 >
 >If you’re interested in joining or seeing the team in action, you can message the team at [contact@team2363.org](mailto:contact@team2363.org), swing by any of the meetings as posted on [calendar.team2363.org](http://calendar.team2363.org/) to meet the team and learn how you can get involved, and come out to STEM Day on May 21st at Christopher Newport University.
 >
->If you want to learn more, you can visit their website at [team2363.org](http://team2363.org/).
+>If you want to learn more, you can visit their website at [team2363.org](/).

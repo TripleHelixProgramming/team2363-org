@@ -13,7 +13,7 @@ Thomas Jefferson National Accelerator Facility (JLab) [featured the following ne
 >
 >*Jefferson Lab’s Nate Laverdure volunteers as the head coach of Triple Helix, a high school robotics team shooting to success this year*
 >
->NEWPORT NEWS, VA – Excitement fills the air on game day for [Triple Helix Robotics](http://team2363.org/), a team of about 12 students and their seven adult mentors headquartered at Menchville High School in Newport News, VA.
+>NEWPORT NEWS, VA – Excitement fills the air on game day for Triple Helix Robotics, a team of about 12 students and their seven adult mentors headquartered at Menchville High School in Newport News, VA.
 >
 >“The energy is enormous,” said Nate Laverdure, who volunteers as head coach of the team year-round in addition to working as a cryogenics mechanical engineer at the U.S. Department of Energy’s Thomas Jefferson National Accelerator Facility.  
 >

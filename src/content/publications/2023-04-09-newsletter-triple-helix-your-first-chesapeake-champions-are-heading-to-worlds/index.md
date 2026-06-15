@@ -21,7 +21,7 @@ The judge panel at the District Championship also recognized Triple Helix with t
 
 ![](./IMG_6694.jpg)
 
-An enormous thank you to all who’ve made our 2023 season so successful– especially [our sponsors and donors](http://team2363.org/partners/) large & small as well as our mentors, families, and friends. Long-term competitiveness in this program depends so heavily on sense of community… dense networks of support… teams of teams of teams. We could not do it without you on our team. Thank you!
+An enormous thank you to all who’ve made our 2023 season so successful– especially [our sponsors and donors](/partners/) large & small as well as our mentors, families, and friends. Long-term competitiveness in this program depends so heavily on sense of community… dense networks of support… teams of teams of teams. We could not do it without you on our team. Thank you!
 
 --<br>
 Nate Laverdure<br>
