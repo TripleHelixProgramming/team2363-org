@@ -27,6 +27,6 @@ gallery:
 
 In fall 2022, Triple Helix created a working drilling & marking jig to prepare replacement strips of treads for the aluminum [3" MAXSwerve Wheel](https://www.revrobotics.com/rev-21-3002/) used on the [3" REV MAXSwerve module](https://www.revrobotics.com/rev-21-3005/).
 
-This jig produces treads with the correct hole spacing for 3-ply black neoprene tread material ([McMaster-Carr p/n 5994K1](https://www.mcmaster.com/5994K1/)) such that the tread installs tightly on the 3" diameter x 7/8" wide billet wheel. Triple Helix found this working hole pattern through four rounds of guess-and-check iteration, and also by drawing on our past experience with [the similar tread jigs we made for SDS wheels](https://team2363.org/2022/05/sds-mk4-swerve-wheel-tread-jigs/).
+This jig produces treads with the correct hole spacing for 3-ply black neoprene tread material ([McMaster-Carr p/n 5994K1](https://www.mcmaster.com/5994K1/)) such that the tread installs tightly on the 3" diameter x 7/8" wide billet wheel. Triple Helix found this working hole pattern through four rounds of guess-and-check iteration, and also by drawing on our past experience with [the similar tread jigs we made for SDS wheels](/publications/2022-05-25-sds-mk4-swerve-wheel-tread-jigs/).
 
 Drill bushings ([McMaster-Carr p/n 96511A666](https://www.mcmaster.com/96511A666/)) can be pressed into the fixture to ensure that the jig will remain usable for a long time, however users should note that they will need to grind a flat into these bushings since the screw placement is very narrowly spaced.

@@ -11,12 +11,10 @@ links:
     url: 'https://drive.google.com/file/d/1Smiy5VU3w0UnzegvvlYphl2mIPPyOPOe/view'
 ---
 
-Triple Helix Robotics is proud to share the feedback we received from the judge panels who interviewed us about [our 2022 Chairman's Award submission](http://team2363.org/2022/02/chairmans-award-submission-2022/).
-
-- FIRST Chesapeake Greater Richmond Event #1 Day #1
-- FIRST Chesapeake Greater Richmond Event #2
+Triple Helix Robotics is proud to share the feedback we received from the judge panels who interviewed us about [our 2022 Chairman's Award submission](/publications/2022-02-16-chairmans-award-submission-2022/).
 
 In regards to the feedback from the Greater Richmond Event #1 Day #1, our head coach provided this feedback:
 
-Wow, this is the best written award feedback I have ever seen! 
-We were also extremely impressed by our judges, who asked insightful probing questions in the interview that demonstrated their interest and care.
+>Wow, this is the best written award feedback I have ever seen! 
+>
+>We were also extremely impressed by our judges, who asked insightful probing questions in the interview that demonstrated their interest and care.

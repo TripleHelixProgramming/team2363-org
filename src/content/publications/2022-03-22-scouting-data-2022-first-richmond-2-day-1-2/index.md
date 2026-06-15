@@ -1,6 +1,6 @@
 ---
 slug: 2022-03-22-scouting-data-2022-first-richmond-2-day-1-2
-title: "Scouting data: 2022 FIRST Richmond #2 Day 1 &amp; 2"
+title: "Scouting data: 2022 FIRST Richmond #2 Day 1 & 2"
 date: 2022-03-22
 author: 'Joshua Nichols'
 categories:
@@ -13,6 +13,3 @@ links:
 ---
 
 These spreadsheets contain 2363, Triple Helix's, scouting data for the Richmond #2 Day 1 & 2 events.
-
-- Day 1
-- Day 2

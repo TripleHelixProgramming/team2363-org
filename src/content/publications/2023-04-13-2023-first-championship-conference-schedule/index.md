@@ -14,4 +14,4 @@ thumbnail: ./Capture.png
 
 A graphical schedule for the Championship Conferences at the 2023 FIRST Championship in Houston, TX. This data was painstakingly extricated from the FIRST Championship app.
 
-Previously: [2022 version](https://team2363.org/2022/04/2022-first-championship-conference-schedule/). Tip of the hat to [Jon Stratis' 2019 version](https://www.chiefdelphi.com/t/where-to-find-list-of-detroit-conferences/354831/11).
+Previously: [2022 version](/publications/2022-04-14-2022-first-championship-conference-schedule/). Tip of the hat to [Jon Stratis' 2019 version](https://www.chiefdelphi.com/t/where-to-find-list-of-detroit-conferences/354831/11).

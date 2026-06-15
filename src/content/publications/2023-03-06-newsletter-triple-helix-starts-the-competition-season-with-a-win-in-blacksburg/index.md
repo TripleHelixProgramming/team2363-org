@@ -19,7 +19,7 @@ Our robot "[Genome Xi](https://www.youtube.com/watch?v=PLql46E-GOo)" demonstrate
 
 [*Average points scored in auto + endgame (Y axis) and teleop (X axis) by all FRC teams worldwide as of the end of Week 1 of competition season. Via [statbotics.io/teams](https://www.statbotics.io/teams)*]
 
-Triple Helix was also awarded the Autonomous Award for our technical leadership in translating [advanced control techniques](https://www.youtube.com/watch?v=hNm_9JbZ81M) into [points scored on the playing field](https://team2363.org/2023/02/genome-xi-2023-auto-modes/) during real matches. The judges said:
+Triple Helix was also awarded the Autonomous Award for our technical leadership in translating [advanced control techniques](https://www.youtube.com/watch?v=hNm_9JbZ81M) into [points scored on the playing field](/publications/2023-02-27-genome-xi-2023-auto-modes/) during real matches. The judges said:
 
 >The Autonomous Award sponsored by Ford celebrates the team that has demonstrated consistent, reliable, high-performance robot operation during autonomously managed actions. Evaluation is based on the robot's ability to sense its surroundings, position itself or onboard mechanisms appropriately, and execute tasks. Their triple-performing play impressed the judges. This team consistently scored two cones in autonomous. Control theory is in their genes!
 

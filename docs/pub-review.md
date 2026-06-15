@@ -122,12 +122,6 @@ Event links use The Blue Alliance format: `https://www.thebluealliance.com/event
 
 ## Not yet reviewed
 
-- 2022-04-03-woodie-flowers-2022-chris-garrity
-- 2022-04-02-genome-nu-2022-bom
-- 2022-03-23-the-engineering-awards-hexafecta
-- 2022-03-22-scouting-data-2022-first-richmond-2-day-1-2
-- 2022-03-21-newsletter-triple-helix-robotics-now-3x-winners-in-colonial-heights
-- 2022-03-21-chairmans-award-judge-feedback
 - 2022-03-07-newsletter-triple-helix-robotics-winners-in-colonial-heights
 - 2022-03-02-2022-genome-nu-autos
 - 2022-02-22-genome-nu-2022-reveal-video
