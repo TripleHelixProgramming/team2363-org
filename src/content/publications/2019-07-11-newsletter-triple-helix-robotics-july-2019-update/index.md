@@ -5,15 +5,6 @@ date: 2019-07-11
 author: 'Nate Laverdure'
 categories:
   - Newsletter
-links:
-  - label: Williamsburg Yorktown Daily article
-    url: 'https://wydaily.com/local-news/2019/07/10/peninsula-stem-gym-offers-local-robotics-teams-space-to-practice/'
-  - label: Intentional Innovation Foundation
-    url: 'http://www.iifound.org/'
-  - label: this video
-    url: 'https://www.youtube.com/watch?v=eUAyk7Mau-I'
-  - label: Rumble in the Roads
-    url: 'https://www.rumbleintheroads.com/'
 ---
 
 ## In the news: the Peninsula STEM Gym

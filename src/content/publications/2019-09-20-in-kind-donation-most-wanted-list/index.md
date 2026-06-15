@@ -5,9 +5,6 @@ date: 2019-09-20
 author: 'Nate Laverdure'
 categories:
   - Administrative
-links:
-  - label: Intentional Innovation Foundation
-    url: 'http://www.iifound.org/'
 ---
 
 Triple Helix and our operating nonprofit sponsor [Intentional Innovation Foundation](http://www.iifound.org/) seek the donation of the following products and services to support our award-winning youth STEM programs. (Last updated 14 April 2021)

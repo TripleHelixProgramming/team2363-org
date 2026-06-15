@@ -5,9 +5,6 @@ date: 2019-03-18
 author: 'Nate Laverdure'
 categories:
   - Newsletter
-links:
-  - label: as quoted in the film For All Mankind
-    url: 'https://www.youtube.com/watch?v=ucbOG9n6tEs'
 ---
 
 Triple Helix students, mentors, and parents came together as a team for a very long-- and very fun-- weekend that included ranking 6th at the conclusion of qualification rounds and making a strong run into the semifinals as the first pick of #1 alliance captain FRC 190.

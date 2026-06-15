@@ -6,8 +6,6 @@ categories:
   - Instructional videos
   - Mechanical
 links:
-  - label: build a west coast style drive train
-    url: 'https://www.youtube.com/playlist?list=PLbBZ-oKrRYExCYsFqlcJ2oQWYFoc8wnu6'
   - label: Video series
     url: 'https://www.youtube.com/playlist?list=PLbBZ-oKrRYEw7BPqCIbXKyx2CEwIw0FKK'
   - label: Chief Delphi post

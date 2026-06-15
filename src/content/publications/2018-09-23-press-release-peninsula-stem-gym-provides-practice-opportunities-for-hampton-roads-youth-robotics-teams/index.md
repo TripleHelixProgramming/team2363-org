@@ -6,13 +6,6 @@ author: 'Nate Laverdure'
 categories:
   - Newsletter
   - Publicity
-links:
-  - label: "Intentional Innovation Foundation, Inc."
-    url: 'http://www.iifound.org/'
-  - label: "Community Knights, Inc."
-    url: 'https://communityknights.org/'
-  - label: sponsor the purchase of a chair
-    url: 'https://store.iifound.org/product/sponsor-a-chair-at-the-stem-gym/'
 thumbnail: ./Peninsula-STEM-Gym-press-release-sep-2018.jpg
 ---
 

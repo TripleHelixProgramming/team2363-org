@@ -5,9 +5,6 @@ date: 2018-09-01
 author: 'Nate Laverdure'
 categories:
   - Newsletter
-links:
-  - label: "https://www.rumbleintheroads.com/register/volunteer-application"
-    url: 'https://www.rumbleintheroads.com/register/volunteer-application'
 ---
 
 Welcome back to school!  Here's your Triple Helix Robotics newsletter for this month!
@@ -20,8 +17,7 @@ This fall's Rumble in the Roads will be the high-tech epicenter of the Hampton R
 
 Now in its 5th year and expecting 1,500 participants, the Rumble in the Roads is a well-attended youth robotics competition that attracts a unique technical audience from the local community and is an excellent venue for recruiting the next generation of Hampton Roads STEM leaders.  The event is free and open to the public and we hope that everyone will come check out the competition!
 
-We need your help to make the event great!  Please check out our volunteer application here:
-[https://www.rumbleintheroads.com/register/volunteer-application](https://www.rumbleintheroads.com/register/volunteer-application)
+We need your help to make the event great!  Please check out our volunteer application [here](https://www.rumbleintheroads.com/register/volunteer-application).
 
 ## Good luck to our new alumni!
 A few months ago, Triple Helix graduated 10 stellar senior students.  As we move into the fall, we'd like to share our best wishes for these new alumni.  We know you're equipped for the challenges you'll soon be facing.  Always be iterating– as alum Aaron J put in his winning essay for the Indiana Robotics Invitational technical scholarship, "One of the most important life lessons that Triple Helix has taught me is to be patient in times of failures and how to approach or accept failure as a form of improvement."  As you learned in your Triple Helix experience, it's fun to work super hard and accomplish great things as a member of a team.  Good luck this year!
