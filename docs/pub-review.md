@@ -122,37 +122,7 @@ Event links use The Blue Alliance format: `https://www.thebluealliance.com/event
 
 ## Not yet reviewed
 
-- 2022-03-07-newsletter-triple-helix-robotics-winners-in-colonial-heights
-- 2022-03-02-2022-genome-nu-autos
-- 2022-02-22-genome-nu-2022-reveal-video
-- 2022-02-16-chairmans-award-submission-2022
-- 2022-02-10-deans-list-2022-justin-b
-- 2022-02-10-deans-list-2022-joshua-n
-- 2022-01-26-explainer-intake-linkage-design-process
-- 2022-01-06-fall-2021-drivetrain-cad-release
-- 2021-12-02-budget-2021-2022
-- 2021-11-25-circular-gimbal-mask-for-radiomaster-tx16s
-- 2021-11-04-newsletter-triple-helix-robotics-annual-report
 - 2021-10-29-2020-2021-annual-report
-- 2021-08-20-message-from-iif-on-equal-educational-opportunities-for-transgender-students
-- 2021-07-19-qa-hosting-an-offseason-event
-- 2021-07-10-electronics-workbench-upgrade
-- 2021-07-07-be-a-mentor-for-triple-helix-robotics
-- 2021-04-08-newsletter-triple-helix-completes-all-the-infinite-recharge-home-skills-challenges
-- 2021-03-27-infinite-recharge-home-interview-presentation
-- 2021-03-03-genome-mu-2020-data-sheet
-- 2021-02-01-our-infinite-recharge-at-home-skills-competition-raw-scores
-- 2021-01-08-genome-mu-2020-cad-release
-- 2020-10-16-newsletter-triple-helix-robotics-october-2020-update
-- 2020-09-21-newsletter-triple-helix-robotics-september-2020-update
-- 2020-09-06-2020-summer-project-vision-aiming-testbed
-- 2020-09-03-triple-helix-returns-to-flight-with-a-fpv-drone-competition
-- 2020-04-15-newsletter-peninsula-stem-gym-seeks-new-home
-- 2020-04-10-beyond-chairmans-teaming-up-to-build-assistive-tech
-- 2020-04-05-pre-match-checklist-2020
-- 2020-03-28-live-qa-hosting-a-rumble
-- 2020-03-19-question-309
-- 2020-03-15-genome-mu-controller-maps
 - 2020-03-12-chairmans-award-submission-2020
 - 2020-03-10-event-floor-non-technical-talking-points-2020
 - 2020-03-09-nmir-correspondence
@@ -198,5 +168,4 @@ Event links use The Blue Alliance format: `https://www.thebluealliance.com/event
 - 2018-10-01-newsletter-triple-helix-update-october-2018
 - 2018-09-23-press-release-peninsula-stem-gym-provides-practice-opportunities-for-hampton-roads-youth-robotics-teams
 - 2018-09-01-newsletter-triple-helix-update-september-2018
-- 2018-08-30-triple-helix-tech-tips
 - 2018-08-03-newsletter-triple-helix-update-august-2018

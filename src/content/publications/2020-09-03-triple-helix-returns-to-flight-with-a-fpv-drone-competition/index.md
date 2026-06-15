@@ -16,8 +16,4 @@ As Triple Helix Robotics begins a new school year, our team leaders have been th
 
 Triple Helix returns to flight by coming together to create the Tele Operated Robotics Competition-- an internal tech challenge involving small bots which can be built by students at home and at the Peninsula STEM Gym, using the tools and techniques that are available to us.
 
-[Responding to the realities of the Coronavirus](https://drive.google.com/file/d/1hfRqnfrSNA8P311rIZcaU1Pl8K6t-X-B/view?usp=sharing) slide deck, last updated 28 Apr 2021
-
-[FPV Quad Build Guide](https://drive.google.com/file/d/1jyFVmJlJFFgrTAdYaAaK3bPoauMYavak/view?usp=sharing) slide deck, last updated 28 Apr 2021
 ![](./realities.png)
-

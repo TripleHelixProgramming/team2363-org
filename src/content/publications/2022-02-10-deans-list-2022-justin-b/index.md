@@ -5,19 +5,26 @@ date: 2022-02-10
 author: 'Nate Laverdure'
 categories:
   - Awards
-links:
-  - label: 'Dean''s List Award'
-    url: 'https://www.firstinspires.org/resource-library/frc/deans-list-winners'
 ---
 
 Triple Helix mentors are proud to submit the following [Dean's List Award](https://www.firstinspires.org/resource-library/frc/deans-list-winners) nomination for student captain Justin B, of the class of 2023.
-Explain how the student embodies the philosophies of Gracious Professionalism and Coopetition through the FIRST Core Values: Discovery, Innovation, Impact, Inclusion, Teamwork and Fun. Please provide examples.
+
+>Explain how the student embodies the philosophies of Gracious Professionalism and Coopetition through the FIRST Core Values: Discovery, Innovation, Impact, Inclusion, Teamwork and Fun. Please provide examples.
+
 Through his engagement in FIRST, Justin has grown into an outstanding student leader who consistently demonstrates a passion for FIRST ideals, a thoughtful and effective leadership style, and a motivation for learning which every 2363 team member tries to model. J’s standout contributions to our program (providing the test case for our quadcopter challenge, leading our project to provide low-cost assistive technology for people with disabilities) have all involved leveraging his knowledge, interest, and pursuit of fun in service to his teammates and our community. An instinctive gracious professional, J has made key impacts within the STEM competition community through his involvement in influential prototyping videos, whitepapers, conference presentations, and other shared resources.
-How has the student increased the awareness of FIRST? Describe the student’s interests and/or plans to continue to engage with FIRST beyond high school. Please provide examples.
+
+>How has the student increased the awareness of FIRST? Describe the student’s interests and/or plans to continue to engage with FIRST beyond high school. Please provide examples.
+
 A dedicated advocate for FIRST and a believer in FIRST students' power to make meaningful change, Justin assumed a leadership role in our project exploring the intersection of rehabilitation & the maker movement. J and teammates work alongside Occupational Therapy doctoral students to design & build low-cost assistive tech, such as adapting switches into toys to help children learn cause-effect relationships. These devices are immediately beneficial to the clients and are lasting proof of the great potential of students who have gained skills through FIRST. J is also a valuable contributor to traditional outreach events, and recently helped create a mock judging experience for a Championship-bound FLL team. J plans to continue his FIRST participation via event volunteering and mentorship.
-Describe the student’s technical expertise, using specific examples in the areas of programming, electronics, design, fabrication, making, illustrating how these skills have contributed to the team's success. Please provide examples.
+
+>Describe the student’s technical expertise, using specific examples in the areas of programming, electronics, design, fabrication, making, illustrating how these skills have contributed to the team's success. Please provide examples.
+
 Justin always demonstrates remarkable professionalism, sense of responsibility, knack for learning, and emotional intelligence that sets him apart from his teammates. Peers and mentors regularly applaud his work ethic, and he constantly proves himself open to new responsibilities. Because of his motivation to learn and contribute, J has cultivated an expertise in all technical aspects of the team. J’s landmark contributions have included development of an advanced autonomous path-planning software, the CAD design of our robot’s end-effectors in the 2018-2020 FRC seasons, and advancement into a student-trainer role in the operation of precision machinery such as the team’s mill, lathe, laser cutter, and 3d printers.
-How does the student's individual contributions to the team benefit the team as a whole in the areas of fundraising, outreach, entrepreneurship, and creativity? Please provide examples.
+
+>How does the student's individual contributions to the team benefit the team as a whole in the areas of fundraising, outreach, entrepreneurship, and creativity? Please provide examples.
+
 In 2021, Justin pioneered the development of TORC, a design-build-fly drone competition within Triple Helix; this program enabled us to maintain student and mentor engagement through the pandemic. Through instructional videos, written documentation, and in-person assistance, J led his peers to develop valuable new skills while working within the bounds of meeting restrictions. J is forward-thinking in regards to presenting our team to our community; he led the design & fabrication of a mini-bot for demos, and has led his peers in contributions to fundraising and grantwriting. As a key contributor to our outreach program, J provides essential assistance with events such as university STEM Days, FLL Kickoffs, demonstrations at air shows, FLL mock judging sessions, activity fairs, and more.
-Explain the student’s leadership to their fellow team members. How do they motivate others? What is their leadership style? Please provide examples.
+
+>Explain the student’s leadership to their fellow team members. How do they motivate others? What is their leadership style? Please provide examples.
+
 Concurrent with his full-time job as a dedicated and high-performing HS student, Justin serves as Triple Helix’s student captain, having naturally grown into this role since taking on a key design leadership responsibility as an 8th-grader. J’s key strengths as a team leader are his proactiveness in recognizing emerging problems and his drive to implement simple, effective solutions without being asked. During the 2021 season, J’s focus on getting things done and being good stewards of limited team resources were essential to the team’s successes in the At Home challenges. Teammates often seek J’s advice and help. J seeks out opportunities to pass on his skills to new students, leading them to prototype and assemble new mechanisms such as 2022 swerve modules.

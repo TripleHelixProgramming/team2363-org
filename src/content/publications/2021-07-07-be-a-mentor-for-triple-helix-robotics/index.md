@@ -21,27 +21,27 @@ Our team is relatively small, but our mission is large. Our core belief is that 
 
 New Triple Helix mentors are not expected to know how to design and build an FRC robot-- we can teach that! However, we are aiming to recruit mentors with the following expertise.
 
-## Math and physics
+### Math and physics
 
 - Multivariable calculus
 - Linear algebra
 - Ordinary differential equations
 - Classical mechanics
 
-## Control theory
+### Control theory
 
 - Modeling of dynamic systems
 - Control of underactuated systems
 - Model predictive control (MPC)
 - Statistic filtering techniques (e.g. Kalman filtering)
 
-## Engineering and design
+### Engineering and design
 
 - Mechatronics
 - 3D CAD (we primarily use PTC Creo and Onshape)
 - 2D and 2.5D CAM
 
-## Additional focus areas
+### Additional focus areas
 
 - Web development
 - Graphic design

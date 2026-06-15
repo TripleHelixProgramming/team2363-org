@@ -6,8 +6,6 @@ author: 'Nate Laverdure'
 categories:
   - Talks
 links:
-  - label: Rumble in the Roads
-    url: 'https://www.rumbleintheroads.com/'
   - label: Video
     url: 'https://www.youtube.com/watch?v=RUaOA82zuKE'
 thumbnail: ./Untitled.png

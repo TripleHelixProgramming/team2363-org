@@ -8,7 +8,7 @@ categories:
 videoUrl: 'https://www.youtube.com/watch?v=0zpflsYc4PA'
 ---
 
-Happy new year!
+***Happy new year!***
 
 ## Triple Helix is playing CHARGED UP
 

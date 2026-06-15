@@ -24,5 +24,5 @@ Thanks to all the participating students and mentors, and everyone who helped us
 
 Nate
 
-[1] Official scores and rankings will be available from FIRST on April 23.
+[1] Official scores and rankings will be available from FIRST on April 23.<br>
 [2] These are unofficial rankings taken ahead of this afternoon's submittal deadline.

@@ -6,8 +6,6 @@ author: 'Nate Laverdure'
 categories:
   - Outreach
 links:
-  - label: Rumble in the Roads
-    url: 'https://www.rumbleintheroads.com/'
   - label: Paper
     url: 'https://docs.google.com/document/d/1-5lc9qZbh5VTKBdmOE3N5Anffz1eA3UIYuF-5-eTtwM/edit?usp=sharing'
 thumbnail: ./Capture.png

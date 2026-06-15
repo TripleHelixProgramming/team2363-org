@@ -12,45 +12,45 @@ Triple Helix's pit crew ensured that our 2020 robot, Genome Mu, was ready for ea
 
 - Inspect IR Sensors
 
-Firmly in place
+  - Firmly in place
 
-- Check operation of upper and lower sensors
+  - Check operation of upper and lower sensors
 
 - Reset Climbing Mechanism
 
-Rewind cord
+  - Rewind cord
 
-- Set tension of cord when stowed
+  - Set tension of cord when stowed
 
 - Clean yellow "Lemon Zest"
 
-Shooter wheels
+  - Shooter wheels
 
-- IR Sensors
+  - IR Sensors
 
 - Check Tires
 
 - Every 3 matches
 
-Inflation
+  - Inflation
 
-- Snap-rings
+  - Snap-rings
 
 - Check Belts
 
-Intake
+  - Intake
 
-- Magazine
+  - Magazine
 
 - Review Driver Station Log (if reported problems)
 
-Compare commanded DS state with Robot State
+  - Compare commanded DS state with Robot State
 
-- Check connectivity to robot
+  - Check connectivity to robot
 
-- Review current & voltage graphs
+  - Review current & voltage graphs
 
-- Look for reported errors
+  - Look for reported errors
 
 - Charge pneumatic system
 
@@ -60,13 +60,13 @@ Compare commanded DS state with Robot State
 
 - Visually inspect connections to RoboRIO.
 
-I2C (color sensor)
+  - I2C (color sensor)
 
-- 5x DIO AUtoswitch, 1x Flashlight
+  - 5x DIO AUtoswitch, 1x Flashlight
 
 - Visually inspect wires and pneumatic tubing
 
-Check interference with crank
+  - Check interference with crank
 
 - Swap bumper
 

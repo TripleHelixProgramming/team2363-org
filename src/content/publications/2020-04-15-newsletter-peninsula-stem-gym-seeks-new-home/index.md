@@ -5,17 +5,6 @@ date: 2020-04-15
 author: 'Nate Laverdure'
 categories:
   - Newsletter
-links:
-  - label: a STEM sport
-    url: 'https://www.firstinspires.org/robotics/frc'
-  - label: main practice space for Triple Helix Robotics
-    url: 'https://www.youtube.com/watch?v=3uduSFJzkjE'
-  - label: unique collaboration between local teams
-    url: 'https://www.jlab.org/news/releases/robotics-team-lends-arm-police'
-  - label: met weekly to prototype a mobile target robot
-    url: 'https://www.13newsnow.com/article/news/local/mycity/newport-news/newport-news-police-department-partners-with-robotics-students/291-7dcd8f62-bc33-4202-8ac5-27ffc1005b7f'
-  - label: Community Knights
-    url: 'https://communityknights.org/'
 ---
 
 Menchville High School's competitive robotics team [Triple Helix](http://team2363.org/) competes in [a STEM sport](https://www.firstinspires.org/robotics/frc) where the shape and structure of the official playing field changes each year.  Prior to [establishing the Peninsula STEM Gym in fall 2018](http://team2363.org/2018/09/press-release-peninsula-stem-gym-provides-practice-opportunities-for-hampton-roads-youth-robotics-teams/), the team's first opportunity each season to see & touch the playing field was when the team arrived at their first tournament of the year.  (Imagine playing an athletic sport competitively without the benefit of practicing on a court!)
@@ -26,7 +15,7 @@ A place for student robotics teams to develop competition robots and have real-w
 
 **Triple Helix Robotics and our supporting nonprofit organization Intentional Innovation Foundation is now seeking a new home for the STEM Gym**, and we ask for your help in identifying suitable locations.
 
-**STEM Gym location requirements**
+## STEM Gym location requirements
 
 - Situated on the Peninsula
 - 30x75 FT flat and level open space without columns or other interruptions
@@ -41,7 +30,8 @@ Nice-to-haves, that would be an improvement over the STEM Gym's current location
 - Parking
 - Standard dock-height loading dock 
 
-**STEM Gym highlights**
+## STEM Gym highlights
+
 In addition to serving as the [main practice space for Triple Helix Robotics](https://www.youtube.com/watch?v=3uduSFJzkjE), the STEM Gym provided a gathering and testing location for Newport News and Hampton City Schools competitive robotics teams on [more than 27 occasions](http://team2363.org/2020/01/outreach-event-log/) in calendar year 2019.
 
 ![](./IMG_20190312_193847.jpg)
@@ -54,7 +44,7 @@ The STEM Gym is itself collaborative project, too. A [Community Knights](https:/
 
 The STEM Gym also hosted an FLL Kick-off event, which provided local teams an opportunity to review the playing field, discuss game rules and robot design options, and speak to three local professionals about their areas of expertise relevant to the FLL research project.
 
-Thank you,
-Nate Laverdure
-President, Intentional Innovation Foundation
+Thank you,<br>
+Nate Laverdure<br>
+President, Intentional Innovation Foundation<br>
 Head coach, Triple Helix Robotics
