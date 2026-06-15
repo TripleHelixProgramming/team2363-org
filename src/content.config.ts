@@ -19,6 +19,9 @@ const publications = defineCollection({
       // Relative path to a co-located image file, e.g. ./thumbnail.jpg
       // Run scripts/migrate-to-dirs.js to download images and update all entries.
       thumbnail: image().optional(),
+      gallery: z
+        .array(z.object({ src: image(), caption: z.string() }))
+        .optional(),
       videoUrl: z.string().url().optional(),
       author: z.string().optional(),
     }),
