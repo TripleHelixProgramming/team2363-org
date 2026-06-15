@@ -39,6 +39,7 @@ We need your help to make the event great! We especially need your assistance wi
 Several Triple Helix partners renewed their sponsorship of the team for the upcoming 2019 FRC season. We thank our mentors and friends at Boeing and Anthem for their generous and continued support!
 
 
-*Nate Laverdure*<br>
-*Head coach, Triple Helix Robotics*<br>
-*President, Intentional Innovation Foundation*
+--<br>
+Nate Laverdure<br>
+Head coach, Triple Helix Robotics<br>
+President, Intentional Innovation Foundation

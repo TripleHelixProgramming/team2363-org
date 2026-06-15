@@ -38,6 +38,7 @@ Triple Helix students have the opportunity to learn how to safely use lathes to 
 [https://www.youtube.com/watch?v=xsPXy2g3yfU](https://www.youtube.com/watch?v=xsPXy2g3yfU)
 
 
-*Nate Laverdure*<br>
-*Head coach, Triple Helix Robotics*<br>
-*President, Intentional Innovation Foundation*
+--<br>
+Nate Laverdure<br>
+Head coach, Triple Helix Robotics<br>
+President, Intentional Innovation Foundation

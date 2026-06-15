@@ -40,6 +40,7 @@ Triple Helix wishes to share our appreciation of Lockheed Martin, which has prov
 In addition, Triple Helix is extremely happy that BAE Systems has returned as a sponsor of our team this year by awarding a $1,000 grant.  BAE Systems Norfolk Ship Repair has been a longtime friend and partner of the team since at least 2010.
 
 
-*Nate Laverdure*<br>
-*Head coach, Triple Helix Robotics*<br>
-*President, Intentional Innovation Foundation*
+--<br>
+Nate Laverdure<br>
+Head coach, Triple Helix Robotics<br>
+President, Intentional Innovation Foundation

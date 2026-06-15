@@ -38,6 +38,7 @@ The 6th annual [Rumble in the Roads](https://www.rumbleintheroads.com/), Hampto
 Triple Helix congratulates VCU College of Health Professions student Jason Ingram on completion of his degree requirements and imminent graduation as a Doctor of Occupational Therapy (OTD).  Triple Helix was a key part of Jason's doctoral experiential capstone project: exploring the crossroads of engineering and occupational therapy.  Jason joined Triple Helix this season and worked alongside our students and mentors to develop and modify assistive technology for clients throughout Hampton Roads.  As a result of this experience, our students gained a deep appreciation for how they can use their budding engineering skills to make a meaningful, personal impact in their community, and we look forward to continuing our relationships with the many therapy professionals and organizations Jason connected us with this spring.  We also look forward to working with our next VCU OT student who is planning to continue and extend the long-term project when she joins us in January 2020!
 
 
-*Nate Laverdure*<br>
-*Head coach, Triple Helix Robotics*<br>
-*President, Intentional Innovation Foundation*
+--<br>
+Nate Laverdure<br>
+Head coach, Triple Helix Robotics<br>
+President, Intentional Innovation Foundation

@@ -34,6 +34,7 @@ Recently graduated seniors, alumni, and former mentors came together to particip
 [Booz Allen](https://www.boozallen.com/) has renewed their sponsorship of the team for the upcoming 2019 FRC season. Thank you for your generous and continued support!
 
 
-*Nate Laverdure*<br>
-*Head coach, Triple Helix Robotics*<br>
-*President, Intentional Innovation Foundation*
+--<br>
+Nate Laverdure<br>
+Head coach, Triple Helix Robotics<br>
+President, Intentional Innovation Foundation

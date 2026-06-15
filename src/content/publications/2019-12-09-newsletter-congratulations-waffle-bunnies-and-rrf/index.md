@@ -9,8 +9,8 @@ categories:
 
 Triple Helix congratulates our friends,
 
-**The Magically Energized Lightning Waffle Bunnies
-**and
+**The Magically Energized Lightning Waffle Bunnies**
+and
 **The Ruling Robot Falcons**
 
 who both championed their divisions at the Virginia/DC FIRST Lego League championship this weekend at James Madison University.  Both teams have now qualified to represent our region in the World Tournament held at the FIRST Championship this spring in Detroit.

@@ -34,6 +34,7 @@ The Peninsula STEM Gym will also host a robot pre-inspection day on February 22n
 For the 2nd year, Triple Helix and Intentional Innovation Foundation welcomes to our team a student from the occupational therapy doctoral program at Virginia Commonwealth University.  For their semester-long capstone "Doctoral Experiential Component" (DEC), this student will join us as a mentor while also learning the skills and tools at the intersection between therapy and engineering.  Together we'll be extending the previous work of last year's student, completing some awesome assistive technology projects, and establishing strong connections between our robotics team and the local allied health community.  Welcome Sierra Taylor Wolf!
 
 
-*Nate Laverdure*<br>
-*Head coach, Triple Helix Robotics*<br>
-*President, Intentional Innovation Foundation*
+--<br>
+Nate Laverdure<br>
+Head coach, Triple Helix Robotics<br>
+President, Intentional Innovation Foundation

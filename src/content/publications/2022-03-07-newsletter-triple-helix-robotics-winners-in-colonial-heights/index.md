@@ -22,5 +22,6 @@ Triple Helix competes again in 2 weeks, as we work to clinch a berth at the FIRS
 You can follow our season at [thebluealliance.com/team/2363](https://www.thebluealliance.com/team/2363) and watch our events streamed live at [twitch.tv/firstchesapeake](http://twitch.tv/firstchesapeake).
 
 
-*Nate Laverdure*
-*Head coach, Triple Helix Robotics*
+--<br>
+Nate Laverdure<br>
+Head coach, Triple Helix Robotics

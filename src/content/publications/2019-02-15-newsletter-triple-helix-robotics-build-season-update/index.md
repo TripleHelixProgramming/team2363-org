@@ -40,6 +40,7 @@ Triple Helix aims to compete at up to four FIRST Robotics Competition events thi
 In addition, you're welcome drop by any of our team meetings-- we'd love to show you what our awesome students have built!  See [our team meeting calendar](http://calendar.team2363.org/) for more information.
 
 
-*Nate Laverdure*<br>
-*Head coach, Triple Helix Robotics*<br>
-*President, Intentional Innovation Foundation*
+--<br>
+Nate Laverdure<br>
+Head coach, Triple Helix Robotics<br>
+President, Intentional Innovation Foundation

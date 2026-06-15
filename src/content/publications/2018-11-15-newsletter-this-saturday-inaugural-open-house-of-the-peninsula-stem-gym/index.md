@@ -31,5 +31,6 @@ We are also recruiting a volunteer **resource scheduler** for the Peninsula STEM
 In less than a couple months, we are also looking for volunteer **field element builders** who can use their woodworking skills to help the local FRC teams!  Using drawings that are published by FIRST during the FRC Kickoff in early January, these volunteers will construct full-scale wooden mock-ups of the major elements of the 2019 Destination Deep Space FRC field.  [Here's a past example](https://drive.google.com/file/d/1B_ewdhxDexBHOK7hOCEDVcwJ5N6s1MY1/view?usp=sharing) of a field element that we would need to build.
 
 
-*Nate Laverdure*
-*President, Intentional Innovation Foundation*
+--<br>
+Nate Laverdure<br>
+President, Intentional Innovation Foundation
