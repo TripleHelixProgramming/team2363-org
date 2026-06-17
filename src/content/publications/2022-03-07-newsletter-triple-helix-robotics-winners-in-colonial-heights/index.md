@@ -5,11 +5,6 @@ date: 2022-03-07
 author: 'Nate Laverdure'
 categories:
   - Newsletter
-links:
-  - label: thebluealliance.com/team/2363
-    url: 'https://www.thebluealliance.com/team/2363'
-  - label: twitch.tv/firstchesapeake
-    url: 'http://twitch.tv/firstchesapeake'
 ---
 
 Triple Helix traveled to Colonial Heights this weekend where we competed against 17 other FRC teams from Virginia. The team ranked first in qualification rounds, captained the #1 alliance, and won the event alongside high-performing partner teams 5724 and 3136.

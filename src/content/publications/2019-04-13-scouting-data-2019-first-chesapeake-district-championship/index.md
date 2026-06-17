@@ -6,7 +6,7 @@ author: 'Nate Laverdure'
 categories:
   - Scouting
 links:
-  - label: XLSX spreadsheet
+  - label: Spreadsheet
     url: 'https://drive.google.com/a/iifound.org/file/d/1OItn2kmUnMMvkWXm_WUFVxYoSa_NubU4/view?usp=sharing'
 thumbnail: ./Capture.png
 ---

@@ -12,7 +12,7 @@ links:
     url: "https://github.com/TripleHelixProgramming/PitDash#installing"
   - label: "Repository"
     url: "https://github.com/TripleHelixProgramming/PitDash"
-  - label: "ChiefDelphi discussion"
+  - label: "Chief Delphi discussion"
     url: "https://www.chiefdelphi.com/t/pit-dashboard/519472"
 author: "Christopher Larrieu"
 gallery:
