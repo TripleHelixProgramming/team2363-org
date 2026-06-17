@@ -41,10 +41,29 @@ const pubData = JSON.stringify(
   title="Publications"
   description="Technical writeups, newsletters, CAD releases, and more from Triple Helix Robotics."
 >
+  <link
+    slot="head"
+    rel="alternate"
+    type="application/rss+xml"
+    title="Triple Helix Robotics Publications"
+    href={`${import.meta.env.BASE_URL}publications/rss.xml`}
+  />
   <Nav />
 
   <main class="max-w-5xl mx-auto px-4 py-16">
-    <h1 class="text-4xl font-bold text-purple mb-4">Publications</h1>
+    <div class="flex items-baseline justify-between mb-4">
+      <h1 class="text-4xl font-bold text-purple">Publications</h1>
+      <a
+        href={`${import.meta.env.BASE_URL}publications/rss.xml`}
+        class="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-gold transition-colors"
+        title="Subscribe via RSS"
+      >
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M6.18 15.64a2.18 2.18 0 0 1 2.18 2.18C8.36 19.01 7.38 20 6.18 20C4.98 20 4 19.01 4 17.82a2.18 2.18 0 0 1 2.18-2.18M4 4.44A15.56 15.56 0 0 1 19.56 20h-2.83A12.73 12.73 0 0 0 4 7.27V4.44m0 5.66a9.9 9.9 0 0 1 9.9 9.9h-2.83A7.07 7.07 0 0 0 4 12.93V10.1z" />
+        </svg>
+        RSS
+      </a>
+    </div>
     <p class="text-gray-600 mb-6">
       Technical writeups, newsletters, CAD releases, robot reveals, and more.
     </p>
