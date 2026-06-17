@@ -12,6 +12,8 @@ links:
     url: "https://github.com/TripleHelixProgramming/PitDash#installing"
   - label: "Repository"
     url: "https://github.com/TripleHelixProgramming/PitDash"
+  - label: "ChiefDelphi discussion"
+    url: "https://www.chiefdelphi.com/t/pit-dashboard/519472"
 author: "Christopher Larrieu"
 gallery:
   - src: "./Simulator Screenshot - iPhone 17 Pro Max - 2026-05-15 at 16.24.00.png"
