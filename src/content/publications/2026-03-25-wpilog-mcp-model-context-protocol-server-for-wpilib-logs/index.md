@@ -1,6 +1,6 @@
 ---
 # Required fields
-title: "wpilog-mcp: Model Context Protocol (MCP) Server for WPILib Logs"
+title: "wpilog-mcp: Model Context Protocol (MCP) server for WPILib logs"
 date: 2026-03-25
 categories:
   - Programming

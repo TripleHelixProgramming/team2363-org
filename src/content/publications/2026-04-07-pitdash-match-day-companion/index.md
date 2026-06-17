@@ -1,12 +1,12 @@
 ---
 # Required fields
-title: "PitDash - Live FRC Match Dashboard"
+title: "PitDash: live FRC match dashboard"
 date: 2026-04-07
 categories:
   - Programming
 thumbnail: ./icon.png
 links:
-  - label: "Download on App Store"
+  - label: "Download from Apple App Store"
     url: "https://apps.apple.com/us/app/pit-dash/id6761343496"
   - label: "Android installation instructions"
     url: "https://github.com/TripleHelixProgramming/PitDash#installing"
