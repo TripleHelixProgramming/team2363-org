@@ -3,6 +3,7 @@ import { Icon } from "astro-icon/components";
 import Base from "../../layouts/Base.astro";
 import Nav from "../../components/Nav.astro";
 import Footer from "../../components/Footer.astro";
+import { card, btn, link } from "../../utils/classes";
 
 const sponsorshipTiers = [
   {
@@ -70,9 +71,7 @@ const sponsorshipTiers = [
           community support. All forms of support are deeply valued:
         </p>
         <div class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 mb-8">
-          <div
-            class="text-center bg-white rounded-lg border-2 border-gray-200 shadow-md p-6"
-          >
+          <div class={`text-center ${card} p-6`}>
             <Icon
               name="lucide:package"
               class="w-7 h-7 text-gold mb-2 mx-auto"
@@ -85,15 +84,13 @@ const sponsorshipTiers = [
               our students.{" "}
               <a
                 href={`${import.meta.env.BASE_URL}publications/2019-09-20-in-kind-donation-most-wanted-list/`}
-                class="text-watermelon hover:text-gold transition-colors"
+                class={link}
               >
                 See our most-wanted list.
               </a>
             </p>
           </div>
-          <div
-            class="text-center bg-white rounded-lg border-2 border-gray-200 shadow-md p-6"
-          >
+          <div class={`text-center ${card} p-6`}>
             <Icon
               name="lucide:banknote"
               class="w-7 h-7 text-gold mb-2 mx-auto"
@@ -105,9 +102,7 @@ const sponsorshipTiers = [
               and the resources our students need to compete.
             </p>
           </div>
-          <div
-            class="text-center bg-white rounded-lg border-2 border-gray-200 shadow-md p-6"
-          >
+          <div class={`text-center ${card} p-6`}>
             <Icon
               name="lucide:heart"
               class="w-7 h-7 text-gold mb-2 mx-auto"
@@ -120,9 +115,7 @@ const sponsorshipTiers = [
               perspectives to our team processes.
             </p>
           </div>
-          <div
-            class="text-center bg-white rounded-lg border-2 border-gray-200 shadow-md p-6"
-          >
+          <div class={`text-center ${card} p-6`}>
             <Icon
               name="lucide:building-2"
               class="w-7 h-7 text-gold mb-2 mx-auto"
@@ -136,7 +129,7 @@ const sponsorshipTiers = [
                 href="https://www.charitynavigator.org/donor-basics/giving-101/employee-match-programs/"
                 target="_blank"
                 rel="noopener noreferrer"
-                class="inline-flex items-center gap-1 text-watermelon underline hover:text-gold transition-colors"
+                class="inline-flex items-center gap-1 text-watermelon hover:text-gold transition-colors"
               >
                 Learn more
                 <Icon
@@ -153,7 +146,7 @@ const sponsorshipTiers = [
             href="https://www.paypal.com/donate?hosted_button_id=R9BJ2TLELQR6W"
             target="_blank"
             rel="noopener noreferrer"
-            class="inline-flex items-center gap-1.5 border-2 border-purple text-purple font-bold px-6 py-3 rounded hover:bg-purple hover:text-white transition-colors"
+            class={btn}
           >
             Donate now
             <svg
@@ -177,18 +170,13 @@ const sponsorshipTiers = [
           ability to make lasting positive contributions to the community we
           serve. Triple Helix solicits tax-deductible monetary donations through
           our operating sponsor{" "}
-          <a
-            href="https://www.iifound.org/"
-            class="text-watermelon hover:text-gold transition-colors"
-          >
+          <a href="https://www.iifound.org/" class={link}>
             Intentional Innovation Foundation</a
           >, a Newport News 501(c)(3) tax-exempt public charity.
         </p>
         <p class="mt-3 text-gray-600">
           Wishing to contribute to Triple Helix by another method? Please{" "}
-          <a
-            href={`${import.meta.env.BASE_URL}contact/`}
-            class="text-watermelon hover:text-gold transition-colors"
+          <a href={`${import.meta.env.BASE_URL}contact/`} class={link}
             >contact us</a
           >{" "}
           for more information on how you can get involved.

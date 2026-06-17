@@ -5,6 +5,7 @@ import Footer from "../../components/Footer.astro";
 import { Icon } from "astro-icon/components";
 import { Image } from "astro:assets";
 import handbookCover from "./ZCZ_0587-Enhanced-NR-scaled.jpg";
+import { card, btnSm, link } from "../../utils/classes";
 
 const contactEmail = "contact@team2363.org";
 ---
@@ -16,14 +17,14 @@ const contactEmail = "contact@team2363.org";
   <Nav />
 
   <main class="max-w-5xl mx-auto px-4 py-16">
-    <h1 class="text-4xl font-bold text-purple mb-2">Get in touch</h1>
-    <p class="text-gray-600 mb-10">
+    <h1 class="text-4xl font-bold text-purple mb-8">Get in touch</h1>
+    <p class="text-gray-600 mb-6">
       Questions about the team, sponsorship, or joining? Reach out below.
     </p>
 
     <div class="grid gap-6 md:grid-cols-2">
       <!-- 1. Send us a message -->
-      <div class="bg-white border-2 border-gray-200 rounded-lg p-6 shadow-md">
+      <div class={`${card} p-6`}>
         <div class="flex items-center gap-2 mb-4">
           <Icon
             name="lucide:mail"
@@ -102,19 +103,12 @@ const contactEmail = "contact@team2363.org";
               class="w-full border border-gray-300 rounded px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-purple"
             ></textarea>
           </div>
-          <button
-            type="submit"
-            class="border-2 border-purple text-purple font-bold px-6 py-2 rounded hover:bg-purple hover:text-white transition-colors"
-          >
-            Send message
-          </button>
+          <button type="submit" class={btnSm}> Send message </button>
         </form>
       </div>
 
       <!-- 2. Drop by our next meeting -->
-      <div
-        class="bg-white border-2 border-gray-200 rounded-lg overflow-hidden shadow-md flex flex-col"
-      >
+      <div class={`${card} overflow-hidden flex flex-col`}>
         <iframe
           src="https://www.google.com/maps?q=11516+Jefferson+Ave,+Newport+News,+VA+23601&output=embed"
           class="w-full h-52 border-0"
@@ -136,8 +130,7 @@ const contactEmail = "contact@team2363.org";
               href="https://maps.app.goo.gl/Y2VosW3wmbiVZwp48"
               target="_blank"
               rel="noopener noreferrer"
-              class="text-watermelon hover:text-gold transition-colors"
-              >Peninsula STEM Gym</a
+              class={link}>Peninsula STEM Gym</a
             > in central Newport News, VA. We invite you to swing by and meet the
             team!
           </p>
@@ -158,9 +151,7 @@ const contactEmail = "contact@team2363.org";
       </div>
 
       <!-- 3. Read our team handbook -->
-      <div
-        class="bg-white border-2 border-gray-200 rounded-lg overflow-hidden shadow-md flex flex-col"
-      >
+      <div class={`${card} overflow-hidden flex flex-col`}>
         <Image
           src={handbookCover}
           alt="Team members cheeing in the stands"
@@ -196,7 +187,7 @@ const contactEmail = "contact@team2363.org";
       </div>
 
       <!-- 4. Stay in the loop -->
-      <div class="bg-white border-2 border-gray-200 rounded-lg p-6 shadow-md">
+      <div class={`${card} p-6`}>
         <div class="flex items-center gap-2 mb-4">
           <Icon
             name="lucide:bell"
@@ -283,7 +274,7 @@ const contactEmail = "contact@team2363.org";
             type="submit"
             name="subscribe"
             id="mc-embedded-subscribe"
-            class="border-2 border-purple text-purple font-bold px-6 py-2 rounded hover:bg-purple hover:text-white transition-colors"
+            class={btnSm}
           >
             Subscribe
           </button>

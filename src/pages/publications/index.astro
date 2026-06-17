@@ -6,6 +6,7 @@ import Nav from '../../components/Nav.astro';
 import Footer from '../../components/Footer.astro';
 import { excerpt } from '../../utils/excerpt';
 import { sortPublications } from '../../utils/publications';
+import { card, btn } from '../../utils/classes';
 
 const allPublications = await getCollection('publications');
 const publications = sortPublications(allPublications).reverse();
@@ -51,7 +52,7 @@ const pubData = JSON.stringify(
   <Nav />
 
   <main class="max-w-5xl mx-auto px-4 py-16">
-    <div class="flex items-baseline justify-between mb-4">
+    <div class="flex items-baseline justify-between mb-8">
       <h1 class="text-4xl font-bold text-purple">Publications</h1>
       <a
         href={`${import.meta.env.BASE_URL}publications/rss.xml`}
@@ -176,7 +177,7 @@ const pubData = JSON.stringify(
           publications.map((pub, i) => (
             <li
               x-show={`visible[${i}]`}
-              class="bg-white border-2 border-gray-200 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
+              class={`${card} overflow-hidden hover:shadow-lg transition-shadow`}
             >
               {pub.data.thumbnail && (
                 <Image
@@ -240,7 +241,7 @@ const pubData = JSON.stringify(
       <div x-show="count > limit" class="mt-8 text-center">
         <button
           @click="limit += 12"
-          class="border-2 border-purple text-purple font-bold px-6 py-3 rounded hover:bg-purple hover:text-white transition-colors"
+          class={btn}
         >
           Show more <span x-text="`(${count - limit} remaining)`"></span>
         </button>

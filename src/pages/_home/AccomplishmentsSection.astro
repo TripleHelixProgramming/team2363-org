@@ -8,6 +8,7 @@ import photoStudentOutcomes from "./accomplishment-student-outcomes.jpg";
 import photoCompetition from "./accomplishment-competition.jpeg";
 import photoRumble from "./accomplishment-rumble.jpg";
 import photoCommunity from "./accomplishment-community.jpg";
+import { card } from "../../utils/classes";
 
 const items = [
   {
@@ -62,7 +63,7 @@ const items = [
     <div class="grid gap-8 md:grid-cols-2">
       {
         items.map((item) => (
-          <div class="bg-white rounded-lg border-2 border-gray-200 shadow-md overflow-hidden">
+          <div class={`${card} overflow-hidden`}>
             <Image
               src={item.photo}
               alt=""

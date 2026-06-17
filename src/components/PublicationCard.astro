@@ -10,6 +10,7 @@
 import { Image } from "astro:assets";
 import { excerpt } from "../utils/excerpt";
 import type { CollectionEntry } from "astro:content";
+import { card } from "../utils/classes";
 
 interface Props {
   pub: CollectionEntry<"publications">;
@@ -20,9 +21,7 @@ const { title, date, links, thumbnail } = pub.data;
 const slug = pub.id.replace(/\/index\.md$/, "");
 ---
 
-<div
-  class="shrink-0 snap-start w-80 bg-white rounded-lg border-2 border-gray-200 shadow-md p-5"
->
+<div class={`shrink-0 snap-start w-80 ${card} p-5`}>
   {
     thumbnail && (
       <Image
