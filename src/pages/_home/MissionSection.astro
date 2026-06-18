@@ -3,6 +3,7 @@
 // Edit the `pillars` array below to change the three mission statements.
 
 import IconCard from "../../components/IconCard.astro";
+import { h2 } from "../../utils/classes";
 
 const pillars = [
   {
@@ -25,7 +26,7 @@ const pillars = [
 
 <section class="bg-gray-100 py-16 px-4">
   <div class="max-w-5xl mx-auto">
-    <h2 class="text-3xl font-bold text-purple mb-8">Our mission</h2>
+    <h2 class={h2}>Our mission</h2>
     <p class="text-gray-600 mb-6">
       A consistent leader in advocating for science, technology, engineering,
       and math (STEM) in the region of Hampton Roads Virginia, Triple Helix

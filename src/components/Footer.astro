@@ -43,6 +43,8 @@ const resourceLinks = [
 ];
 
 const year = new Date().getFullYear();
+const footerLink =
+  "flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors";
 ---
 
 <footer class="bg-purple text-white border-t-4 border-gold">
@@ -58,7 +60,7 @@ const year = new Date().getFullYear();
             href="https://maps.app.goo.gl/Y2VosW3wmbiVZwp48"
             target="_blank"
             rel="noopener noreferrer"
-            class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
+            class={footerLink}
           >
             <Icon
               name="lucide:map-pin"
@@ -69,10 +71,7 @@ const year = new Date().getFullYear();
           </a>
         </li>
         <li>
-          <a
-            href={`${import.meta.env.BASE_URL}contact/`}
-            class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
-          >
+          <a href={`${import.meta.env.BASE_URL}contact/`} class={footerLink}>
             <Icon
               name="lucide:mail"
               class="w-4 h-4 shrink-0"
@@ -93,7 +92,7 @@ const year = new Date().getFullYear();
             <li>
               <a
                 href={href}
-                class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
+                class={footerLink}
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -115,7 +114,7 @@ const year = new Date().getFullYear();
             <li>
               <a
                 href={href}
-                class="flex items-center gap-2 text-sm text-gray-300 hover:text-gold transition-colors"
+                class={footerLink}
                 target="_blank"
                 rel="noopener noreferrer"
               >

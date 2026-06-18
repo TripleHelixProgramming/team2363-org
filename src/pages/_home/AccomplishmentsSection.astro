@@ -8,7 +8,7 @@ import photoStudentOutcomes from "./accomplishment-student-outcomes.jpg";
 import photoCompetition from "./accomplishment-competition.jpeg";
 import photoRumble from "./accomplishment-rumble.jpg";
 import photoCommunity from "./accomplishment-community.jpg";
-import { card } from "../../utils/classes";
+import { card, h2, h3 } from "../../utils/classes";
 
 const items = [
   {
@@ -36,9 +36,7 @@ const items = [
 
 <section id="about" class="bg-gray-100 py-16 px-4 scroll-mt-16">
   <div class="max-w-5xl mx-auto">
-    <h2 class="text-3xl font-bold text-purple mb-8">
-      More information about the team
-    </h2>
+    <h2 class={h2}>More information about the team</h2>
     <p class="text-gray-600 mb-4">
       Triple Helix Robotics competes in the FIRST Robotics Competition as Team
       2363. Founded in 2007 at Menchville High School in Newport News, Virginia
@@ -71,7 +69,7 @@ const items = [
               aria-hidden="true"
             />
             <div class="p-6">
-              <h3 class="font-bold text-purple mb-2">{item.heading}</h3>
+              <h3 class={h3}>{item.heading}</h3>
               <p class="text-gray-600 text-sm">{item.body}</p>
             </div>
           </div>

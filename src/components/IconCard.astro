@@ -11,6 +11,7 @@
 //   <IconCard variant="card" icon="lucide:trophy" heading="Heading" body="Body." />
 
 import { Icon } from "astro-icon/components";
+import { icon, h3 } from "../utils/classes";
 
 interface Props {
   icon: string;
@@ -26,11 +27,7 @@ const { icon, heading, body, variant = "stacked" } = Astro.props;
   variant === "card" ? (
     <div class="bg-white rounded p-6 shadow-sm">
       <div class="flex items-center gap-2 mb-3">
-        <Icon
-          name={icon}
-          class="w-5 h-5 text-gold shrink-0"
-          aria-hidden="true"
-        />
+        <Icon name={icon} class={icon} aria-hidden="true" />
         <h3 class="font-bold text-purple text-sm">{heading}</h3>
       </div>
       <p class="text-gray-600 text-sm">{body}</p>
@@ -42,7 +39,7 @@ const { icon, heading, body, variant = "stacked" } = Astro.props;
         class="w-8 h-8 text-gold mb-3 mx-auto"
         aria-hidden="true"
       />
-      <h3 class="font-bold text-purple mb-2">{heading}</h3>
+      <h3 class={h3}>{heading}</h3>
       <p class="text-gray-600 text-sm">{body}</p>
     </div>
   )

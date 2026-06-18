@@ -5,7 +5,7 @@ import Base from "../../layouts/Base.astro";
 import Nav from "../../components/Nav.astro";
 import Footer from "../../components/Footer.astro";
 import sponsorsData from "./sponsors.json";
-import { btn } from "../../utils/classes";
+import { btn, h1, h2, h2Cta } from "../../utils/classes";
 
 const logoModules = import.meta.glob<{ default: ImageMetadata }>(
   "./sponsor-logos/*.{png,jpg,jpeg,webp,svg}",
@@ -26,9 +26,7 @@ function getLogo(filename: string): ImageMetadata | undefined {
   <main>
     <!-- Intro -->
     <section class="max-w-5xl mx-auto px-4 py-16">
-      <h1 class="text-4xl font-bold text-purple mb-8">
-        Our relationship with our sponsors
-      </h1>
+      <h1 class={`${h1} mb-8`}>Our relationship with our sponsors</h1>
       <p class="text-gray-600 mb-6">
         Our sponsors are integral parts of Triple Helix and help form the team's
         identity. Their support extends far beyond monetary donations. Several
@@ -65,9 +63,7 @@ function getLogo(filename: string): ImageMetadata | undefined {
     <!-- Our partners -->
     <section class="bg-gray-100 py-16 px-4">
       <div class="max-w-5xl mx-auto">
-        <h2 class="text-3xl font-bold text-purple mb-12 text-center">
-          Our partners
-        </h2>
+        <h2 class={`${h2} text-center`}>Our partners</h2>
 
         {
           sponsorsData.tiers.map(({ name, sponsors }) => {
@@ -144,7 +140,7 @@ function getLogo(filename: string): ImageMetadata | undefined {
     <!-- Support CTA -->
     <section class="bg-white py-16 px-4 text-center">
       <div class="max-w-4xl mx-auto">
-        <h2 class="text-3xl font-bold text-purple mb-4">Want to support us?</h2>
+        <h2 class={h2Cta}>Want to support us?</h2>
         <p class="text-gray-600 mb-8">
           Learn about donation options, sponsorship tiers, and how your employer
           may be able to match your contribution.

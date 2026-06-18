@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import Carousel from "../../components/Carousel.astro";
 import PublicationCard from "../../components/PublicationCard.astro";
 import { sortPublications } from "../../utils/publications";
-import { btn } from "../../utils/classes";
+import { btn, h2 } from "../../utils/classes";
 
 const allPublications = await getCollection("publications");
 const latestPublications = sortPublications(allPublications)
@@ -13,9 +13,7 @@ const latestPublications = sortPublications(allPublications)
 
 <section class="py-16 px-4">
   <div class="max-w-6xl mx-auto">
-    <h2 class="text-3xl font-bold text-purple mb-8 text-center">
-      Our latest publications
-    </h2>
+    <h2 class={`${h2} text-center`}>Our latest publications</h2>
     {
       latestPublications.length > 0 ? (
         <Carousel

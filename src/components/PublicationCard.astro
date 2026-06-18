@@ -10,7 +10,7 @@
 import { Image } from "astro:assets";
 import { excerpt } from "../utils/excerpt";
 import type { CollectionEntry } from "astro:content";
-import { card } from "../utils/classes";
+import { card, h3 } from "../utils/classes";
 
 interface Props {
   pub: CollectionEntry<"publications">;
@@ -40,7 +40,7 @@ const slug = pub.id.replace(/\/index\.md$/, "");
       })
     }
   </p>
-  <h3 class="font-bold text-purple mb-2">
+  <h3 class={h3}>
     <a
       href={`${import.meta.env.BASE_URL}publications/${slug}/`}
       class="hover:text-gold transition-colors"
