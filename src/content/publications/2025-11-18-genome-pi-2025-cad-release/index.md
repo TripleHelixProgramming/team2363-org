@@ -10,4 +10,4 @@ links:
 thumbnail: ./GenomePiCAD.png
 ---
 
-Latest complete CAD model of Genome Pi, the Triple Helix robot for the 2025 FIRST Robotics Competition game, Reefscape.
+Latest complete CAD model of Genome Omicron, the Triple Helix robot for the 2024 FIRST Robotics Competition game, Crescendo.
