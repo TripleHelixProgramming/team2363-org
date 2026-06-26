@@ -1,6 +1,6 @@
 ---
 slug: 2024-12-12-genome-omicron-2024-cad-release
-title: "Your publication title here"
+title: "Genome Omicron (2024) CAD release"
 date: 2024-12-12
 categories:
   - CAD
@@ -10,4 +10,4 @@ links:
 thumbnail: ./GenomeOmicronCAD.png
 ---
 
-Latest complete CAD model of Genome Pi, the Triple Helix robot for the 2025 FIRST Robotics Competition game, Reefscape.
+Latest complete CAD model of Genome Omicron, the Triple Helix robot for the 2024 FIRST Robotics Competition game, Crescendo.
