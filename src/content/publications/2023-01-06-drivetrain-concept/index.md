@@ -18,13 +18,7 @@ thumbnail: ./drivetrain 2023.png
 # External links shown as inline chips on the index card and detail page.
 links:
   - label: "GrabCAD"
-    url: "https://grabcad.com/library/2023-drivetrain-concept-1"
+    url: 'https://grabcad.com/library/2023-drivetrain-concept-1'
+---
 
 A drivetrain concept we might start with for the 2023 FRC season.
-
-
-# Write the body of your publication here using Markdown.
-
-# You can use **bold**, _italic_, [links](https://example.com), and more.
-
-# To add a heading, use `##` or `###` — avoid `#` (that's reserved for the page title).
