@@ -54,39 +54,8 @@ generators) they can carry into early careers.
 
 ---
 
-## Todo
-
-### Publications workflow & contribution guidelines
-
-This is the highest-priority "student-facing" piece.
-
-- Write `CONTRIBUTING.md` at a high-school reading level covering step by step:
-  1. Cloning the repo / opening it in an editor.
-  2. Running the site locally (`npm install`, `npm run dev`).
-  3. Adding a new publication: create `src/content/publications/<slug>/`, copy
-     `_template.md` to `index.md`, fill in frontmatter, drop image file alongside it.
-  4. Editing existing page text — page prose lives in `.astro` files; sponsor data
-     lives in `src/pages/partners/sponsors.json`.
-  5. Committing changes and opening a pull request.
-  6. What CI checks mean and how to fix common failures (format errors).
-- Template file already exists at `src/content/publications/_template.md`.
-
-### Other
-
-- **Site header logo:** A logo image file should be added.
-- **Sponsors:** Verify which sponsors are still active before launch (e.g. SPAWAR → NIWC
-  Atlantic already updated; others may have changed).
-- **Mailchimp inline validation:** Mailchimp's `mc-validate.js` requires jQuery (not loaded
-  on this site). On submit the form currently redirects to Mailchimp's hosted confirmation page.
-  To show inline success/error messages instead, write a small vanilla JS fetch-based handler
-  (replaces jQuery dependency, ~20 lines). Low priority — redirect behavior is acceptable.
-
----
-
 ## Open questions
 
-- **Analytics:** keep Google Analytics tag `G-RCJPFKDHNM`, or switch to a
-  privacy-friendly alternative?
 - **LinkedIn:** current URL points to Intentional Innovation Foundation. Should the team develop a Triple Helix-specific LinkedIn page?
 
 ---
