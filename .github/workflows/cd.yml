@@ -34,3 +34,4 @@ jobs:
           branch: gh-pages
           folder: ./dist
           token: ${{ secrets.GITHUB_TOKEN }}
+          cname: team2363.org

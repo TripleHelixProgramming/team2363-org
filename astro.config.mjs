@@ -1,10 +1,10 @@
 import { defineConfig } from 'astro/config';
 import icon from 'astro-icon';
 
-const base = '/team2363-org/';
+const base = '/';
 
-// Rewrites root-relative hrefs in markdown to include the base path,
-// so content files can write /publications/... instead of /team2363-org/publications/...
+// Rewrites root-relative hrefs in markdown to include the base path.
+// No-op while base is '/', but keeps content portable if base ever changes.
 function rehypeRebaseLinks() {
   return (tree) => {
     function visit(node) {
