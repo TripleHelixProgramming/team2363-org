@@ -5,6 +5,10 @@ dist/
 # Node.js dependencies
 node_modules/
 
+# Local environment variables
+.env*
+!.env.example
+
 # System files
 .DS_Store
 scripts/
