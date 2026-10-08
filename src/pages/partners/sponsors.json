@@ -34,19 +34,19 @@
           "logo": "niwc.jpg"
         },
         {
-          "name": "Newport News Public Schools",
-          "url": "https://sbo.nn.k12.va.us/",
-          "logo": "nnps.jpg"
+          "name": "TE Connectivity",
+          "url": "https://www.te.com/",
+          "logo": "te.png"
         },
         {
-          "name": "Lockheed Martin",
-          "url": "https://www.lockheedmartin.com/",
-          "logo": "lockheed.png"
+          "name": "Gene Haas Foundation",
+          "url": "https://www.ghaasfoundation.org/",
+          "logo": "ghf.png"
         },
         {
-          "name": "Community Knights",
-          "url": "https://communityknights.org/",
-          "logo": "communityknights.jpg"
+          "name": "BAE Systems",
+          "url": "https://www.baesystems.com/",
+          "logo": "bae.png"
         },
         {
           "name": "The Boeing Company",
@@ -54,19 +54,9 @@
           "logo": "boeing.jpg"
         },
         {
-          "name": "TE Connectivity",
-          "url": "https://www.te.com/",
-          "logo": "te.png"
-        },
-        {
-          "name": "REV Robotics",
-          "url": "https://www.revrobotics.com/",
-          "logo": "rev.jpg"
-        },
-        {
-          "name": "The MITRE Corporation",
-          "url": "https://www.mitre.org/",
-          "logo": "mitre.png"
+          "name": "Lockheed Martin",
+          "url": "https://www.lockheedmartin.com/",
+          "logo": "lockheed.png"
         }
       ]
     },
@@ -74,7 +64,7 @@
       "name": "Community sponsors & core stakeholders",
       "sponsors": [
         {
-          "name": "Rumble in the Roads",
+          "name": "Rumble",
           "url": "https://rumble.events/",
           "logo": "rumble.png"
         },
@@ -88,21 +78,29 @@
           "url": "https://www.nnva.gov/",
           "logo": "newport-news.png"
         },
-        {
-          "name": "Dominion Energy Charitable Foundation",
-          "url": "https://www.dominionenergy.com/",
-          "logo": "dominion.jpg"
-        },
         { "name": "PTC", "url": "https://www.ptc.com/", "logo": "ptc.png" },
         {
           "name": "FIRST Chesapeake",
           "url": "https://www.firstchesapeake.org/",
           "logo": "first-chesapeake.png"
+        },
+        {
+          "name": "Community Knights",
+          "url": "https://communityknights.org/",
+          "logo": "communityknights.jpg"
+        },
+        {
+          "name": "Newport News Public Schools",
+          "url": "https://sbo.nn.k12.va.us/",
+          "logo": "nnps.jpg"
         }
       ]
     }
   ],
   "weAlsoThank": [
+    "REV Robotics",
+    "The MITRE Corporation",
+    "Dominion Energy Charitable Foundation",
     "SAIC",
     "Raytheon",
     "Langley Federal Credit Union",
@@ -141,7 +139,6 @@
     "Newport News Shipbuilding - Huntington Ingalls Industries",
     "Booz Allen Hamilton",
     "Anthem Foundation",
-    "BAE Systems",
     "Symantec",
     "Cox Communications",
     "AmericanMuscle.com",
