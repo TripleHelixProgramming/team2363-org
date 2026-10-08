@@ -1,6 +1,8 @@
 name: CI
 
-on: [push]
+on:
+  push:
+  pull_request:
 
 jobs:
   build-and-test:
@@ -8,15 +10,26 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v6
+        uses: actions/checkout@v7
 
       - name: Set up Node.js
-        uses: actions/setup-node@v6
+        uses: actions/setup-node@v7
         with:
           node-version: 24
 
       - name: Install dependencies
         run: npm install
+
+      # Runs before Build, because the prebuild script rewrites formatting.
+      # A failure shows a warning but does not fail the job.
+      - name: Check formatting
+        id: format
+        continue-on-error: true
+        run: npm run format:check
+
+      - name: Warn on formatting issues
+        if: steps.format.outcome == 'failure'
+        run: echo "::warning title=Formatting::Prettier found unformatted files. Run 'npm run format' and commit the result."
 
       - name: Build
         run: npm run build
