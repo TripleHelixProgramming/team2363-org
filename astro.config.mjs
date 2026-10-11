@@ -1,5 +1,6 @@
 import { defineConfig } from 'astro/config';
 import icon from 'astro-icon';
+import { unified } from '@astrojs/markdown-remark';
 
 const base = '/';
 
@@ -29,6 +30,6 @@ export default defineConfig({
   integrations: [icon()],
   output: 'static',
   markdown: {
-    rehypePlugins: [rehypeRebaseLinks],
+    processor: unified({ rehypePlugins: [rehypeRebaseLinks] }),
   },
 });
